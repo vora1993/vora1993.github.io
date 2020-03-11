@@ -257,14 +257,14 @@ var path = [
 var img = [
     'assets/rsz_mockup_desktop__kfz-kennzeichen___final___hover.png',
     'assets/rsz_mockup_desktop__kfz-kennzeichen___final___hover (1).png',
-    'assets/rsz_1mockup_desktop__kfz-kennzeichen___final___hover (1).png'
+    'assets/rsz_1mockup_desktop__kfz-kennzeichen___final___hover(1).png'
 ];
 
 var logo = [
-    'assets/Group 12.svg',
-    'assets/Group 3.svg',
-    'assets/Group 8 Copy.svg',
-    'assets/Group 2.svg'
+    'assets/Group-12.svg',
+    'assets/Group-3.svg',
+    'assets/Group-8Copy.svg',
+    'assets/Group-2.svg'
 ];
 
 var logoHeading = [
