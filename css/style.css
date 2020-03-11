@@ -2095,6 +2095,9 @@ section:focus {
     #map-heading {
         text-align: left;
     }
+    .checkbox-container p {
+        font-size: 2.5rem;
+    }
 }
 
 @media only screen and (max-width: 550px) {
