@@ -1236,6 +1236,13 @@ section:focus {
     margin: 0;
     padding: 0 15rem 0 0 !important;
 }
+.d-none {
+    display: none;
+}
+.tel-num {
+    justify-content: flex-start;
+    margin-right: 2.5rem;
+}
 
 /* Media Queries */
 
@@ -2102,6 +2109,12 @@ section:focus {
     }
     .carousel__content--secondary {
         padding: 0 0rem;
+    }    
+    #btn-form-1,
+    #btn-form-2,
+    #btn-form-3 {
+        padding: 10px 70px !important;
+        font-size: 18px;
     }
 }
 
