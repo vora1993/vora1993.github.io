@@ -20,7 +20,7 @@ body{font-family: HDI-GerlingSans; font-size: 19px;}
   .img-bg::before {
     content: "";
     position: absolute;
-    top: -11%;
+    top: -8%;
     background: url(../images/Street_Straße.svg)top center;
     height: 3000px;
     background-size: 100%;
@@ -65,6 +65,34 @@ margin: 0 0 44px 0;}
     color: #000000;z-index: 999999}
 .wid-40{width: 40%;}
 .wid-60{width: 60%;}
+.wid-50{width:50%}
 .third-part-text .text-width {
     padding: 0 130px;
 }
+.forth-part-text .text-width {
+    padding: 0 40px 0 130px;
+}
+.forthmain .forth-part-text {
+    position: relative;
+    top: 180px;
+}
+
+.forth-part-image img {
+    position: absolute;
+    top: 90px;
+    right: 160px;
+}
+.forth-part-image {
+    position: relative;
+}
+.last-block {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.last-block .second-part {
+    position: absolute;
+    top: 310px;
+    right: 180px;
+}
+
