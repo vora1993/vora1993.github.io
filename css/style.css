@@ -1,0 +1,70 @@
+/* .img-bg {
+    background: url(../images/Street_Straße.svg)top center;
+    height: 3000px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+} */
+
+@font-face {
+    font-family: "HDI-GerlingSans-Bold";
+    src: url("../fonts/HDI-GerlingSans-Bold.ttf"),url("../fonts/HDI-GerlingSans-Bold.ttf"), url("../fonts/HDI-GerlingSansCond-Bold.ttf");
+}
+body{font-family: HDI-GerlingSans; font-size: 19px;}
+.img-bg {
+    position: relative;
+    width: 100%;
+    float: left;
+    z-index: -1;
+  }
+  .img-bg::before {
+    content: "";
+    position: absolute;
+    top: -11%;
+    background: url(../images/Street_Straße.svg)top center;
+    height: 3000px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .top-part h1{
+    font-family: HDI-GerlingSans;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #009c33;
+    margin: 40px 0 0 0;
+    text-transform: uppercase;
+}
+.top-part h4{
+font-family: HDI-GerlingSans;
+font-size: 30px;
+font-weight: normal;
+font-stretch: condensed;
+font-style: normal;
+line-height: inherit;
+letter-spacing: 1.5px;
+color: #000000;
+margin: 0 0 44px 0;}
+.second-part{width: 564px; margin: 0 auto;}
+.second-part h3{z-index: 999999;font-size: 30px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #009c33;text-align: center;}
+    .second-part p{
+    font-family: HDI-GerlingSans;
+    font-size: 19px;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;text-align: center;
+    color: #000000;z-index: 999999}
+.wid-40{width: 40%;}
+.wid-60{width: 60%;}
+.third-part-text .text-width {
+    padding: 0 130px;
+}
