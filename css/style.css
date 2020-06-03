@@ -1,28 +1,22 @@
-/* .img-bg {
-    background: url(../images/Street_Straße.svg)top center;
-    height: 3000px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-} */
 
 @font-face {
     font-family: "HDI-GerlingSans-Bold";
     src: url("../fonts/HDI-GerlingSans-Bold.ttf"),url("../fonts/HDI-GerlingSans-Bold.ttf"), url("../fonts/HDI-GerlingSansCond-Bold.ttf");
 }
-body{font-family: HDI-GerlingSans; font-size: 19px;}
+body{font-family: HDI-GerlingSans; font-size: 19px; padding: 0; margin: 0;}
 .img-bg {
     position: relative;
     width: 100%;
     float: left;
     z-index: -1;
+    height: 2400px;
   }
   .img-bg::before {
     content: "";
     position: absolute;
     top: -8%;
     background: url(../images/Street_Straße.svg)top center;
-    height: 3000px;
+    height: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -96,3 +90,130 @@ margin: 0 0 44px 0;}
     right: 180px;
 }
 
+.main-bg{background: url(../images/Street_Straße.svg)top center;
+    height: 3000px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;}
+
+
+
+
+    /* switching-part css */
+
+    .switching-part{width: 100%; float: left;padding-bottom: 60px;}
+    .switching-part h3{font-size: 30px;font-weight: bold; font-stretch: condensed; font-style: normal;line-height: 1.1;letter-spacing: normal;color: #009c33;}
+    .switching-part-title {padding: 0 200px;text-align: center;}
+    .switching-part p{font-size: 21px;font-weight: 300;line-height: 1.9;color: #000000;margin-bottom: 36px;}
+    .switching-part-section ul {padding: 0;margin: 0;}
+    .switching-part-section ul li{list-style-type: none;}
+    .switching-part-section img {width: 70px; height: 100px;}
+    .switching-part-section .number-part{padding: 0 10px 0 20px;font-size: 50px;font-weight: normal;font-stretch: condensed; font-style: normal; line-height: 0.44; letter-spacing: normal; color: #ff9632;}
+    .switching-part-section .text-part{font-family: HDI-GerlingSans;font-size: 19px;font-weight: bold;font-stretch: condensed;font-style: normal;line-height: 1.21;letter-spacing: normal;color: #009c33;}
+    .protaction-part-title{padding: 0 200px; text-align: center;}
+    .protaction-part-title h3{font-size: 30px;font-weight: bold;font-stretch: condensed; font-style: normal;line-height: 1.1;letter-spacing: normal;color: #009c33;}
+    .protaction-part-title p{font-size: 21px;font-weight: 300; font-stretch: condensed; font-style: normal; line-height: 1.9; letter-spacing: normal; color: #000000;}
+    .protaction-table-section{width: 33%; float: left;}
+    .bg-green {background: #ccebd6;}
+    .bg-wight {
+        background: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #28994b;
+    }
+    .image-part img {
+        margin-top: -23px;
+    }
+    .image-part {
+        padding: 0 15px;
+    }
+    .p-60{padding: 60px 0;}
+    .m-l-r-10{margin:0 10px}
+    h3.protaction-title {
+        padding: 10px 0;
+        background: #28994b;
+        margin: 0;
+        color: #fff;
+    }
+    .protaction-table-section h5{font-size: 22px;
+        font-weight: bold;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000;}
+        .border-btn {border: 1px solid #28994b;}
+    
+
+    .accordion-heading {border-bottom: 1px solid; }
+    .accordion-toggle:after {font-family: 'FontAwesome';content: "\f078";float: right;}
+    .accordion-opened .accordion-toggle:after {content: "\f054";}
+    .acordian-bottom-part-title {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .acordian-bottom-part-title h3 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.1;
+        color: #009c33;
+        padding: 0 300px;
+        letter-spacing: normal;
+    }
+    .acordian-bottom-part-title p {
+        font-size: 18px;
+        font-weight: 300;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 1.32;
+        letter-spacing: normal;
+        color: #000000;
+        padding: 0 200px;
+    }
+    .aword-part-image {
+        width: 50%;
+        float: left;
+        display: flex;
+    }
+    .aword-part-taxt {
+        width: 50%;
+    }
+    .aword-section{width: 100%; float: left;}
+    .aword-part-image img {
+        width: 50%;
+        float: left;
+    }
+    img.aword-img1 {
+        height: 335px;
+    }
+    img.aword-img2 {
+        height: 300px;
+    }
+    .awords-img ul li img {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .awords-img ul {
+        width: 100%;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    .awords-img ul li {
+        width: 25%;
+        float: left;
+        list-style-type: none;
+    }
+    .accordian-slider {
+        width: 100%;
+        float: left;
+    }
+    .slider-rate-part {
+        background: #fff;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .faq-section {
+        width: 100%;
+        float: left;
+    }
