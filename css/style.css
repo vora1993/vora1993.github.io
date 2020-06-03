@@ -112,7 +112,7 @@ margin: 0 0 44px 0;}
     .switching-part-section .text-part{font-family: HDI-GerlingSans;font-size: 19px;font-weight: bold;font-stretch: condensed;font-style: normal;line-height: 1.21;letter-spacing: normal;color: #009c33;}
     .protaction-part-title{padding: 0 200px; text-align: center;}
     .protaction-part-title h3{font-size: 30px;font-weight: bold;font-stretch: condensed; font-style: normal;line-height: 1.1;letter-spacing: normal;color: #009c33;}
-    .protaction-part-title p{font-size: 21px;font-weight: 300; font-stretch: condensed; font-style: normal; line-height: 1.9; letter-spacing: normal; color: #000000;}
+    .protaction-part-title p{font-size: 21px;font-weight: 300; font-stretch: condensed; font-style: normal; line-height: 1.9; letter-spacing: normal; color: #000000; margin-bottom: 60px;}
     .protaction-table-section{width: 33%; float: left;}
     .bg-green {background: #ccebd6;}
     .bg-wight {
@@ -120,6 +120,26 @@ margin: 0 0 44px 0;}
         border-radius: 10px;
         border: 1px solid #28994b;
     }
+    .protaction-contant-part ul{ list-style-type: none;}
+    .protaction-contant-part li{position: relative;    }
+    .protaction-contant-part li:before {
+        content: "\f00c";
+        font-family: FontAwesome;
+        display: inline-block;
+        /* margin-left: 0; */
+        /* width: 1.3em; */
+        color: #009c33;
+        position: absolute;
+        left: -30px;
+    }
+    .accordian-part a {
+        color: #009c33;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .accordian-part a:hover {text-decoration: none;
+    }
+    
     .image-part img {
         margin-top: -23px;
     }
@@ -132,20 +152,54 @@ margin: 0 0 44px 0;}
         padding: 10px 0;
         background: #28994b;
         margin: 0;
-        color: #fff;
+        color: #fff;font-size: 19px;
     }
-    .protaction-table-section h5{font-size: 22px;
-        font-weight: bold;
+    .protaction-table-section h4 {
+        font-size: 22px;
+        margin: 30px 0 15px 0;
+    }
+    .protaction-table-section h5 {
+        font-size: 16px;
         font-stretch: condensed;
         font-style: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        color: #000000;}
-        .border-btn {border: 1px solid #28994b;}
-    
+        color: #000000;
+    }
+    .protaction-table-section h5 span {
+        font-size: 40px;
+        font-weight: bold;
+        color: #009c33;
+    }
 
-    .accordion-heading {border-bottom: 1px solid; }
-    .accordion-toggle:after {font-family: 'FontAwesome';content: "\f078";float: right;}
+    .border-btn {
+        border: 1px solid #28994b;
+        background: #009c33;
+        color: #ffffff;
+        padding: 5px 20px;
+        margin: 20px 0;
+    }
+    
+    .accordian-part {
+        width: 100%;
+        float: left;
+        margin: 50px 0;
+    }
+    .accordion-heading {border-bottom: 1px solid; margin-bottom: 60px;}
+    .accordion-toggle:after {
+        font-family: 'FontAwesome';
+        content: "\f078";
+        float: right;
+        color: #000;
+        font-weight: normal;
+    }
+    .accordion-toggle.collapsed:after {
+        font-family: 'FontAwesome';
+        content: "\f054";
+        float: right;
+        color: #000;
+        font-weight: normal;
+    }
     .accordion-opened .accordion-toggle:after {content: "\f054";}
     .acordian-bottom-part-title {
         width: 100%;
@@ -158,7 +212,7 @@ margin: 0 0 44px 0;}
         line-height: 1.1;
         color: #009c33;
         padding: 0 300px;
-        letter-spacing: normal;
+        letter-spacing: normal;margin-bottom: 20px;
     }
     .acordian-bottom-part-title p {
         font-size: 18px;
@@ -171,13 +225,11 @@ margin: 0 0 44px 0;}
         padding: 0 200px;
     }
     .aword-part-image {
-        width: 50%;
-        float: left;
         display: flex;
     }
-    .aword-part-taxt {
+    /* .aword-part-taxt {
         width: 50%;
-    }
+    } */
     .aword-section{width: 100%; float: left;}
     .aword-part-image img {
         width: 50%;
@@ -217,3 +269,27 @@ margin: 0 0 44px 0;}
         width: 100%;
         float: left;
     }
+
+
+section.faq-section {
+    background: #ccebd6;
+    width: 100%;
+    float: left;padding: 60px 0;
+}
+
+.faq-part h3 {
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0;
+    color: #009c33;
+    font-size: 30px;
+    font-weight: bold;
+}
+.accordian-table span {
+    background: #fff;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 62px;
+}
