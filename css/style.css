@@ -318,6 +318,9 @@ section.faq-section {
     font-weight: normal;
     font-stretch: condensed;
     font-style: normal;
+    width: auto;
+    float: left;
+    padding-right: 5px;
 }
 .slider-rate-part h4 {
     font-size: 22px;
@@ -557,6 +560,11 @@ a:hover {
 /* Small devices (portrait tablets and large phones, 767px and up) */
 @media only screen and (max-width: 767px) {
     /* .switching-part-title { padding: 36px 0;} */
+    .back.face.center {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
     ul.navbar-nav.ml-auto.py-4.py-md-0 {
         background-color: rgba(0, 156, 51, 0.85);
         text-align: center;
