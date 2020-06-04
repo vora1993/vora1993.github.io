@@ -505,7 +505,19 @@ a:hover {
             text-align: left;
         }
 
-
+        .tooltip-inner {
+            max-width: 350px;
+            background: #ffffff;
+            color: #000000;
+            opacity: 1;
+          }
+          .tooltip {
+            background: #fff !important;
+            opacity: 1 !important;
+        }
+        .tooltip .arrow::before {
+            border-bottom-color: #ffffff !important  
+        }
 
 
 /* ------------------------------- */
@@ -629,13 +641,13 @@ a:hover {
                         right: 0;
                         bottom: 0;
                     }
-                    .accordian-part a span {
+                    /* .accordian-part a span {
                         width: 50%;
                         float: l;
                         padding: 0 50px 0 0;
                         width: 80%;
                         float: left;
-                    }
+                    } */
                     .top-navbar .col-12, .top-navbar .navbar{padding: 0;}
                     .top-navbar .navbar-brand{padding: 15px;}
                     .arrow-class button.owl-next,.arrow-class button.owl-prev{
