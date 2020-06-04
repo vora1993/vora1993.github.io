@@ -138,7 +138,7 @@ margin: 0 0 44px 0;}
         font-size: 22px;
         font-weight: bold;
     }
-    .accordian-part a:hover {text-decoration: none;
+    .accordian-part a:hover {text-decoration: none;color: #009c33;;
     }
     
     .image-part img {
@@ -200,19 +200,19 @@ margin: 0 0 44px 0;}
     .accordion-heading {border-bottom: 1px solid; margin-bottom: 60px;}
     .accordion-toggle:after {
         font-family: 'FontAwesome';
-        content: "\f078";
+        content: "\f106";
         float: right;
         color: #000;
         font-weight: normal;
     }
     .accordion-toggle.collapsed:after {
         font-family: 'FontAwesome';
-        content: "\f054";
+        content: "\f107";
         float: right;
         color: #000;
         font-weight: normal;
     }
-    .accordion-opened .accordion-toggle:after {content: "\f054";}
+    
     .acordian-bottom-part-title {
         width: 100%;
         float: left;
@@ -411,7 +411,7 @@ a:hover {
     .aword-part1 {
         width: 100%;
         float: left;
-        position: relative;
+        position: relative;padding: 60px 0;
     }
     .pos {
         position: absolute;
@@ -441,6 +441,70 @@ a:hover {
             background-size: cover;
             float: left;
         }
+        .aword-part-taxt h3 {
+            font-size: 24px;
+            font-weight: bold;
+            /* line-height: 1.1; */
+            color: #009c33;
+            text-transform: uppercase;
+        }
+        .aword-part-taxt p {
+            font-size: 18px;
+        }
+        .aword-part-taxt p.title-p {
+            padding: 20px 0 10px 0;
+            font-size: 18px;
+        }
+        .aword-part-taxt p.contant-p {
+            padding: 0 98px 20px 0;
+        }
+        #f1_container {
+            position: relative;
+            height: 281px;
+            z-index: 1;
+          }
+          #f1_container {
+            perspective: 1000;
+          }
+          #f1_card {
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: all 1.0s linear;
+          }
+          #f1_container:hover #f1_card {
+            transform: rotateY(180deg);
+          }
+          .face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+          }
+          .face.back {
+            display: block;
+            transform: rotateY(180deg);
+            box-sizing: border-box;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 1.38;
+            letter-spacing: normal;
+            color: #000000;
+          }
+          .back.face.center {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+        }
+        .back.face p {
+            width: 100%;
+            float: left;
+            text-align: left;
+        }
+
 
 
 
@@ -476,7 +540,6 @@ a:hover {
         .acordian-bottom-part-title h3 {
             font-size: 22px !important;
         }
-       
 }
 
 /* Small devices (portrait tablets and large phones, 767px and up) */
@@ -585,6 +648,42 @@ a:hover {
                             left: -60px;}
                             .arrow-class button.owl-next {
                                 right: -60px;}
+                        .aword-part1 .w-50{width: 100%!important;}
+                        .pos {
+                            position: inherit;}
+                            img.aword-img1 {
+                                padding-right: 0;
+                                margin-left: 28px;
+                                width: 50%;
+                                height: 100%;
+                            }
+                            
+                                img.aword-img2 {
+                                    /* height: 280px; */
+                                    overflow-x: hidden;
+                                    width: 50%;
+                                    float: left;
+                                    position: absolute;
+                                    right: -58px;
+                                    height: 90%;
+                                }
+                                .image-test {
+                                    height: auto;
+                                    position: relative;
+                                    overflow-x: hidden;
+                                }
+                                .aword-part-taxt h3 {
+                                    font-size: 18px;
+                                    text-align: center;
+                                }
+                                .aword-part-taxt {
+                                    text-align: center;
+                                }
+                                .aword-part-taxt p.contant-p {
+                                    padding: 0;
+                                }
+                                
+                                
 }
 @media only screen and (min-width: 768px){
     .none-sm{display: block;}
