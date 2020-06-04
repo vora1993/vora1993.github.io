@@ -4,6 +4,7 @@
     src: url("../fonts/HDI-GerlingSans-Bold.ttf"),url("../fonts/HDI-GerlingSans-Bold.ttf"), url("../fonts/HDI-GerlingSansCond-Bold.ttf");
 }
 body{font-family: HDI-GerlingSans; font-size: 19px; padding: 0; margin: 0;}
+span.navbar-toggler-icon:focus, button:focus{outline: none;}
 .img-bg {
     position: relative;
     width: 100%;
@@ -103,8 +104,8 @@ margin: 0 0 44px 0;}
 
     .switching-part{width: 100%; float: left;padding-bottom: 60px;}
     .switching-part h3{font-size: 30px;font-weight: bold; font-stretch: condensed; font-style: normal;line-height: 1.1;letter-spacing: normal;color: #009c33;}
-    .switching-part-title {padding: 0 200px;text-align: center;}
-    .switching-part p{font-size: 21px;font-weight: 300;line-height: 1.9;color: #000000;margin-bottom: 36px;}
+    .switching-part-title {padding: 36px 200px;text-align: center;}
+    .switching-part p{font-size: 21px;font-weight: 300;line-height: 1.9;color: #000000;margin-bottom: 0;}
     .switching-part-section ul {padding: 0;margin: 0;}
     .switching-part-section ul li{list-style-type: none;}
     .switching-part-section img {width: 70px; height: 100px;}
@@ -120,8 +121,8 @@ margin: 0 0 44px 0;}
         border-radius: 10px;
         border: 1px solid #28994b;
     }
-    .protaction-contant-part ul{ list-style-type: none;}
-    .protaction-contant-part li{position: relative;    }
+    .protaction-contant-part ul{ list-style-type: none;    padding-right: 10px;}
+    .protaction-contant-part li{position: relative; }
     .protaction-contant-part li:before {
         content: "\f00c";
         font-family: FontAwesome;
@@ -165,12 +166,23 @@ margin: 0 0 44px 0;}
         line-height: 1.5;
         letter-spacing: normal;
         color: #000000;
+        font-weight: 300;margin-bottom: 0;
+
     }
     .protaction-table-section h5 span {
         font-size: 40px;
         font-weight: bold;
         color: #009c33;
     }
+    .protaction-table-section h6{font-size: 16px;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000;
+        font-weight: 300;margin-bottom: 0;
+    }
+    .protaction-contant-part li{font-size: 16px;padding-bottom: 20px;}
 
     .border-btn {
         border: 1px solid #28994b;
@@ -204,7 +216,7 @@ margin: 0 0 44px 0;}
     .acordian-bottom-part-title {
         width: 100%;
         float: left;
-        text-align: center;
+        text-align: center;    padding-bottom: 40px;
     }
     .acordian-bottom-part-title h3 {
         font-size: 30px;
@@ -265,6 +277,10 @@ margin: 0 0 44px 0;}
         text-align: center;
         padding-bottom: 10px;
     }
+    .slider-rate-part h4 {
+        font-size: 22px;
+        font-weight: bold;
+    }
     .faq-section {
         width: 100%;
         float: left;
@@ -293,3 +309,227 @@ section.faq-section {
     padding: 10px 0;
     margin-bottom: 62px;
 }
+.accordian-table .col-12.col-md-4 {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.accordian-table h4 {
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+}
+.slider-rate-part h4 {
+    font-size: 22px;
+}
+.slider-rate-part p {
+    font-size: 16px;
+}
+.slider-rate-part p span {
+    font-size: 40px;
+    color: #009c33;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (width: 420px) {
+    .switching-part-title {
+        padding: 0;
+    }
+    .switching-part-title {
+        padding: 36px 0;
+    }
+    .switching-part h3 {
+        font-size: 15px;
+    }
+    .switching-part p {
+        font-size: 14px;
+    }
+    .switching-part h3 {
+        font-size: 18px;
+    }
+    .switching-part-title {
+        padding: 36px 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 767px and up) */
+@media only screen and (max-width: 767px) {
+    /* .switching-part-title { padding: 36px 0;} */
+    .switching-part h3 {font-size: 24px;}
+    .protaction-part-title {
+        padding: 0 80px;
+    }
+    .protaction-part-title h3 {
+        font-size: 24px;}
+        .protaction-part-title p {
+            font-size: 19px; line-height: 1.2;}
+            /* .switching-part-title {
+                padding: 36px 100px;
+                text-align: center;
+                } */
+                .switching-part p {font-size: 18px;}
+                    .switching-part-title {
+                        padding: 36px 80px;}
+                        .switching-part p {
+                            font-size: 17px;}
+                            .protaction-part-title {
+                                padding: 0 70px;}
+            .protaction-part-title h3 {font-size: 24px;}
+            .protaction-part-title p {font-size: 18px;}h3.protaction-title {padding: 10px 0;font-size: 19px; }
+            .protaction-table-section h4 {font-size: 16px;margin: 20px 0 5px 0;}
+            .protaction-table-section h5 span {font-size: 28px;}
+            .accordian-part {
+                margin: 50px 0 0 0;
+            }
+            .acordian-bottom-part-title h3 {
+                font-size: 24px;
+                padding: 0 100px}
+                .acordian-bottom-part-title h3 {
+                    font-size: 24px;padding: 0 100px};
+                .acordian-bottom-part-title p {
+                        font-size: 16px;padding: 0 100px}
+
+                .slider-rate-part h4 {font-size: 20px;}
+                .switching-part-section .number-part {
+                    padding: 0 5px 0 5px;
+                    font-size: 40px;
+                }
+                .switching-part-section .text-part {
+                    font-size: 17px;
+                    padding-left: 10px;
+                }
+                .switching-part h3 {font-size: 24px;}
+                .acordian-bottom-part-title p {font-size: 16px;padding: 0 100px; }
+                .accordian-part a {
+                    color: #009c33;
+                    font-size: 17px;}
+                .acordian-bottom-part-title h3 {font-size: 24px; padding: 0;}
+                .acordian-bottom-part-title p {font-size: 17px; padding: 0;}
+                .slider-rate-part p { font-size: 16px; }
+                .slider-rate-part p span {font-size: 35px;}
+                .protaction-table-section {
+                    width: 100%;}
+                    .none-lg{display: block}
+                    .none-sm{display: none;}
+                    .switching-part-section img {
+                        width: 50px;
+                        height: 75px;
+                    }
+                    .switching-part-section img {
+                        width: 50px;
+                        height: 75px;
+                        margin: 0 32px 0px 42px;
+                    }
+}
+@media only screen and (min-width: 768px){
+    .none-sm{display: block;}
+    .none-lg{display: none}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.switching-part-title {
+    padding: 36px 100px;
+    text-align: center;
+    }
+    .switching-part p {font-size: 18px;}
+        .switching-part-title {
+            padding: 36px 80px;}
+            .switching-part p {
+                font-size: 17px;}
+                .protaction-part-title {
+                    padding: 0 70px;}
+.protaction-part-title h3 {font-size: 24px;}
+.protaction-part-title p {font-size: 18px;}h3.protaction-title {padding: 10px 0;font-size: 19px; }
+.protaction-table-section h4 {font-size: 16px;margin: 20px 0 5px 0;}
+.protaction-table-section h5 span {font-size: 28px;}
+.accordian-part {
+    margin: 50px 0 0 0;
+}
+.acordian-bottom-part-title h3 {
+    font-size: 24px;
+    padding: 0 100px}
+    .acordian-bottom-part-title h3 {
+        font-size: 24px;padding: 0 100px};
+    .acordian-bottom-part-title p {
+            font-size: 16px;padding: 0 100px}
+    .slider-rate-part h4 {
+                font-size: 16px;
+            }
+    .slider-rate-part h4 {font-size: 16px;}
+    .switching-part-section .number-part {
+        padding: 0 5px 0 5px;
+        font-size: 25px;}
+    .switching-part-section .text-part {font-size: 14px;}
+    .switching-part h3 {font-size: 22px;}
+    .acordian-bottom-part-title p {font-size: 16px;padding: 0 100px; }
+    .accordian-part a {
+        color: #009c33;
+        font-size: 17px;}
+    .acordian-bottom-part-title h3 {
+            font-size: 24px; padding: 0;}
+            .acordian-bottom-part-title p {
+                font-size: 17px; padding: 0;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .switching-part-title {padding: 36px 150px; }
+    .switching-part h3 {font-size: 25px;}
+    .switching-part p {font-size: 19px;}
+    .switching-part-section img {
+        width: 60px;
+        height: 80px;
+    }
+    .switching-part-section .number-part {
+        padding: 0 10px 0 10px;
+        font-size: 40px;}
+        .switching-part-section .text-part {
+            font-family: HDI-GerlingSans;
+            font-size: 16px;}
+        .protaction-part-title h3 {
+                font-size: 25px;}
+        .protaction-part-title p {
+                    font-size: 18px;}
+        .acordian-bottom-part-title h3 {font-size: 25px;    padding: 0 200px;}
+        .accordian-part {
+            margin: 30px 0 0px 0;}
+            .acordian-bottom-part-title p {
+                font-size: 16px;}
+                .navbar-expand-md .navbar-nav .nav-link {
+                    padding-right: 6px;
+                    padding-left: 5px;
+                    font-size: 16px;
+                }
+                .slider-rate-part h4 {
+                    font-size: 18px;
+                }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
