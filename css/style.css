@@ -560,7 +560,13 @@ a:hover {
 
 
 /* ------------------------------- */
-/* Extra small devices (phones, 600px and down) */
+/* responsive css*/
+@media only screen and (max-width: 400px){
+    #f1_container {
+        height: 200px !important;}
+}
+
+
 @media only screen and (max-width: 640px) {
     .switching-part-title {
         padding: 0;
@@ -601,7 +607,7 @@ a:hover {
         .accordian-table span {margin-bottom: 26px;}
     #f1_container {
         position: relative;
-        height: 180px;
+        height: 310px;
         z-index: 1;
     }
     .back.face.center {
