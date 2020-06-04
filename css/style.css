@@ -174,6 +174,7 @@ margin: 0 0 44px 0;}
         font-weight: bold;
         color: #009c33;
     }
+    
     .protaction-table-section h6{font-size: 16px;
         font-stretch: condensed;
         font-style: normal;
@@ -189,9 +190,15 @@ margin: 0 0 44px 0;}
         background: #009c33;
         color: #ffffff;
         padding: 5px 20px;
-        margin: 20px 0;
+        margin: 26px 0;
     }
+    .color-orange h3.protaction-title {background: #ef8a29;}
+    .protaction-table-section.color-orange  h5 span {color: #ef8a29 !important;}
+    .protaction-table-section.color-orange li:before {color: #ef8a29;}
+    .protaction-table-section.color-orange .bg-wight{border: 1px solid  #ef8a29;}
     
+
+
     .accordian-part {
         width: 100%;
         float: left;
@@ -507,20 +514,49 @@ a:hover {
             float: left;
             text-align: left;
         }
+        .title-ratecard h4, .title-ratecard p{margin: 0;}
+        .title-ratecard{margin-bottom: 11px;width: 100%;
+            float: left;}
+        .accordian-table span {margin-bottom: 26px;}
+        .icon-color .fa-check {
+            color: #009c33;
+        }
+        .icon-color .fa-times {color: #e60018;}
 
-        .tooltip-inner {
-            max-width: 350px;
-            background: #ffffff;
-            color: #000000;
-            opacity: 1;
-          }
-          .tooltip {
-            background: #fff !important;
-            opacity: 1 !important;
+        .accordian-table h4:after {
+            /* left: 10px; */
+            content: '\f05a';
+            font-family: FontAwesome;
+            position: absolute;    padding-left: 10px;
         }
-        .tooltip .arrow::before {
-            border-bottom-color: #ffffff !important  
+        .top-navbar {
+            padding: 20px 15px;
         }
+        .btn-3a {
+            padding: 8px 60px 8px 15px;
+            background: #ef8a29;
+            position: relative;
+            color: #fff;
+            font-size: 20px;
+        }
+        .btn-3.bg-orang-btn:{background: #ef8a29;}
+        .btn-3.bg-orang-btn:after{background-color: #eb6900;}
+        .btn-3:after {
+            position: absolute;
+            height: 100%;
+            right: 0;
+            top: 0;
+            /* line-height: 3; */
+            font-size: 140%;
+            width: 50px;
+            height: 100%;
+            padding: 0px;
+            content: "\f105";
+            font-family: FontAwesome;
+        }
+        .m-t-b-20{margin: 20px 0;}
+
+
 
 
 /* ------------------------------- */
@@ -560,6 +596,14 @@ a:hover {
 /* Small devices (portrait tablets and large phones, 767px and up) */
 @media only screen and (max-width: 767px) {
     /* .switching-part-title { padding: 36px 0;} */
+    .title-ratecard h4, .title-ratecard p{margin: 0;}
+        .title-ratecard{margin-bottom: 11px;}
+        .accordian-table span {margin-bottom: 26px;}
+    #f1_container {
+        position: relative;
+        height: 180px;
+        z-index: 1;
+    }
     .back.face.center {
         display: flex;
         align-items: center;
@@ -629,7 +673,7 @@ a:hover {
                 }
                 .acordian-bottom-part-title h3 {font-size: 24px; padding: 0;}
                 .acordian-bottom-part-title p {font-size: 17px; padding: 0;}
-                .slider-rate-part p { font-size: 16px; }
+                .slider-rate-part p { font-size: 12px; }
                 .slider-rate-part p span {font-size: 35px;}
                 .protaction-table-section {
                     width: 100%;}
