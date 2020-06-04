@@ -396,12 +396,12 @@ a:hover {
 .arrow-class button.owl-prev {
     position: absolute;
     left: -60px;
-    top: 50%;height: 40px !important;width: 40px!important;
+    top: 40%;height: 40px !important;width: 40px!important;
 }
 .arrow-class button.owl-next {
     position: absolute;
     right: -60px;
-    top: 50%;height: 40px !important;width: 40px!important;
+    top: 40%;height: 40px !important;width: 40px!important;
 }
 .arrow-class button.owl-next:hover,.arrow-class button.owl-prev:hover{
     height: 40px !important;width: 40px!important;
