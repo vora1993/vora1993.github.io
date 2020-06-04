@@ -309,7 +309,7 @@ section.faq-section {
     padding: 10px 0;
     margin-bottom: 62px;
 }
-.accordian-table .col-12.col-md-4 {
+.accordian-table .col-12.col-md-4 .col-md-12{
     padding-right: 6px;
     padding-left: 6px;
 }
@@ -351,7 +351,7 @@ section.faq-section {
 
 /* ------------------------------- */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (width: 420px) {
+@media only screen and (max-width: 500px) {
     .switching-part-title {
         padding: 0;
     }
@@ -365,11 +365,23 @@ section.faq-section {
         font-size: 14px;
     }
     .switching-part h3 {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     .switching-part-title {
-        padding: 36px 0;
+        padding: 36px 0 !important;
     }
+    .protaction-part-title {
+        padding: 0 !important;
+    }
+    .switching-part-section ul {
+        margin: 0 0 30px 0;
+    }
+    .accordian-part a span {
+        width: 82% !important;}
+        .acordian-bottom-part-title h3 {
+            font-size: 22px !important;
+        }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 767px and up) */
@@ -401,11 +413,11 @@ section.faq-section {
             .accordian-part {
                 margin: 50px 0 0 0;
             }
-            .acordian-bottom-part-title h3 {
+            /* .acordian-bottom-part-title h3 {
                 font-size: 24px;
-                padding: 0 100px}
-                .acordian-bottom-part-title h3 {
-                    font-size: 24px;padding: 0 100px};
+                padding: 0 100px} */
+                /* .acordian-bottom-part-title h3 {
+                    font-size: 24px;padding: 0 100px}; */
                 .acordian-bottom-part-title p {
                         font-size: 16px;padding: 0 100px}
 
@@ -422,7 +434,17 @@ section.faq-section {
                 .acordian-bottom-part-title p {font-size: 16px;padding: 0 100px; }
                 .accordian-part a {
                     color: #009c33;
-                    font-size: 17px;}
+                    font-size: 17px;
+                    width: 100%;
+                    float: left;
+                    border-bottom: 1px solid;
+                    position: relative;
+                }
+                .accordion-heading {
+                    border-bottom:  none;
+                    width: 100%;
+                    float: left;
+                }
                 .acordian-bottom-part-title h3 {font-size: 24px; padding: 0;}
                 .acordian-bottom-part-title p {font-size: 17px; padding: 0;}
                 .slider-rate-part p { font-size: 16px; }
@@ -439,6 +461,18 @@ section.faq-section {
                         width: 50px;
                         height: 75px;
                         margin: 0 32px 0px 42px;
+                    }
+                    .protaction-table-part .accordion-toggle:after {
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                    }
+                    .accordian-part a span {
+                        width: 50%;
+                        float: l;
+                        padding: 0 50px 0 0;
+                        width: 80%;
+                        float: left;
                     }
 }
 @media only screen and (min-width: 768px){
