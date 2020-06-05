@@ -3,10 +3,12 @@
 
 /* responsive css*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 320px) and (max-width:500px) {
 	#f1_container {
 		height: 200px !important;
-	}
+    }
+    .back.face p {
+        font-size: 14px !important}
 }
 
 @media only screen and (max-width: 640px) {
@@ -273,7 +275,7 @@
 	.image-test {
 		height: auto;
 		position: relative;
-		overflow-x: hidden;
+		overflow-x: hidden;    margin-top: 50px;
 	}
 	.aword-part-taxt h3 {
 		font-size: 18px;
