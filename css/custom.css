@@ -1,0 +1,442 @@
+/* ------------------------------- */
+
+
+/* responsive css*/
+
+@media only screen and (max-width: 400px) {
+	#f1_container {
+		height: 200px !important;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.switching-part-title {
+		padding: 0;
+	}
+	.switching-part-title {
+		padding: 36px 0;
+	}
+	.switching-part h3 {
+		font-size: 15px;
+	}
+	.switching-part p {
+		font-size: 14px;
+	}
+	.switching-part h3 {
+		font-size: 18px !important;
+	}
+	.switching-part-title {
+		padding: 36px 0 !important;
+	}
+	.protaction-part-title {
+		padding: 0 !important;
+	}
+	.switching-part-section ul {
+		margin: 0 0 30px 0;
+	}
+	.accordian-part a span {
+		width: 82% !important;
+	}
+	.acordian-bottom-part-title h3 {
+		font-size: 22px !important;
+	}
+}
+
+
+/* Small devices (portrait tablets and large phones, 767px and up) */
+
+@media only screen and (max-width: 767px) {
+	/* .switching-part-title { padding: 36px 0;} */
+	.awords-img .item {
+		display: flex;
+		vertical-align: middle;
+		align-content: center;
+		height: 200px;
+	}
+	.awords-img .item img {
+		float: left;
+		/* height: 100%; */
+		max-height: 100%;
+		width: 80px;
+		margin: auto;
+	}
+	.top-navbar .navbar-toggler>.close {
+		display: inline;
+	}
+	.top-navbar .close {
+		color: #009c33
+	}
+	.top-navbar .navbar-toggler.collapsed>.close,
+	.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+		display: none;
+	}
+	.title-ratecard h4,
+	.title-ratecard p {
+		margin: 0;
+	}
+	.title-ratecard {
+		margin-bottom: 11px;
+	}
+	.accordian-table span {
+		margin-bottom: 26px;
+	}
+	#f1_container {
+		position: relative;
+		height: 310px;
+		z-index: 1;
+	}
+	.back.face.center {
+		display: flex;
+		align-items: center;
+		padding: 15px;
+	}
+	ul.navbar-nav.ml-auto.py-4.py-md-0 {
+		background-color: rgba(0, 156, 51, 0.85);
+		text-align: center;
+	}
+	.collapse.show a.nav-link {
+		color: #fff;
+		font-size: 19px;
+		font-weight: bold;
+	}
+	.switching-part h3 {
+		font-size: 24px;
+	}
+	.protaction-part-title {
+		padding: 0 80px;
+	}
+	.protaction-part-title h3 {
+		font-size: 24px;
+	}
+	.protaction-part-title p {
+		font-size: 19px;
+		line-height: 1.2;
+	}
+	/* .switching-part-title {
+                padding: 36px 100px;
+                text-align: center;
+                } */
+	.switching-part p {
+		font-size: 18px;
+	}
+	.switching-part-title {
+		padding: 36px 0;
+	}
+	.switching-part p {
+		font-size: 17px;
+	}
+	.protaction-part-title {
+		padding: 0 70px;
+	}
+	.protaction-part-title h3 {
+		font-size: 24px;
+	}
+	.protaction-part-title p {
+		font-size: 18px;
+	}
+	h3.protaction-title {
+		padding: 10px 0;
+		font-size: 19px;
+	}
+	.protaction-table-section h4 {
+		font-size: 16px;
+		margin: 20px 0 5px 0;
+	}
+	.protaction-table-section h5 span {
+		font-size: 28px;
+	}
+	.accordian-part {
+		margin: 50px 0 0 0;
+	}
+	.acordian-bottom-part-title p {
+		font-size: 16px;
+		padding: 0 100px
+	}
+	.slider-rate-part h4 {
+		font-size: 20px;
+	}
+	.switching-part-section .number-part {
+		padding: 0 5px 0 5px;
+		font-size: 40px;
+	}
+	.switching-part-section .text-part {
+		font-size: 17px;
+		padding-left: 10px;
+	}
+	.switching-part h3 {
+		font-size: 22px;
+	}
+	.acordian-bottom-part-title p {
+		font-size: 16px;
+		padding: 0 100px;
+	}
+	.accordian-part a {
+		color: #009c33;
+		font-size: 17px;
+		width: 100%;
+		float: left;
+		border-bottom: 1px solid;
+		position: relative;
+	}
+	.accordion-heading {
+		border-bottom: none;
+		width: 100%;
+		float: left;
+	}
+	.acordian-bottom-part-title h3 {
+		font-size: 24px;
+		padding: 0;
+	}
+	.acordian-bottom-part-title p {
+		font-size: 17px;
+		padding: 0;
+	}
+	.slider-rate-part p {
+		font-size: 12px;
+	}
+	.slider-rate-part p span {
+		font-size: 35px;
+	}
+	.protaction-table-section {
+		width: 100%;
+	}
+	.none-lg {
+		display: block
+	}
+	.none-sm {
+		display: none;
+	}
+	.switching-part-section img {
+		width: 50px;
+		height: 75px;
+	}
+	.switching-part-section img {
+		width: 50px;
+		height: 75px;
+		margin: 0 32px 0px 42px;
+	}
+	.protaction-table-part .accordion-toggle:after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	/* .accordian-part a span {
+                        width: 50%;
+                        float: l;
+                        padding: 0 50px 0 0;
+                        width: 80%;
+                        float: left;
+                    } */
+	.top-navbar .col-12,
+	.top-navbar .navbar {
+		padding: 0;
+	}
+	.top-navbar .navbar-brand {
+		padding: 15px;
+	}
+	.arrow-class button.owl-next,
+	.arrow-class button.owl-prev {
+		height: 40px !important;
+		width: 40px!important;
+		background: rgba(0, 156, 51, 0.45) !important;
+	}
+	.accordian-slider.arrow-class {
+		padding: 0 50px;
+	}
+	.arrow-class button.owl-prev {
+		left: -60px;
+	}
+	.arrow-class button.owl-next {
+		right: -60px;
+	}
+	.aword-part1 .w-50 {
+		width: 100%!important;
+	}
+	.pos {
+		position: inherit;
+	}
+	img.aword-img1 {
+		padding-right: 0;
+		margin-left: 28px;
+		width: 50%;
+		height: 100%;
+	}
+	img.aword-img2 {
+		/* height: 280px; */
+		overflow-x: hidden;
+		width: 50%;
+		float: left;
+		position: absolute;
+		right: -58px;
+		height: 90%;
+	}
+	.image-test {
+		height: auto;
+		position: relative;
+		overflow-x: hidden;
+	}
+	.aword-part-taxt h3 {
+		font-size: 18px;
+		text-align: center;
+	}
+	.aword-part-taxt {
+		text-align: center;
+	}
+	.aword-part-taxt p.contant-p {
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.none-sm {
+		display: block;
+	}
+	.none-lg {
+		display: none
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 12px;
+	}
+	.switching-part-title {
+		padding: 36px 100px;
+		text-align: center;
+	}
+	.switching-part p {
+		font-size: 18px;
+	}
+	.switching-part-title {
+		padding: 36px 80px;
+	}
+	.switching-part p {
+		font-size: 17px;
+	}
+	.protaction-part-title {
+		padding: 0 70px;
+	}
+	.protaction-part-title h3 {
+		font-size: 24px;
+	}
+	.protaction-part-title p {
+		font-size: 18px;
+	}
+	h3.protaction-title {
+		padding: 10px 0;
+		font-size: 19px;
+	}
+	.protaction-table-section h4 {
+		font-size: 16px;
+		margin: 20px 0 5px 0;
+	}
+	.protaction-table-section h5 span {
+		font-size: 28px;
+	}
+	.accordian-part {
+		margin: 50px 0 0 0;
+	}
+	.acordian-bottom-part-title h3 {
+		font-size: 24px;
+		padding: 0 100px
+	}
+	.acordian-bottom-part-title h3 {
+		font-size: 24px;
+		padding: 0 100px
+	}
+	;
+	.acordian-bottom-part-title p {
+		font-size: 16px;
+		padding: 0 100px
+	}
+	.slider-rate-part h4 {
+		font-size: 16px;
+	}
+	.slider-rate-part h4 {
+		font-size: 16px;
+	}
+	.switching-part-section .number-part {
+		padding: 0 5px 0 5px;
+		font-size: 25px;
+	}
+	.switching-part-section .text-part {
+		font-size: 14px;
+	}
+	.switching-part h3 {
+		font-size: 22px;
+	}
+	.acordian-bottom-part-title p {
+		font-size: 16px;
+		padding: 0 100px;
+	}
+	.accordian-part a {
+		color: #009c33;
+		font-size: 17px;
+	}
+	.acordian-bottom-part-title h3 {
+		font-size: 24px;
+		padding: 0;
+	}
+	.acordian-bottom-part-title p {
+		font-size: 17px;
+		padding: 0;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+	.switching-part-title {
+		padding: 36px 150px;
+	}
+	.switching-part h3 {
+		font-size: 25px;
+	}
+	.switching-part p {
+		font-size: 19px;
+	}
+	.switching-part-section img {
+		width: 60px;
+		height: 80px;
+	}
+	.switching-part-section .number-part {
+		padding: 0 10px 0 10px;
+		font-size: 40px;
+	}
+	.switching-part-section .text-part {
+		font-family: HDI-GerlingSans;
+		font-size: 16px;
+	}
+	.protaction-part-title h3 {
+		font-size: 25px;
+	}
+	.protaction-part-title p {
+		font-size: 18px;
+	}
+	.acordian-bottom-part-title h3 {
+		font-size: 25px;
+		padding: 0 200px;
+	}
+	.accordian-part {
+		margin: 30px 0 0px 0;
+	}
+	.acordian-bottom-part-title p {
+		font-size: 16px;
+	}
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 6px;
+		padding-left: 5px;
+		font-size: 16px;
+	}
+	.slider-rate-part h4 {
+		font-size: 18px;
+	}
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
