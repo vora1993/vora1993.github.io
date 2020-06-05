@@ -34,16 +34,16 @@
                     <a class="nav-link"  href="#">Unsere Leistungen</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link" href="#">So funktioniert’s</a>
+                    <a class="nav-link" href="#sofunktioniert">So funktioniert’s</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link" href="#">Unsere Tarife</a>
+                    <a class="nav-link" href="#unseretarife">Unsere Tarife</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link"  href="#">Unsere Empfehlungen</a>
+                    <a class="nav-link"  href="#unsereempfehlungen">Unsere Empfehlungen</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link" href="#">Noch Fragen?</a>
+                    <a class="nav-link" href="#nochfragen">Noch Fragen?</a>
                   </li>
                 </ul>
               </div>
@@ -140,7 +140,7 @@
 
       <section class="switching-part">
         <div class="container">
-          <div class="switching-part-title">
+          <div class="switching-part-title" id="sofunktioniert">
             <h3>IN DREI SCHRITTEN ZUR HDI WOHNGEBÄUDEVERSICHERUNG WECHSELN</h3>
             <p>Und so einfach funktioniert’s</p>
           </div>
@@ -174,7 +174,7 @@
       <section class="bg-green p-60 w-100 float-left">
         <div class="container">
           <div class="protaction-table-part">
-            <div class="protaction-part-title">
+            <div class="protaction-part-title" id="unseretarife">
               <h3>IHR SCHUTZ FÜR JEDE LEBENSSITUATION</h3>
               <p>Entdecken sie unsere Produktlinien – flexibel und individuell anpassbar</p>
             </div>
@@ -706,13 +706,19 @@
               <div class="col-12 col-md-4 none-sm">
                 <span>je bis 10 % der Versicherungssumme</span>
             </div>
+            <div class="col-12">
+              <p class="color-green">Weitere Informationen herunterladen (PDF)</p>
+                  <div class="text-center">
+                    <button class="btn btn-3 btn-3a icon-cart bg-green-btn m-t-b-10">Jetzt Tarif berechnen</button>
+                  </div>
+            </div>
                     
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="acordian-bottom-part-title">
+          <div class="acordian-bottom-part-title" id="unsereempfehlungen">
             <h3>DAS HDI BAUSTEINPRINZIP – FLEXIBILITÄT GARANTIERT</h3>
             <p>Um Ihre Vermögenswerte bestmöglich abzusichern helfen Ihnen unsere Bausteine bei der Anpassung des Versicherungsschutzes an Ihre individuelle Situation. Dabei können Sie jede unserer drei Tarife flexibel erweitern.1</p>
           </div>
@@ -816,6 +822,9 @@
                 </div>
               </div>
             </div>
+            <div class="text-center">
+              <button class="btn btn-3 btn-3a icon-cart bg-green-btn m-t-b-20">Jetzt Tarif berechnen</button>
+            </div>
           </div>
         </div>
       </section>
@@ -852,6 +861,7 @@
                   <h3>Jetzt zur HDI Wohngebäudeversicherung wechseln</h3>
                   <p class="title-p">Individuelle Absicherung und hervorragender Service</p>
                   <p class="contant-p">HDI bietet Ihnen über 100 Jahre Kompetenz und Erfahrung. Wir versichern Ihr Wohnobjekt zuverlässig und helfen im Schadenfall schnell und kompetent. Entdecken Sie unsere Produktlinien und individualisieren Sie Ihren Verischerungsschutz. Wir bieten Ihnen für jede Lebenssituation die passenden Bausteine. Wechseln Sie jetzt!</p>
+                  <button class="btn btn-3 btn-3a icon-cart bg-green-btn m-t-b-30">Jetzt Tarif berechnen</button>
                   <div class="awords-img none-sm">
                     <ul>
                       <li><img src="images/BV-Testsieger-Wohngebaeudeversicherung-2019-n-tv.gif" alt=""></li>
@@ -896,7 +906,7 @@
       </section>
       <section class="faq-section">
         <div class="container">
-          <div class="faq-part">
+          <div class="faq-part" id="nochfragen">
             <h3>FAQs</h3>
             <div class="accordion" id="accordion2">
               <div class="border-bot">
@@ -1165,11 +1175,18 @@ $('#owl-carousel3').owlCarousel({
     });
 });
 
-// $(document).ready(function(){
-//   $(".more-option-btn").click(function(){
-//     $(".open-more-option").toggle("intro");
-//   });
-// });
+jQuery('.navbar-nav a').on( 'click', function(event) {
+  var target  = jQuery( this );
+  var element = target.attr('href');
+
+  jQuery('.navigation a').removeClass('active')
+  target.addClass('active');
+
+  jQuery("body, html").animate({ 
+    scrollTop: jQuery( element ).offset().top - 90  
+  }, 800);
+});
+
 
 </script>
   

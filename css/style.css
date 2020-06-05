@@ -712,7 +712,8 @@ a:hover {
 }
 
 .aword-part-taxt p.contant-p {
-	padding: 0 98px 20px 0;
+	padding: 0 98px 0px 0;
+	margin: 0;
 }
 
 #f1_container {
@@ -873,10 +874,10 @@ a:hover {
 } */
 
 .top-navbar {
-	padding: 20px 15px;
+	padding: 40px 15px;
 }
 
-.btn-3a {
+.btn-3a.bg-orang-btn {
 	padding: 8px 60px 8px 15px;
 	background: #ef8a29;
 	position: relative;
@@ -884,13 +885,28 @@ a:hover {
 	font-size: 20px;
 }
 
-.btn-3.bg-orang-btn: {
+.btn-3.bg-orang-btn {
 	background: #ef8a29;
 }
 
-.btn-3.bg-orang-btn:after {
+.btn-3a.bg-green-btn {
+	padding: 8px 60px 8px 15px;
+	background: #009c33;
+	position: relative;
+	color: #fff;
+	font-size: 20px;
+}
+
+.btn-3.bg-green-btn:after {
+	background: #007d29;
+}
+
+
+.btn-3a.bg-orang-btn:after {
 	background-color: #eb6900;
 }
+p.color-green{color: #009c33;font-size: 19px;
+	font-weight: normal; margin: 0; padding: 0;}
 
 .btn-3:after {
 	position: absolute;
@@ -909,6 +925,13 @@ a:hover {
 .m-t-b-20 {
 	margin: 20px 0;
 }
+.m-t-b-30 {
+	margin: 30px 0;
+}
+.m-t-b-10 {
+	margin: 10px 0;
+}
+
 footer{background: #009c32;width: 100%;float: left;}
 .footer-main {
     width: 100%;
