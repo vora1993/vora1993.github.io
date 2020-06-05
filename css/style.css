@@ -791,6 +791,43 @@ a:hover {
 .title-ratecard i {
     color: #fff;
 }
+/* .open-more-option{display: none;} */
+.open-more-option {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.open-more-option .accordion-toggle.collapsed:after {
+    font-family: 'FontAwesome';
+    content: "\f107";
+    float: left;
+    color: #000;
+    font-weight: normal;
+    font-size: 30px;
+    top: -10px;
+    left: 10px;
+    position: absolute;
+}
+.open-more-option a {
+    padding-left: 20px;font-size: 16px;
+    font-weight: bold;cursor: pointer;
+}
+.open-more-option .accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f106";
+    float: left;
+    color: #000;
+    font-weight: normal;
+    font-size: 30px;
+    top: -10px;
+    left: 10px;
+    position: absolute;
+}
+.bg-wight.slider-first {
+    padding-bottom: 60px;
+}
 .close {
     width: 100%;
     float: left;
@@ -862,4 +899,46 @@ a:hover {
 
 .m-t-b-20 {
 	margin: 20px 0;
+}
+footer{background: #009c32;width: 100%;float: left;}
+.footer-main {
+    width: 100%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 19px;font-weight: normal;
+}
+ul.footer-text {
+    padding: 82px 82px 82px 0 !important;
+    text-align: left;
+    color: #fff;
+}
+.footer-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+li.bold-taxt {
+    font-weight: bold;
+}
+.footer-image img {
+    width: 141px;
+    height: 141px;
+}
+.footer-image {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+ul.footer-last-taxt {
+    padding: 82px 60px 82px 0 !important;
+}
+ul.footer-icon {
+    padding: 82px 82px 82px 0 !important;
 }
