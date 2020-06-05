@@ -766,18 +766,44 @@ a:hover {
 .back.face p {
 	width: 100%;
 	float: left;
-	text-align: left;
+	text-align: left;font-size: 16px;
+    font-weight: 300;
 }
 
-.title-ratecard h4,
+.title-ratecard h4 {
+    margin: 0;
+    width: auto;
+    float: left;font-size: 19px;
+    font-weight: bold;
+}
 .title-ratecard p {
-	margin: 0;
+    margin: 0;
+    width: auto;
+    float: right;
+    padding-left: 10px;
 }
 
 .title-ratecard {
 	margin-bottom: 11px;
 	width: 100%;
 	float: left;
+}
+.title-ratecard i {
+    color: #fff;
+}
+.close {
+    width: 100%;
+    float: left;
+    text-align: right;
+    color: #009c33 !important;
+}
+.popovtext h4 {
+    font-size: 19px;
+    font-weight: bold;width: 100%; float: left; margin-bottom: 20px;
+}
+.popovtext p {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .accordian-table span {
@@ -792,13 +818,13 @@ a:hover {
 	color: #e60018;
 }
 
-.accordian-table h4:after {
-	/* left: 10px; */
+/* .accordian-table h4:after {
+	left: 10px;
 	content: '\f05a';
 	font-family: FontAwesome;
 	position: absolute;
 	padding-left: 10px;
-}
+} */
 
 .top-navbar {
 	padding: 20px 15px;

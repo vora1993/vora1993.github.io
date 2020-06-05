@@ -70,10 +70,10 @@
 	.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
 		display: none;
 	}
-	.title-ratecard h4,
+	/* .title-ratecard h4,
 	.title-ratecard p {
 		margin: 0;
-	}
+	} */
 	.title-ratecard {
 		margin-bottom: 11px;
 	}
