@@ -355,10 +355,16 @@ h3.protaction-title {
 
 .border-btn {
 	border: 1px solid #28994b;
-	background: #009c33;
-	color: #ffffff;
+	color: #009c33;
 	padding: 5px 20px;
 	margin: 26px 0;
+}
+.border-btn:hover {
+	border: 1px solid #28994b;
+	background: #009c33;
+	padding: 5px 20px;
+	margin: 26px 0;
+	color: #fff;box-shadow: 2px 2px 5px #229c33;
 }
 
 .color-orange h3.protaction-title {
