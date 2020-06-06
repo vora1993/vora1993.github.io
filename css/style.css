@@ -15,7 +15,7 @@ button:focus {
 	outline: none;
 }
 
-.img-bg {
+/* .img-bg {
 	position: relative;
 	width: 100%;
 	float: left;
@@ -139,7 +139,126 @@ button:focus {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 100%;
+} */
+
+
+
+/* top part */
+/* .main-bg-image{position: relative; width: 100%; float: left;} */
+.main-bg-image{content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../images/Street_Straße.svg) center -90px / 100% no-repeat;
+	background-repeat: no-repeat;z-index: -1;}
+	.first-image-part img {
+		position: absolute;
+		top: -60px;
+		right: 0;
+		width: 100%;
+	}
+	.first-image-part {
+		width: 100%;
+		position: relative;
+	}
+	.top-first-part {
+		padding-top: 80px;
+	}
+
+	/* .top-first-part {
+		padding-top: 90px;
+	} */
+.first-text-part {width: 100%;}
+.first-image-part {width: 100%;}
+.first-text-part h1 {
+	font-size: 42px;
+	font-weight: bold;
+	font-stretch: condensed;
+	font-style: normal;
+	color: #009c33;}
+.first-text-part h4 {
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: condensed;
+	font-style: normal;}
+.first-text-part ul li {
+	font-size: 19px;
+	font-stretch: condensed;
+	font-style: normal;}
+.top-navbar .fixed-top {
+	padding-top: 35px;}
+	
+	.top-second-part h3 {
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 1.1;
+		color: #009c33;
+	}
+	.third-part-text h4,.top-second-part p {
+	font-size: 19px;
+  font-weight: 300;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  color: #000000;}
+.top-second-part {width: 100%;padding: 80px 237px 0;text-align: center;}
+.third-part-text h4 {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #009c33;
 }
+.fift-text-part h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.1;
+	color: #009c33;
+	padding-top: 15px;
+} 
+.forth-part-text p,.third-part-tex p, .fift-text-part p {
+    font-size: 19px;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+	color: #000000;
+	font-weight:normal ;
+}
+.fift-text-part {
+    width: 100%;
+    padding: 0 237px;
+    text-align: center;
+}
+.third-part-image {
+    padding-top: 60px;
+    z-index: -1;
+    padding-right: 50px;float: left;
+}
+.third-part-text {
+    padding-left: 150px;
+    width: 100%;
+    float: left;
+    padding-top: 78px;
+}
+.forth-part-text h4{    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.1;
+	color: #009c33;}
+.top-forth-part {
+		padding-top: 160px;
+	}
+.top-forth-part-image{
+		z-index: -1;
+	}
+	.top-fift-image {
+		width: 564px;
+		margin: 0 auto;
+	}
+
+
+
+/* top part */
 
 
 /* switching-part css */
@@ -577,7 +696,9 @@ a.nav-link {
 a:hover {
 	color: #000000;
 	text-decoration: none;
+	outline: none;
 }
+.btn-link:hover{outline: none;text-decoration: none;}
 
 .faq-accordion-heading a {
 	font-size: 21px;
@@ -888,7 +1009,7 @@ a:hover {
 	background: #ef8a29;
 	position: relative;
 	color: #fff;
-	font-size: 20px;
+	font-size: 20px;box-shadow: 2px 2px 5px #ef8a29;
 }
 
 .btn-3.bg-orang-btn {
@@ -901,6 +1022,7 @@ a:hover {
 	position: relative;
 	color: #fff;
 	font-size: 20px;
+	box-shadow: 2px 2px 5px #229c33;
 }
 
 .btn-3.bg-green-btn:after {
