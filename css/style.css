@@ -1,10 +1,14 @@
-@font-face {
+/* @font-face {
 	font-family: "HDI-GerlingSans-Bold";
-	src: url("../fonts/HDI-GerlingSans-Bold.ttf"), url("../fonts/HDI-GerlingSans-Bold.ttf"), url("../fonts/HDI-GerlingSansCond-Bold.ttf");
-}
+	src: url("../fonts/HDI-GerlingSans-Bold.ttf"), url("../HDI-GerlingSansCond-Regular.ttf"), url("../fonts/HDI-GerlingSansCond-Bold.ttf");
+} */
+/* @font-face { font-family: HDI-GerlingSans-Bold; src: url('./fonts/hdi-gerlingsans-regular-webfont.woff'); }  */
+
+@font-face { font-family: HDI-GerlingSans;  src: url('../fonts/TTF/HDI-GerlingSans-Bold.ttf')}
+@font-face {font-family: HDI-GerlingSans-normal; src: url('../fonts/TTF/HDI-GerlingSansCond-Regular.ttf');}
 
 body {
-	font-family: HDI-GerlingSans;
+	font-family: HDI-GerlingSans-normal;
 	font-size: 19px;
 	padding: 0;
 	margin: 0;
@@ -185,7 +189,7 @@ button:focus {
 	font-stretch: condensed;
 	font-style: normal;}
 .top-navbar .fixed-top {
-	padding-top: 35px;}
+	padding-top: 20px;}
 	
 	.top-second-part h3 {
 		font-size: 30px;
@@ -213,8 +217,11 @@ button:focus {
     font-weight: bold;
     line-height: 1.1;
 	color: #009c33;
-	padding-top: 15px;
+	    padding-top: 20px;
 } 
+.forth-part-text {
+    text-align: end;
+}
 .forth-part-text p,.third-part-tex p, .fift-text-part p {
     font-size: 19px;
     font-weight: 300;
@@ -411,6 +418,9 @@ button:focus {
     background: #fff;
     border-radius: 10px 10px 0px 0 ;
 	border: 1px solid #28994b;
+}
+.color-orange .image-part {
+    border: 1px solid #ef8a29;
 }
 .image-part-height{height: 250px;}
 .protaction-table-main {
