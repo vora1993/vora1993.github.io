@@ -145,7 +145,8 @@
 		margin: 20px 0 5px 0;
 	}
 	.protaction-table-section h5 span {
-		font-size: 28px;
+		font-size: 40px;
+		font-weight: 300;
 	}
 	.accordian-part {
 		margin: 50px 0 0 0;
@@ -430,7 +431,11 @@
         }
         #f1_container {
             height: 220px;}
-        .footer-main ul{padding: 60px 20px 60px 0 !important;}
+		.footer-main ul{padding: 60px 20px 60px 0 !important;}
+		.image-part-height {
+			height: 200px;
+		}
+		
 }
 
 
@@ -493,7 +498,7 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 768px) and (max-width:900px) {
+@media only screen and (min-width: 768px) and (max-width:1000px) {
 /* top part */
 	.main-bg-image {
 	background: url(../images/Street_Straße.svg) center -50px / 100% no-repeat;}
@@ -504,7 +509,7 @@
 	.first-image-part img {top: -80px;}
 	.top-second-part {	padding: 15px 0 0;}
 	.top-second-part h3 {font-size: 22px;}
-	.third-part-text .border-btn{margin: 0;}
+	/* .third-part-text .border-btn{margin: 0;} */
 	.third-part-text h4 {font-size: 16px;}
 	.main-bg-image p {
 		font-size: 14px;
@@ -513,13 +518,89 @@
 		width: 200px;}
 	.fift-text-part h3 {font-size: 18px; padding-top : 0;}
 	.fift-text-part {padding: 0 0px 0 150px;}
-	.third-part-image {padding-top: 0;padding-right: 40px;margin-top: -25px;}
-	.third-part-text {	padding-top: 0;padding-left: 0;}
+	.third-part-image {padding-top: 0;padding-right: 40px;margin-top: 0px;}
+	.third-part-text {	padding-top: 0;padding-left: 10px;}
 	.top-forth-part {
 		padding-top: 60px;
 	}
+	.main-bg-image .border-btn {
+		margin: 0;
+		padding: 5px 20px;
+	}
+	.top-fift-image {
+		width: 340px;
+	}
+	.top-forth-part-image {
+		margin-top: 45px;
+	}
+	.forth-part-text h4 {
+		font-size: 16px;
+}
+@media only screen and (min-width: 780px) and (max-width:800px) {
+	.first-image-part img {
+		top: -75px;
+	}
+	.top-second-part {
+		padding: 22px 0 0;
+	}
+	.top-forth-part-image {
+		margin-top: 52px;
+	}
+	.fift-text-part h3 {
+		padding-top: 5px;
+	}
+
+}
+@media only screen and (min-width: 801px) and (max-width:812px) {
+	.first-image-part img {
+		top: -65px;
+	}
+	.third-part-image {
+		padding-top: 35px;}
+		.top-forth-part {
+			padding-top: 100px;
+		}
+		.fift-text-part h3 {
+			padding-top: 20px;
+		}
+
 }
 
+@media only screen and (min-width: 850px) and (max-width:896px) {
+	.main-bg-image {
+		background: url(../images/Street_Straße.svg) center -90px / 100% no-repeat;
+	}
+	.third-part-text {
+		padding-left: 20px;
+	}
+	.third-part-image {
+		margin-top: 75px;
+	}
+	.top-forth-part {
+		padding-top: 125px;
+	}
+	.top-forth-part .border-btn {
+		margin-top: 0 !important;padding: 5px 20px;
+	}
+	.forth-part-text h4 {
+		font-size: 16px;}
+		.top-fift-image {
+			width: 400px;
+		}
+		.fift-text-part {
+			padding: 30px 0px 0 150px;
+		}
+		.top-forth-part-image {
+			margin-top: 55px;
+		}
+}
+@media only screen and (min-width: 1000px) and (max-width:1024px) {
+
+}
+
+@media only screen and (min-width: 1050px) and (max-width:1080px) {
+
+}
 
 @media only screen and (min-width: 1200px) and (max-width:1250px) {
 	.top-forth-part {
@@ -532,6 +613,8 @@
 @media only screen and (min-width: 1251px) and (max-width:1300px) {
 	.top-forth-part {
 		padding-top: 120px;
+
+
 	}
 	.third-part-image {
 		padding-top: 40px;}
@@ -541,11 +624,28 @@
 	
 } 
 
-@media only screen and (min-width: 1350px) and (max-width:1440px) {
+@media only screen and (min-width: 1400px) and (max-width:1440px) {
 	.main-bg-image {background: url(../images/Street_Straße.svg) center -120px / 100% no-repeat;}
-	.top-second-part {padding: 100px 237px 0;}
-	.third-part-image {padding-top: 120px;}
+	.top-second-part {padding: 130px 237px 0;}
+	.third-part-image {padding-top: 105px;}
 	.top-forth-part {padding-top: 250px;}
-	.top-forth-part-image {padding-top: 35px;}
-	.fift-text-part h3 {padding-top: 65px;}
+	.top-forth-part-image {padding-top: 25px;}
+	.fift-text-part h3 {padding-top: 70px;}
+}
+@media only screen and (min-width: 1500px) and (max-width:1536px) {
+	.third-part-image {padding-top: 90px;}
+	.third-part-text {padding-left: 150px;padding-top: 130px;}
+	.top-second-part {padding: 200px 237px 0;}
+	.main-bg-image {
+		background: url(../images/Street_Straße.svg) center -150px / 100% no-repeat;}
+		.top-forth-part {
+			padding-top: 250px;
+		}
+		.fift-text-part h3 {
+			padding-top: 120px;
+		}
+
+}
+@media only screen and (min-width: 1850px) and (max-width:1920px) {
+
 }

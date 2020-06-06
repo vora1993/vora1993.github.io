@@ -4,8 +4,9 @@
 } */
 /* @font-face { font-family: HDI-GerlingSans-Bold; src: url('./fonts/hdi-gerlingsans-regular-webfont.woff'); }  */
 
-@font-face { font-family: HDI-GerlingSans;  src: url('../fonts/TTF/HDI-GerlingSans-Bold.ttf')}
+@font-face {font-family: HDI-GerlingSans;  src: url('../fonts/TTF/HDI-GerlingSans-Bold.ttf')}
 @font-face {font-family: HDI-GerlingSans-normal; src: url('../fonts/TTF/HDI-GerlingSansCond-Regular.ttf');}
+@font-face {font-family: HDI-GerlingSans-light; src: url('../fonts/TTF/HDI-GerlingSansCond-Light.ttf');}
 
 body {
 	font-family: HDI-GerlingSans-normal;
@@ -187,7 +188,7 @@ button:focus {
 .first-text-part ul li {
 	font-size: 19px;
 	font-stretch: condensed;
-	font-style: normal;}
+	font-style: normal;position: relative;}
 .top-navbar .fixed-top {
 	padding-top: 20px;}
 	
@@ -203,8 +204,7 @@ button:focus {
   font-stretch: condensed;
   font-style: normal;
   line-height: 1.32;
-  letter-spacing: normal;
-  color: #000000;}
+  letter-spacing: normal;}
 .top-second-part {width: 100%;padding: 80px 237px 0;text-align: center;}
 .third-part-text h4 {
     font-size: 19px;
@@ -229,7 +229,6 @@ button:focus {
     font-style: normal;
     line-height: 1.32;
     letter-spacing: normal;
-	color: #000000;
 	font-weight:normal ;
 }
 .fift-text-part {
@@ -263,7 +262,20 @@ button:focus {
 		margin: 0 auto;
 	}
 
-
+	.first-text-part li:before {
+		content: "\f00c";
+		font-family: FontAwesome;
+		display: inline-block;
+		color: #009c33;
+		position: absolute;
+		left: -30px;
+	}
+	.first-text-part li {
+		font-size: 16px;}
+		.first-text-part ul {
+			list-style-type: none;
+			padding-right: 10px;
+		}
 
 /* top part */
 
@@ -295,7 +307,6 @@ button:focus {
 	font-size: 21px;
 	font-weight: 300;
 	line-height: 1.9;
-	color: #000000;
 	margin-bottom: 0;
 }
 
@@ -357,7 +368,6 @@ button:focus {
 	font-style: normal;
 	line-height: 1.9;
 	letter-spacing: normal;
-	color: #000000;
 }
 
 .protaction-table-section {
@@ -425,7 +435,8 @@ button:focus {
 .image-part-height{height: 250px;}
 .protaction-table-main {
     width: 100%;
-    float: left;display: flex;    margin-top: 60px;
+	float: left;display: flex;    
+	/* margin-top: 60px; */
 }
 
 .p-60 {
@@ -455,7 +466,6 @@ h3.protaction-title {
 	font-style: normal;
 	line-height: 1.5;
 	letter-spacing: normal;
-	color: #000000;
 	font-weight: 300;
 	margin-bottom: 0;
 }
@@ -472,7 +482,6 @@ h3.protaction-title {
 	font-style: normal;
 	line-height: 1.5;
 	letter-spacing: normal;
-	color: #000000;
 	font-weight: 300;
 	margin-bottom: 0;
 }
@@ -485,14 +494,11 @@ h3.protaction-title {
 .border-btn {
 	border: 1px solid #28994b;
 	color: #009c33;
-	padding: 5px 20px;
-	margin: 26px 0;
+	padding: 10px 30px;
+	margin: 20px 0;
 }
 .border-btn:hover {
-	border: 1px solid #28994b;
 	background: #009c33;
-	padding: 5px 20px;
-	margin: 26px 0;
 	color: #fff;box-shadow: 2px 2px 5px #229c33;
 }
 
@@ -563,7 +569,6 @@ h3.protaction-title {
 	font-style: normal;
 	line-height: 1.32;
 	letter-spacing: normal;
-	color: #000000;
 	padding: 0 200px;
 }
 
@@ -704,7 +709,7 @@ a.nav-link {
 }
 
 a:hover {
-	color: #000000;
+	color : inherit;
 	text-decoration: none;
 	outline: none;
 }
@@ -901,7 +906,6 @@ a:hover {
 	font-weight: 300;
 	line-height: 1.38;
 	letter-spacing: normal;
-	color: #000000;
 }
 
 .back.face.center {
@@ -1112,3 +1116,7 @@ ul.footer-last-taxt {
 ul.footer-icon {
     padding: 82px 82px 82px 0 !important;
 }
+ul.footer-icon img.p-r-2 {
+    margin-right: 20px;
+}
+ul.footer-icon img{margin-top:10px ;}
