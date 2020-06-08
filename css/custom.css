@@ -24,9 +24,6 @@
 	.switching-part p {
 		font-size: 14px;
 	}
-	.switching-part h3 {
-		font-size: 18px !important;
-	}
 	.switching-part-title {
 		padding: 36px 0 !important;
 	}
@@ -41,6 +38,9 @@
 	}
 	.acordian-bottom-part-title h3 {
 		font-size: 22px !important;
+	}
+	.switching-part h3 {
+		padding: 0 120px;
 	}
 }
 
@@ -156,8 +156,7 @@
 		font-size: 17px;
 		padding-left: 10px;
 	}
-	.switching-part h3 {
-		font-size: 22px;
+	.switching-part h3 {padding: 0 80px;
 	}
 	.acordian-bottom-part-title p {
 		font-size: 16px;
@@ -262,8 +261,7 @@
 		overflow-x: hidden;    margin-top: 50px;
 	}
 	.aword-part-taxt h3 {
-		font-size: 18px;
-		text-align: center;padding: 0;
+		text-align: center;padding: 0;padding: 0 110px;
 	}
 	.aword-part-taxt {
 		text-align: center;
@@ -328,10 +326,14 @@
 .image-part-height {
     height: 230px;
 }
+.switching-part h3 {
+    padding: 0 10px;
+}
 }
 
 @media only screen and (max-width: 370px){
 .image-part-height {height: 170px;}
+.switching-part h3 {padding: 0 0px;}
 }
 
 
