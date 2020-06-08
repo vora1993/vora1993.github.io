@@ -157,7 +157,7 @@ button:focus {
 	background-repeat: no-repeat;z-index: -1;}
 	.first-image-part img {
 		position: absolute;
-		top: -100px;
+		top: -140px;
 		right: 0;
 		width: 100%;
 	}
@@ -197,7 +197,7 @@ button:focus {
 		font-size: 30px;
 		font-weight: bold;
 		line-height: 1.1;
-		color: #009c33;    text-transform: uppercase;
+		color: #009c33;    text-transform: uppercase;    padding: 0 120px;
 	}
 	.third-part-text h4,.top-second-part p {
 	font-size: 19px;
@@ -206,7 +206,7 @@ button:focus {
   font-style: normal;
   line-height: 1.32;
   letter-spacing: normal;}
-.top-second-part {width: 100%;padding: 80px 262px 0;text-align: center;}
+.top-second-part {width: 100%;padding: 80px 275px 0;text-align: center;}
 .third-part-text h4 {
     font-size: 19px;
     font-weight: bold;
@@ -218,7 +218,8 @@ button:focus {
     font-weight: bold;
     line-height: 1.1;
 	color: #009c33;
-	    padding-top: 20px;
+		padding: 20px 160px 0px;
+	text-transform: uppercase;
 } 
 .forth-part-text {
     text-align: end;
@@ -256,7 +257,7 @@ button:focus {
 		padding-top: 160px;
 	}
 .top-forth-part-image{
-		z-index: -1;
+		z-index: -1;padding-top: 25px;
 	}
 	.top-fift-image {
 		width: 564px;
@@ -300,7 +301,7 @@ button:focus {
 }
 
 .switching-part-title {
-	padding: 36px 200px;
+	padding: 36px 240px;
 	text-align: center;
 }
 
@@ -326,7 +327,7 @@ button:focus {
 }
 
 .switching-part-section .number-part {
-	padding: 0 10px 0 20px;
+	padding: 0 5px 0 10px;
 	font-size: 50px;
 	font-weight: normal;
 	font-stretch: condensed;
@@ -458,7 +459,7 @@ h3.protaction-title {
 
 .protaction-table-section h4 {
 	font-size: 22px;
-	margin: 30px 0 15px 0;
+	margin: 30px 0 15px 0;font-weight: bold;
 }
 
 .protaction-table-section h5 {
@@ -497,7 +498,7 @@ h3.protaction-title {
 	color: #009c33;
 	padding: 10px 30px;
 	margin: 20px 0;font-size: 19px;
-    font-weight: 600;
+	font-weight: bold;
 }
 .border-btn:hover {
 	background: #009c33;
@@ -559,7 +560,7 @@ h3.protaction-title {
 	font-weight: bold;
 	line-height: 1.1;
 	color: #009c33;
-	padding: 0 300px;
+	padding: 0 330px;
 	letter-spacing: normal;
 	margin-bottom: 20px;
 }
@@ -844,6 +845,7 @@ a:hover {
 	/* line-height: 1.1; */
 	color: #009c33;
 	text-transform: uppercase;
+	padding-right: 140px;
 }
 
 .aword-part-taxt p {
@@ -1026,6 +1028,7 @@ a:hover {
 	position: relative;
 	color: #fff;
 	font-size: 20px;box-shadow: 2px 2px 5px #ef8a29;
+	font-weight: bold;
 }
 
 .btn-3.bg-orang-btn {
@@ -1039,6 +1042,7 @@ a:hover {
 	color: #fff;
 	font-size: 20px;
 	box-shadow: 2px 2px 5px #229c33;
+	font-weight: bold;
 }
 
 .btn-3.bg-green-btn:after {
