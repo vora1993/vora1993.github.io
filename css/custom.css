@@ -3,29 +3,17 @@
 
 /* responsive css*/
 
-@media only screen and (min-width: 320px) and (max-width:400px) {
-	#f1_container {
-		height: 200px !important;
-    }
-    .back.face p {
-        font-size: 14px !important}
-}
+
 
 @media only screen and (max-width: 640px) {
 	.switching-part-title {
 		padding: 0;
-	}
-	.switching-part-title {
-		padding: 36px 0;
 	}
 	.switching-part h3 {
 		font-size: 15px;
 	}
 	.switching-part p {
 		font-size: 14px;
-	}
-	.switching-part-title {
-		padding: 36px 0 !important;
 	}
 	.protaction-part-title {
 		padding: 0 !important;
@@ -110,9 +98,6 @@
 	}
 	.switching-part p {
 		font-size: 18px;
-	}
-	.switching-part-title {
-		padding: 36px 0;
 	}
 	.switching-part p {
 		font-size: 17px;
@@ -261,7 +246,7 @@
 		overflow-x: hidden;    margin-top: 50px;
 	}
 	.aword-part-taxt h3 {
-		text-align: center;padding: 0;padding: 0 110px;
+		text-align: center;padding: 0;
 	}
 	.aword-part-taxt {
 		text-align: center;
@@ -329,14 +314,28 @@
 .switching-part h3 {
     padding: 0 10px;
 }
+.aword-part-taxt h3 {
+    padding: 0;}
 }
 
 @media only screen and (max-width: 370px){
 .image-part-height {height: 170px;}
 .switching-part h3 {padding: 0 0px;}
+.aword-part-taxt h3{padding: 0;}
 }
 
-
+@media only screen and (min-width: 320px) and (max-width:400px) {
+	#f1_container {
+		height: 200px !important;
+    }
+    .back.face p {
+		font-size: 14px !important}
+		.btn-3:after {padding: 5px !important;}
+		.btn-3a.bg-green-btn {padding: 8px 50px 8px 15px !important;}
+		.switching-part-title {margin: 20px 0;}
+		body{line-height: 1.4;}
+		.switching-part h3 {line-height: 1.4;}
+}
 
 @media only screen and (min-width: 768px) {
 	.none-sm {
@@ -360,14 +359,13 @@
 		font-size: 12px;
 	}
 	.switching-part-title {
-		padding: 36px 100px;
 		text-align: center;
 	}
 	.switching-part p {
 		font-size: 18px;
 	}
 	.switching-part-title {
-		padding: 36px 80px;
+		padding: 0;
 	}
 	.switching-part p {
 		font-size: 17px;
@@ -441,7 +439,7 @@
 		padding: 0;
     }
     .aword-part-taxt h3 {
-        font-size: 20px;}
+        font-size: 20px;padding-right: 0px;}
     .img-2 {height: 245px;width: 250px;}
     .img-1 {
         height: 270px;
@@ -474,7 +472,7 @@
         height: 270px;
         width: 210px;}
 	.switching-part-title {
-		padding: 36px 150px;
+		padding: 0;
 	}
 	.switching-part h3 {
 		font-size: 25px;
@@ -524,7 +522,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 768px) and (max-width:1000px) {
-/* top part */
+
 	.main-bg-image {
 	background: url(../images/Street_Straße.svg) center -50px / 100% no-repeat;}
 	.first-text-part h1 {font-size: 24px;}
@@ -560,6 +558,7 @@
 	}
 	.forth-part-text h4 {
 		font-size: 16px;
+	}
 }
 @media only screen and (min-width: 780px) and (max-width:800px) {
 	.first-image-part img {
@@ -577,32 +576,41 @@
 
 }
 @media only screen and (min-width: 801px) and (max-width:812px) {
-	.first-image-part img {
-		top: -65px;
-	}
-	.third-part-image {
-		padding-top: 35px;}
-		.top-forth-part {
-			padding-top: 100px;
-		}
-		.fift-text-part h3 {
-			padding-top: 20px;
-		}
+	.first-image-part img {top: -90px;}
+	.third-part-image {padding-top: 35px;}
+	.top-forth-part {padding-top: 75px;}
+	.fift-text-part h3 {padding-top: 20px;}
+	.top-first-part {padding-top: 50px;}
+	.top-second-part p {padding: 0 137px;}
+	.top-second-part {padding: 0; margin-top: -15px;}
+	.top-forth-part-image {margin-top: 10px;}
 
 }
 
 @media only screen and (min-width: 850px) and (max-width:896px) {
+	.top-first-part {
+		padding-top: 40px;
+	}
 	.main-bg-image {
-		background: url(../images/Street_Straße.svg) center -90px / 100% no-repeat;
+		background: url(../images/Street_Straße.svg) center -44px / 100% no-repeat;
+	}
+	.top-second-part p {
+		padding: 0 138px;
+	}
+	.top-second-part {
+		padding: 40px 0 0;
+	}
+	.top-third-part {
+		padding-top: 35px;
 	}
 	.third-part-text {
 		padding-left: 20px;
 	}
 	.third-part-image {
-		margin-top: 75px;
+		margin-top: 5px;
 	}
 	.top-forth-part {
-		padding-top: 125px;
+		padding-top: 115px;
 	}
 	.top-forth-part .border-btn {
 		margin-top: 0 !important;padding: 5px 20px;
@@ -613,18 +621,39 @@
 			width: 400px;
 		}
 		.fift-text-part {
-			padding: 30px 0px 0 150px;
+			padding: 25px 0px 0 150px;
 		}
 		.top-forth-part-image {
-			margin-top: 55px;
+			margin-top: 22px;
 		}
+		.border-btn {padding: 5px 20px;}
+		.switching-part {padding-top: 40px;}
+		.protaction-table-section .sm-center {
+			height: 80px;
+		}
+		.acordian-bottom-part-title p {
+			font-size: 17px;
+			padding: 0 85px;
+		}
+		.aword-part-taxt p.contant-p {
+			padding: 0 45px 0px 0;}
 }
 @media only screen and (min-width: 1000px) and (max-width:1024px) {
 
 }
 
 @media only screen and (min-width: 1050px) and (max-width:1080px) {
-
+	.first-text-part h1 {font-size: 32px;}
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -60px / 100% no-repeat;}
+	.top-second-part {width: 100%; padding: 80px 0 0;}
+	.top-second-part p {padding: 0 185px;}
+	.top-second-part {padding: 0;}
+	.third-part-image {padding-top: 10px;}
+	.third-part-text p {padding: 0 5px;}
+	.third-part-text {padding-left: 50px;padding-top: 15px;}
+	.third-part-image {padding-top: 0px;}
+	.top-forth-part {padding-top: 50px;}
+	.forth-part-text p {padding: 0 20px;}
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1250px) {
@@ -635,17 +664,19 @@
 	.fift-text-part h3 {padding-top: 0;}
 	
 } 
-@media only screen and (min-width: 1251px) and (max-width:1300px) {
-	.top-forth-part {
-		padding-top: 120px;
-
-
-	}
-	.third-part-image {
-		padding-top: 40px;}
-	.top-fift-image {
-		width: 500px;}
-	.fift-text-part h3 {padding-top: 40px;}
+@media only screen and (min-width: 1251px) and (max-width:1280px) {
+	.third-part-image {padding-top: 40px;}
+	.third-part-image {padding-top: 35px;}
+	.forth-part-text p{padding-left: 130px;margin-bottom: 0;}
+	.top-forth-part {padding-top: 145px;}
+	.fift-text-part p{padding: 0 132px;}
+	.fift-text-part {padding: 0 200px !important;}
+	.top-forth-part-image {padding-top: 15px;}
+	.top-fift-image {width: 490px;}
+	.switching-part {padding-top: 50px;}
+	.accordian-part {margin-bottom: 0;}
+	.acordian-bottom-part-title p {padding: 0 280px;}
+	.aword-part-taxt p.contant-p {padding: 0 145px 0px 0;}
 	
 } 
 
@@ -672,5 +703,24 @@
 
 }
 @media only screen and (min-width: 1850px) and (max-width:1920px) {
-
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+		max-width: 80%;
+	}
+	.main-bg-image {
+		background: url(../images/Street_Straße.svg) center -180px / 100% no-repeat;
+	}
+	.top-second-part p {
+		padding: 0 195px;
+	}
+	.top-second-part {width: 100%;padding: 350px 275px 0;}
+	.top-third-part {padding-top: 75px;}
+	.third-part-text p {padding: 0 224px 0 0;}
+	.forth-part-text p {padding-left: 330px;}
+	.top-forth-part {padding-top: 315px;}
+	.fift-text-part p {padding: 0 310px;}
+	.fift-text-part h3 {padding: 170px 160px 0px;}
+	.top-fift-image {
+		width: 740px;}
+	
+	
 }

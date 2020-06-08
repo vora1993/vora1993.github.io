@@ -301,8 +301,8 @@ button:focus {
 }
 
 .switching-part-title {
-	padding: 36px 240px;
-	text-align: center;
+	padding: 0;
+	text-align: center;margin-bottom: 20px;
 }
 
 .switching-part p {
@@ -316,6 +316,9 @@ button:focus {
 	padding: 0;
 	margin: 0;
 }
+
+.switching-part {
+    padding-top: 40px;}
 
 .switching-part-section ul li {
 	list-style-type: none;
@@ -536,7 +539,7 @@ h3.protaction-title {
 	font-family: 'FontAwesome';
 	content: "\f106";
 	float: right;
-	color: #000;
+	color: #229c32;
 	font-weight: normal;
 }
 
@@ -544,7 +547,7 @@ h3.protaction-title {
 	font-family: 'FontAwesome';
 	content: "\f107";
 	float: right;
-	color: #000;
+	color: #229c32;
 	font-weight: normal;
 }
 
@@ -1044,7 +1047,9 @@ a:hover {
 	box-shadow: 2px 2px 5px #229c33;
 	font-weight: bold;
 }
-
+.border-top-first {
+    border-top: 2px solid #009c33;
+}
 .btn-3.bg-green-btn:after {
 	background: #007d29;
 }
