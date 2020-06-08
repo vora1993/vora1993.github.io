@@ -297,8 +297,14 @@
 	.fift-text-part h3{padding: 0;}
 	.top-fift-image {width: 100%;}
 	.top-first-part {padding-top: 40px;}
-	.btn-3a.bg-green-btn {padding: 8px 60px 8px 15px !important;}
-	.btn-3a.bg-orang-btn {padding: 8px 60px 8px 15px !important;}
+	.btn-3a.bg-green-btn {width: 270px;height: 55px; font-family: HDI-GerlingSans;
+		font-size: 20px;
+		font-weight: bold;}
+	.btn-3a.bg-orang-btn {width: 270px;height: 55px; font-family: HDI-GerlingSans;
+		font-size: 20px;
+		font-weight: bold;}
+	.border-btn {width: 230px; height: 50px;font-size: 19px;}
+	.btn-3:after{width: 53px;padding: 0px; font-size: 35px;}
 	.sm-center{width: 100%; text-align: center;}
 	
 }
@@ -327,7 +333,10 @@
 @media only screen and (min-width: 320px) and (max-width:400px) {
 	#f1_container {
 		height: 200px !important;
-    }
+	}
+	.first-text-part h1 {
+		font-size: 18px;
+	}
     .back.face p {
 		font-size: 14px !important}
 		.btn-3:after {padding: 5px !important;}
@@ -349,7 +358,6 @@
 @media only screen and (max-width: 1000px) {
 	.btn-3a.bg-green-btn,.btn-3a.bg-orang-btn {
 		padding: 5px 35px 5px 5px;font-size: 16px;}
-		.btn-3:after{width: 30px;}
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
@@ -444,7 +452,6 @@
     .img-1 {
         height: 270px;
         width: 210px;}
-        .btn-3:after {width: 30px;}
         .btn-3a { padding: 8px 40px 8px 10px;}
         .slider-rate-part p {
             font-size: 14px !important;

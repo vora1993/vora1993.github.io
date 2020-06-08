@@ -153,7 +153,7 @@ button:focus {
 .main-bg-image{content: "";
     height: 100%;
     width: 100%;
-    background: url(../images/Street_Straße.svg) center -75px / 100% no-repeat;
+    background: url(../images/Street_Straße.svg) center -70px / 100% no-repeat;
 	background-repeat: no-repeat;z-index: -1;}
 	.first-image-part img {
 		position: absolute;
@@ -260,7 +260,7 @@ button:focus {
 		z-index: -1;padding-top: 25px;
 	}
 	.top-fift-image {
-		width: 564px;
+		width: 530px;
 		margin: 0 auto;
 	}
 
@@ -496,11 +496,13 @@ h3.protaction-title {
 }
 
 .border-btn {
-	border: 1px solid #28994b;
+	border: 1.5px solid #28994b;
 	color: #009c33;
-	padding: 10px 30px;
+	width: 240px;
+    height: 50px;
 	margin: 20px 0;font-size: 19px;
-	font-weight: bold;
+	font-weight: bold;font-family: HDI-GerlingSans;}
+
 }
 .border-btn:hover {
 	background: #009c33;
@@ -1027,12 +1029,17 @@ a:hover {
 }
 
 .btn-3a.bg-orang-btn {
-	padding: 8px 60px 8px 15px;
+	padding: 10px 60px 10px 15px;
+	width: 280px;
+    height: 55px;
 	background: #ef8a29;
 	position: relative;
 	color: #fff;
 	font-size: 20px;box-shadow: 2px 2px 5px #ef8a29;
 	font-weight: bold;
+	font-family: HDI-GerlingSans;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .btn-3.bg-orang-btn {
@@ -1040,13 +1047,18 @@ a:hover {
 }
 
 .btn-3a.bg-green-btn {
-	padding: 8px 60px 8px 15px;
+	padding: 10px 60px 10px 15px;
+	width: 280px;
+    height: 55px;
 	background: #009c33;
 	position: relative;
 	color: #fff;
 	font-size: 20px;
 	box-shadow: 2px 2px 5px #229c33;
 	font-weight: bold;
+	font-family: HDI-GerlingSans;
+  	font-size: 20px;
+  	font-weight: bold;
 }
 .border-top-first {
     border-top: 2px solid #009c33;
@@ -1069,9 +1081,9 @@ p.color-green{color: #009c33;font-size: 19px;
 	top: 0;
 	/* line-height: 3; */
 	font-size: 140%;
-	width: 50px;
+	width: 53px;
 	height: 100%;
-	padding: 0px;
+	padding: 5px;
 	content: "\f105";
 	font-family: FontAwesome;
 }
