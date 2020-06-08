@@ -9,7 +9,7 @@
 @font-face {font-family: HDI-GerlingSans-light; src: url('../fonts/TTF/HDI-GerlingSansCond-Light.ttf');}
 
 body {
-	font-family: HDI-GerlingSans-normal;
+	font-family:  HDI-GerlingSans-light;
 	font-size: 19px;
 	padding: 0;
 	margin: 0;
@@ -153,11 +153,11 @@ button:focus {
 .main-bg-image{content: "";
     height: 100%;
     width: 100%;
-    background: url(../images/Street_Straße.svg) center -90px / 100% no-repeat;
+    background: url(../images/Street_Straße.svg) center -75px / 100% no-repeat;
 	background-repeat: no-repeat;z-index: -1;}
 	.first-image-part img {
 		position: absolute;
-		top: -60px;
+		top: -100px;
 		right: 0;
 		width: 100%;
 	}
@@ -178,7 +178,8 @@ button:focus {
 	font-size: 42px;
 	font-weight: bold;
 	font-stretch: condensed;
-	font-style: normal;
+	font-style: normal;text-transform: uppercase;
+    font-family: HDI-GerlingSans;
 	color: #009c33;}
 .first-text-part h4 {
 	font-size: 30px;
@@ -188,7 +189,7 @@ button:focus {
 .first-text-part ul li {
 	font-size: 19px;
 	font-stretch: condensed;
-	font-style: normal;position: relative;}
+	font-style: normal;position: relative; padding-bottom: 20px;}
 .top-navbar .fixed-top {
 	padding-top: 20px;}
 	
@@ -196,7 +197,7 @@ button:focus {
 		font-size: 30px;
 		font-weight: bold;
 		line-height: 1.1;
-		color: #009c33;
+		color: #009c33;    text-transform: uppercase;
 	}
 	.third-part-text h4,.top-second-part p {
 	font-size: 19px;
@@ -205,7 +206,7 @@ button:focus {
   font-style: normal;
   line-height: 1.32;
   letter-spacing: normal;}
-.top-second-part {width: 100%;padding: 80px 237px 0;text-align: center;}
+.top-second-part {width: 100%;padding: 80px 262px 0;text-align: center;}
 .third-part-text h4 {
     font-size: 19px;
     font-weight: bold;
@@ -268,7 +269,7 @@ button:focus {
 		display: inline-block;
 		color: #009c33;
 		position: absolute;
-		left: -30px;
+		left: -40px;
 	}
 	.first-text-part li {
 		font-size: 16px;}
@@ -495,7 +496,8 @@ h3.protaction-title {
 	border: 1px solid #28994b;
 	color: #009c33;
 	padding: 10px 30px;
-	margin: 20px 0;
+	margin: 20px 0;font-size: 19px;
+    font-weight: 600;
 }
 .border-btn:hover {
 	background: #009c33;
