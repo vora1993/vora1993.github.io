@@ -477,7 +477,6 @@ h3.protaction-title {
 
 .protaction-table-section h5 span {
 	font-size: 40px;
-	font-weight: bold;
 	color: #009c33;
 }
 
@@ -575,7 +574,7 @@ h3.protaction-title {
 	font-style: normal;
 	line-height: 1.32;
 	letter-spacing: normal;
-	padding: 0 200px;
+	padding: 0 280px;
 }
 
 .aword-part-image {
@@ -827,7 +826,7 @@ a:hover {
 	height: 330px;
 	width: 250px;
 	background-size: cover;
-	z-index: 9999999;
+	/* z-index: 9999999; */
 	float: left;
 	margin-right: 10px;
 }
@@ -841,6 +840,9 @@ a:hover {
 	background-size: cover;
 	float: left;
 }
+.protaction-table-section .sm-center {
+    height: 90px;
+}
 
 .aword-part-taxt h3 {
 	font-size: 24px;
@@ -848,7 +850,6 @@ a:hover {
 	/* line-height: 1.1; */
 	color: #009c33;
 	text-transform: uppercase;
-	padding-right: 140px;
 }
 
 .aword-part-taxt p {
@@ -861,7 +862,7 @@ a:hover {
 }
 
 .aword-part-taxt p.contant-p {
-	padding: 0 98px 0px 0;
+	padding: 0 145px 0px 0;
 	margin: 0;
 }
 
