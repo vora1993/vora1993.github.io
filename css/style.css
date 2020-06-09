@@ -603,12 +603,12 @@ h3.protaction-title {
 .accordian-part {
 	width: 100%;
 	float: left;
-	margin: 50px 0;
+	margin-top: 50px;
 }
 
 .accordion-heading {
 	border-bottom: 1px solid;
-	margin-bottom: 30px;
+	margin-bottom: 78px;
 }
 
 .accordion-toggle:after {
@@ -1059,10 +1059,13 @@ a:hover {
 }
 
 .title-ratecard h4 {
-    margin: 0;
-    width: auto;
-    float: left;font-size: 19px;
-    font-weight: bold;
+	margin: 0;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #000000;
 }
 .title-ratecard p {
     margin: 0;
@@ -1216,8 +1219,14 @@ ul.hegiht-protection {
 .btn-3a.bg-orang-btn:hover:after {
     background-color: #eb6900;
 }
-p.color-green{color: #009c33;font-size: 19px;
-	font-weight: normal; margin: 0; padding: 0;}
+p.color-green{padding: 0;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #009c33;}
 
 .btn-3:after {
 	position: absolute;
@@ -1289,3 +1298,10 @@ ul.footer-icon img.p-r-2 {
     margin-right: 20px;
 }
 ul.footer-icon img{margin-top:10px ;}
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.accordian-part .col-12,.accordian-part .col-md-12{padding-right: 5px; padding-left: 5px;}
+.m-t-10{margin-top: 10px;} 
+.m-b-76{margin-bottom: 76px;}
