@@ -19,7 +19,10 @@ span.navbar-toggler-icon:focus,
 button:focus {
 	outline: none;
 }
-
+a.nav-link:hover {
+    color: #009c33;
+}
+.opacity-none{opacity: 0;}
 /* .img-bg {
 	position: relative;
 	width: 100%;
@@ -446,6 +449,7 @@ li.img-last-part {
 .protaction-contant-part ul {
 	list-style-type: none;
 	padding-left: 58px;
+	margin: 0;
 }
 
 .protaction-contant-part li {
@@ -1106,9 +1110,13 @@ a:hover {
     font-weight: normal;
     font-size: 30px;
     top: -10px;
-    left: 10px;
+    left: 20px;
     position: absolute;
 }
+ul.hegiht-protection {
+    height: 330px;
+}
+.popover{max-width: 308px;}
 .bg-wight.slider-first {
     padding-bottom: 60px;
 }
