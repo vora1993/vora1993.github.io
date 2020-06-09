@@ -356,8 +356,7 @@
 	
 }
 @media only screen and (max-width: 1000px) {
-	.btn-3a.bg-green-btn,.btn-3a.bg-orang-btn {
-		padding: 5px 35px 5px 5px;font-size: 16px;}
+	
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
@@ -695,16 +694,12 @@
 } 
 
 @media only screen and (min-width: 1350px) and (max-width:1366px){
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -100px / 100% no-repeat;}
-	.third-part-text {padding-left: 188px;}
-	.third-part-image {padding-top: 95px;}
-	.forth-part-text p {padding-left: 130px;}
-	.top-forth-part {padding-top: 180px;}
-	.top-forth-part-image {padding-top: 45px;}
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -90px / 100% no-repeat;}
+	.top-second-part{padding-top: 80px;}
+	.top-third-part {padding-top: 40px;}
+	.top-forth-part {padding-top: 192px;}
 	.top-fift-image {width: 550px;}
-	.fift-text-part p {padding: 0 335px;}
-	.fift-text-part { padding: 0;}
-
+	.first-image-part img {top: -165px;}
 
 }
 

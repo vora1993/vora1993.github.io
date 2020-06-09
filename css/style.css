@@ -156,10 +156,10 @@ button:focus {
     background: url(../images/Street_Straße.svg) center -70px / 100% no-repeat;
 	background-repeat: no-repeat;z-index: -1;}
 	.first-image-part img {
-		position: absolute;
-		top: -140px;
-		right: 0;
+		position: absolute;top: -185px;
+		right: 32px;
 		width: 100%;
+		float: left;
 	}
 	.first-image-part {
 		width: 100%;
@@ -179,34 +179,44 @@ button:focus {
 	font-weight: bold;
 	font-stretch: condensed;
 	font-style: normal;text-transform: uppercase;
-    font-family: HDI-GerlingSans;
-	color: #009c33;}
+    font-family: HDI-GerlingSans;margin: 0;
+	color: #009c33;width: 646px;}
 .first-text-part h4 {
 	font-size: 30px;
 	font-weight: normal;
 	font-stretch: condensed;
-	font-style: normal;}
+	font-style: normal;margin: 17px 0 37px;width: 444px;}
 .first-text-part ul li {
 	font-size: 19px;
 	font-stretch: condensed;
 	font-style: normal;position: relative; padding-bottom: 20px;}
 .top-navbar .fixed-top {
-	padding-top: 20px;}
+	padding: 20px 63px 0;}
 	
 	.top-second-part h3 {
 		font-size: 30px;
-		font-weight: bold;
-		line-height: 1.1;
-		color: #009c33;    text-transform: uppercase;    padding: 0 120px;
+  		font-weight: bold;
+  		line-height: 1.1;
+  		color: #009c33;    text-transform: uppercase;font-family: HDI-GerlingSans;
 	}
-	.third-part-text h4,.top-second-part p {
+.top-second-part p {
 	font-size: 19px;
   font-weight: 300;
   font-stretch: condensed;
   font-style: normal;
   line-height: 1.32;
-  letter-spacing: normal;}
-.top-second-part {width: 100%;padding: 80px 275px 0;text-align: center;}
+  letter-spacing: normal;
+  color: #000000;}
+  .top-second-part {
+    width: 564px;
+    height: 231px;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;    padding-top: 50px;
+}
 .third-part-text h4 {
     font-size: 19px;
     font-weight: bold;
@@ -214,13 +224,17 @@ button:focus {
     color: #009c33;
 }
 .fift-text-part h3 {
+    text-transform: uppercase;
     font-size: 30px;
-    font-weight: bold;
-    line-height: 1.1;
-	color: #009c33;
-		padding: 20px 160px 0px;
-	text-transform: uppercase;
-} 
+  	font-weight: bold;
+  	line-height: 1.1;
+  	color: #009c33;
+}
+.fift-text-part .sm-center {
+    width: 100%;
+    float: left;
+}
+.fift-text-part p{margin: 0;}
 .forth-part-text {
     text-align: end;
 }
@@ -233,18 +247,38 @@ button:focus {
     letter-spacing: normal;
 	font-weight:normal ;
 }
+b{font-weight: bold !important;}
+
+.forth-part-text p{
+	width: 437px;
+    float: right;
+}
 .fift-text-part {
-    width: 100%;
-    padding: 0 237px;
-    text-align: center;
+	text-align: center;
+    width: 485px;
+    height: 176px;
+	margin: 0 auto;
+	margin: 30px auto 0;
+}
+.third-part-text p {
+    font-size: 19px;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #000000;
+}
+.third-part-text p b {
+    font-weight: bold;
 }
 .third-part-image {
-    padding-top: 60px;
+	padding-top: 110px;
     z-index: -1;
     padding-right: 50px;float: left;
 }
 .third-part-text {
-    padding-left: 150px;
+    padding-left: 188px;
     width: 100%;
     float: left;
     padding-top: 78px;
@@ -257,10 +291,10 @@ button:focus {
 		padding-top: 160px;
 	}
 .top-forth-part-image{
-		z-index: -1;padding-top: 25px;
+		z-index: -1;padding-top: 40px;
 	}
 	.top-fift-image {
-		width: 530px;
+		width: 500px;
 		margin: 0 auto;
 	}
 
@@ -276,14 +310,21 @@ button:focus {
 		font-size: 16px;}
 		.first-text-part ul {
 			list-style-type: none;
-			padding-right: 10px;
+			padding-right: 10px; margin: 0;
+		}
+		.first-text-part .sm-center {
+			margin-top: 14px;
 		}
 
 /* top part */
 
 
 /* switching-part css */
-
+.protaction-contant-part li b {
+    font-family: HDI-GerlingSans;
+    font-size: 16px;
+    font-weight: bold;
+}
 .switching-part {
 	width: 100%;
 	float: left;
@@ -297,24 +338,28 @@ button:focus {
 	font-style: normal;
 	line-height: 1.1;
 	letter-spacing: normal;
-	color: #009c33;
+	color: #009c33;font-family: HDI-GerlingSans-normal;
 }
 
 .switching-part-title {
 	padding: 0;
-	text-align: center;margin-bottom: 20px;
+	text-align: center;margin-bottom: 20px;width: 580px;
+	margin: 0 auto;
 }
 
 .switching-part p {
-	font-size: 21px;
-	font-weight: 300;
-	line-height: 1.9;
-	margin-bottom: 0;
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.9;
+    color: #000000;
+    font-family: HDI-GerlingSans-light;
+    padding-bottom: 38px;
 }
 
 .switching-part-section ul {
 	padding: 0;
-	margin: 0;
+	margin: 0;    height: 100%;
 }
 
 .switching-part {
@@ -325,8 +370,8 @@ button:focus {
 }
 
 .switching-part-section img {
-	width: 70px;
-	height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 .switching-part-section .number-part {
@@ -341,58 +386,66 @@ button:focus {
 }
 
 .switching-part-section .text-part {
-	font-family: HDI-GerlingSans;
 	font-size: 19px;
-	font-weight: bold;
-	font-stretch: condensed;
-	font-style: normal;
-	line-height: 1.21;
-	letter-spacing: normal;
-	color: #009c33;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #009c33;
+}
+li.img-last-part {
+    height: 100%;
 }
 
 .protaction-part-title {
-	padding: 0 200px;
 	text-align: center;
+    width: 580px;
+    height: 77px;
+    margin: 0 auto;
 }
 
 .protaction-part-title h3 {
-	font-size: 30px;
-	font-weight: bold;
 	font-stretch: condensed;
 	font-style: normal;
-	line-height: 1.1;
 	letter-spacing: normal;
 	color: #009c33;
+	font-size: 30px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #009c33;
+    font-family: HDI-GerlingSans;
 }
 
 .protaction-part-title p {
+	font-family: HDI-GerlingSans-light;
 	font-size: 21px;
 	font-weight: 300;
 	font-stretch: condensed;
 	font-style: normal;
 	line-height: 1.9;
 	letter-spacing: normal;
+	color: #000000;
 }
 
 .protaction-table-section {
-	width: 33%;
+	width: 375px;
 	float: left;
 }
 
 .bg-green {
-	background: #ccebd6;
+	background: #e6f5ec;
 }
 
 .bg-wight {
 	background: #ffffff;
     border-radius: 0px 0 10px 10px;
-	border: 1px solid #28994b;
+	border: 2px solid #28994b;border-top: 0;
 }
 
 .protaction-contant-part ul {
 	list-style-type: none;
-	padding-right: 10px;
+	padding-left: 58px;
 }
 
 .protaction-contant-part li {
@@ -407,13 +460,17 @@ button:focus {
 	/* width: 1.3em; */
 	color: #009c33;
 	position: absolute;
-	left: -30px;
+	left: -40px;
 }
 
 .accordian-part a {
-	color: #009c33;
 	font-size: 22px;
-	font-weight: bold;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #009c33;
 }
 
 .accordian-part a:hover {
@@ -432,10 +489,10 @@ button:focus {
     float: left;
     background: #fff;
     border-radius: 10px 10px 0px 0 ;
-	border: 1px solid #28994b;
+	border: solid 2px #009c33;border-bottom: 0;
 }
 .color-orange .image-part {
-    border: 1px solid #ef8a29;
+    border: 2px solid #ef8a29;    border-bottom: 0;
 }
 .image-part-height{height: 250px;}
 .protaction-table-main {
@@ -453,41 +510,55 @@ button:focus {
 }
 
 h3.protaction-title {
-	padding: 10px 0;
-	background: #28994b;
-	margin: 0;
-	color: #fff;
+	padding: 8px 0 5px 0;
 	font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: 0.95px;
+    color: #ffffff;
+    background-color: #009c33;    margin: 0;
 }
 
 .protaction-table-section h4 {
-	font-size: 22px;
-	margin: 30px 0 15px 0;font-weight: bold;
+	font-family: HDI-GerlingSans;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+	color: #000000;
+	margin: 31px 0 15px;
 }
 
 .protaction-table-section h5 {
 	font-size: 16px;
-	font-stretch: condensed;
-	font-style: normal;
-	line-height: 1.5;
-	letter-spacing: normal;
-	font-weight: 300;
-	margin-bottom: 0;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 .protaction-table-section h5 span {
-	font-size: 40px;
-	color: #009c33;
+    font-size: 40px;
+    color: #009c33;
+    margin: 0;
+    padding: 0;
 }
 
 .protaction-table-section h6 {
 	font-size: 16px;
-	font-stretch: condensed;
-	font-style: normal;
-	line-height: 1.5;
-	letter-spacing: normal;
-	font-weight: 300;
-	margin-bottom: 0;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000000;margin: 0;
 }
 
 .protaction-contant-part li {
@@ -500,7 +571,7 @@ h3.protaction-title {
 	color: #009c33;
 	width: 240px;
     height: 50px;
-	margin: 20px 0;font-size: 19px;
+	margin: 34px 0 33px 0;;font-size: 19px;
 	font-weight: bold;font-family: HDI-GerlingSans;}
 
 }
@@ -522,7 +593,7 @@ h3.protaction-title {
 }
 
 .protaction-table-section.color-orange .bg-wight {
-	border: 1px solid #ef8a29;
+	border: 2px solid #ef8a29;
 }
 
 .accordian-part {
@@ -533,7 +604,7 @@ h3.protaction-title {
 
 .accordion-heading {
 	border-bottom: 1px solid;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .accordion-toggle:after {
@@ -553,30 +624,31 @@ h3.protaction-title {
 }
 
 .acordian-bottom-part-title {
-	width: 100%;
-	float: left;
 	text-align: center;
-	padding-bottom: 40px;
+    width: 564px;
+    height: 152px;
+    margin: 0 auto;
 }
 
 .acordian-bottom-part-title h3 {
-	font-size: 30px;
-	font-weight: bold;
-	line-height: 1.1;
-	color: #009c33;
-	padding: 0 330px;
-	letter-spacing: normal;
-	margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #009c33;
 }
 
 .acordian-bottom-part-title p {
-	font-size: 18px;
-	font-weight: 300;
-	font-stretch: condensed;
-	font-style: normal;
-	line-height: 1.32;
-	letter-spacing: normal;
-	padding: 0 280px;
+	font-size: 19px;
+  font-weight: 300;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  color: #000000;
+  float: left;
+  margin-bottom: 54px;
 }
 
 .aword-part-image {
@@ -632,14 +704,18 @@ img.aword-img2 {
 .slider-rate-part {
 	background: #fff;
 	text-align: center;
-	padding-bottom: 10px;
 }
 
 .slider-rate-part h4 {
 	font-size: 22px;
 	font-weight: bold;
 }
-
+.accordian-slider .owl-theme .owl-nav {
+    margin-top: 0px;
+}
+.accordian-slider .owl-dots {
+    margin: 43px 0 26px 0;
+}
 .faq-section {
 	width: 100%;
 	float: left;
@@ -687,15 +763,35 @@ section.faq-section {
 
 .slider-rate-part h4 {
 	font-size: 22px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+    margin: 0;
 }
 
 .slider-rate-part p {
 	font-size: 16px;
+  font-weight: 300;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 2.06;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 0;
+	
 }
 
 .slider-rate-part p span {
 	font-size: 40px;
-	color: #009c33;
+    color: #009c33;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
 }
 
 a.nav-link {
@@ -843,15 +939,15 @@ a:hover {
 	float: left;
 }
 .protaction-table-section .sm-center {
-    height: 90px;
+    height: 110px;
 }
 
 .aword-part-taxt h3 {
-	font-size: 24px;
-	font-weight: bold;
-	/* line-height: 1.1; */
-	color: #009c33;
-	text-transform: uppercase;
+	font-size: 30px;
+  	font-weight: bold;
+  	line-height: 1.1;
+  	color: #009c33;
+    text-transform: uppercase;
 }
 
 .aword-part-taxt p {
@@ -859,14 +955,41 @@ a:hover {
 }
 
 .aword-part-taxt p.title-p {
-	padding: 20px 0 10px 0;
-	font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    color: #000000;
 }
 
 .aword-part-taxt p.contant-p {
-	padding: 0 145px 0px 0;
-	margin: 0;
+    width: 436px;
+    height: 147px;
+    font-size: 19px;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #000000;
+    margin: 40px 0 10px 0;
+    float: left;
 }
+	.aword-part-taxt p.contant-p b {
+		font-size: 17px;
+		font-weight: bold;
+		line-height: 1.29;
+	}
+	.awords-img.none-sm {
+		width: 100%;
+		float: left;
+		margin-top: 20px;
+	}
+    
 
 #f1_container {
 	position: relative;
@@ -928,7 +1051,7 @@ a:hover {
 	width: 100%;
 	float: left;
 	text-align: left;font-size: 16px;
-    font-weight: 300;
+    font-weight: 300;color: #000;
 }
 
 .title-ratecard h4 {
@@ -968,11 +1091,11 @@ a:hover {
     font-weight: normal;
     font-size: 30px;
     top: -10px;
-    left: 10px;
+	left: 20px;
     position: absolute;
 }
 .open-more-option a {
-    padding-left: 20px;font-size: 16px;
+    padding-left: 40px;font-size: 16px;
     font-weight: bold;cursor: pointer;
 }
 .open-more-option .accordion-toggle:after {
