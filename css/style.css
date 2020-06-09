@@ -401,8 +401,8 @@ li.img-last-part {
 .protaction-part-title {
 	text-align: center;
     width: 580px;
-    height: 77px;
-    margin: 0 auto;
+	height: 77px;
+	margin: 0 auto 60px;;
 }
 
 .protaction-part-title h3 {
@@ -1155,18 +1155,21 @@ a:hover {
 	padding: 10px 60px 10px 15px;
 	width: 280px;
     height: 55px;
-	background: #ef8a29;
+	background: #ff9632;
 	position: relative;
 	color: #fff;
-	font-size: 20px;box-shadow: 2px 2px 5px #ef8a29;
+	font-size: 20px;box-shadow: 2px 2px 5px #ff9632;
 	font-weight: bold;
 	font-family: HDI-GerlingSans;
   font-size: 20px;
   font-weight: bold;
 }
-
+.btn-3a.bg-orang-btn:hover{background: #ff9632;}
 .btn-3.bg-orang-btn {
-	background: #ef8a29;
+	background: #ff9632;
+}
+.btn-3.bg-orang-btn:hover {
+    background: #ef8a29;
 }
 
 .btn-3a.bg-green-btn {
@@ -1183,6 +1186,14 @@ a:hover {
   	font-size: 20px;
   	font-weight: bold;
 }
+.border-btn:hover {
+    background: #009c33;
+    color: #fff;
+}
+.btn-3a.bg-green-btn:hover{background: #007d29;}
+.btn-3.bg-green-btn:hover:after {
+	background: #005e1f;
+}
 .border-top-first {
     border-top: 2px solid #009c33;
 }
@@ -1192,7 +1203,10 @@ a:hover {
 
 
 .btn-3a.bg-orang-btn:after {
-	background-color: #eb6900;
+	background-color: #ff7200;
+}
+.btn-3a.bg-orang-btn:hover:after {
+    background-color: #eb6900;
 }
 p.color-green{color: #009c33;font-size: 19px;
 	font-weight: normal; margin: 0; padding: 0;}
