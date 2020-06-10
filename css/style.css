@@ -1274,7 +1274,9 @@ ul.hegiht-protection {
 }
 .btn-3a.bg-green-btn:hover{background: #007d29;}
 .btn-3.bg-green-btn:hover:after {
-	background: #005e1f;
+	background: #005e1f;    background-image: url(../images/Arrow_CTA.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .border-top-first {
     border-top: 2px solid #009c33;
