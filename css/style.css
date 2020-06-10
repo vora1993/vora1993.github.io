@@ -20,7 +20,13 @@ button:focus {
 	outline: none;
 }
 a.nav-link:hover {
-    color: #009c33;
+    font-size: 16px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.8px;
+  color: #009c33;
 }
 .opacity-none{opacity: 0;}
 /* .img-bg {
@@ -466,8 +472,9 @@ li.img-last-part {
 }
 
 .protaction-table-section {
-	max-width: 375px;width: 100%;
+	max-width: 375px;
 	float: left;
+	width: 33.33%;
 }
 
 .bg-green {
@@ -628,7 +635,7 @@ h3.protaction-title {
 .border-btn {
 	border: 1.5px solid #28994b;
 	color: #009c33;
-	width: 240px;
+	max-width: 240px;
     height: 50px;
 	margin: 34px 0 33px 0;;font-size: 19px;
 	font-weight: bold;font-family: HDI-GerlingSans;}
@@ -1235,7 +1242,7 @@ ul.hegiht-protection {
 
 .btn-3a.bg-orang-btn {
 	padding: 10px 60px 10px 15px;
-	width: 280px;
+	max-width: 280px;
     height: 55px;
 	background: #ff9632;
 	position: relative;
