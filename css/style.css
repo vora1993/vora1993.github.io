@@ -768,7 +768,7 @@ a:hover {
 	text-decoration: none;
 	outline: none;
 }
-.btn-link:hover{outline: none;text-decoration: none;}
+.btn-link:hover, .btn-link:focus{outline: none;text-decoration: none;}
 
 .faq-accordion-heading a {
 	font-size: 21px;
