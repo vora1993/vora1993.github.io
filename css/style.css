@@ -577,7 +577,7 @@ h3.protaction-title {
     line-height: 1.16;
     letter-spacing: 0.95px;
     color: #ffffff;
-    background-color: #009c33;    margin: 0;
+    background-color: #009c33;    margin: 0;position: relative;
 }
 
 .protaction-table-section h4 {

@@ -248,7 +248,7 @@
 			}
 			.acordian-bottom-part-title p {
 				font-size: 17px;
-				line-height: 1.25;
+				line-height: 1.35;
 			}
 			.aword-part1 .w-50 {
 				width: 100% !important;
@@ -371,6 +371,8 @@
 				align-items: center;
 				justify-content: center;
 			}
+			.accordian-part a {
+				font-size: 17px;}
 
 	.none-sm {
 		display: none;
