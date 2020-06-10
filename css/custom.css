@@ -305,7 +305,7 @@
 			}
 			.acordian-bottom-part-title h3 {
 				font-size: 24px;
-				line-height: 1.25;
+				line-height: 1.25;    margin-top: 76px;
 			}
 			.accordion-heading {
 				margin-bottom: 0;
@@ -315,9 +315,7 @@
 				margin: 0 auto;
 			}
 			.acordian-bottom-part-title {
-				max-width: 344px;
-				margin-top: 76px;
-				display: inline-block;
+				max-width: 344px;margin: 0 auto;}
 			}
 			.accordion-inner.accordian-table {
 				margin-top: 42px;
@@ -513,7 +511,7 @@
 	}
 	
 }
-@media only screen and (min-width: 768px) and (max-width:1024) {
+@media only screen and (min-width: 768px) and (max-width:1024px) {
 	.main-bg-image {
 		background: inherit;
 		width: 100%;
