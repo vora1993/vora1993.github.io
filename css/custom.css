@@ -513,7 +513,7 @@
 	}
 	
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width:1024) {
 	.main-bg-image {
 		background: inherit;
 		width: 100%;
@@ -546,6 +546,7 @@
 	.first-text-part .sm-center {
 		margin-top: 10px;
 	}
+	.bg-wight .btn-3a.bg-orang-btn {max-width: 270px;}
 	.btn-3a.bg-orang-btn {
 		width: 270px;
 		height: 55px;
@@ -624,7 +625,6 @@
 	.bg-wight .border-btn  {
 		max-width: 230px;
 	}
-	.border-btn:hover a{color: #fff;}
 	.top-forth-part {
 		padding-top: 0px;
 		float: left;
