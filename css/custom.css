@@ -12,6 +12,24 @@
 /* Small devices (portrait tablets and large phones, 767px and up) */
 
 @media only screen and (max-width: 767px) {
+	.top-navbar .fixed-top {
+		padding: 13px 15px 11px;
+		z-index: 9999999;
+	}
+	.bg-green .arrow-class button.owl-prev {
+		position: absolute;
+		left: -20px;
+		top: 40%;
+		height: 40px !important;
+		width: 40px!important;
+	}
+	.bg-green .arrow-class button.owl-next {
+		position: absolute;
+		right: -20px;
+		top: 40%;
+		height: 40px !important;
+		width: 40px!important;
+	}
 	.fift-text-part h3{font-size: 24px;line-height: 1.25;}
 	.main-content .owl-theme .custom-nav {
 		top: 40%;}
@@ -513,7 +531,194 @@
 	}
 	
 }
-@media only screen and (max-width: 1024px) {
+
+/* @media only screen and (min-width: 768px) and (max-width:991px) {
+		.slider-rate-part h4 {
+			font-size: 18px;}
+		
+		.img-2 {height: 192px;width: 185px;}
+		.img-1 {height: 215px;width: 165px;}
+		.aword-part-taxt p.contant-p {max-width: 436px;max-height: inherit;}
+		.aword-part-taxt h3 {font-size: 20px;}
+		.aword-part-taxt p.title-p {font-size: 18px;}
+		a.nav-link {font-size: 15px;}
+		.top-navbar .ml-md-4, .mx-md-4 {margin-left: 0.5rem!important;}
+		.btn-3a.bg-orang-btn {font-size: 14px;}
+		.border-btn {font-size: 17px;}
+		.top-navbar .fixed-top {padding: 20px 50px;}
+		.back.face.center {padding: 20px;}
+		.image-part-height {
+			height: 150px;
+		}
+		.top-navbar .fixed-top {
+			padding: 10px 30px;
+		}
+		.image-part img {
+			max-height: 150px;
+		}
+		.protaction-table-section h4 {font-size: 18px;}
+		.protaction-table-section h5 span {font-size: 30px;}
+		ul.hegiht-protection {height: 540px;}
+		ul.footer-text {padding: 82px 50px 82px 0 !important;}
+		ul.footer-icon {padding: 82px 50px 82px 0 !important;}
+		ul.footer-last-taxt {padding: 82px 50px 82px 0 !important;}
+		.arrow-class button.owl-prev {
+			left: -40px;}
+		.arrow-class button.owl-next {
+				right: -40px;}
+		
+		
+} */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    ul.hegiht-protection {height: 500px;}
+	.image-part img {max-height: 205px;}
+	.image-part-height {height: 200px;}
+
+	.img-1 {
+		height: 280px;
+		width: 215px;}
+	.img-2 {height: 250px;width: 270px;}
+	.aword-part-taxt h3 {font-size: 28px;}
+	.aword-part-taxt p.title-p {
+		font-size: 18px;}
+		.aword-part-taxt p.contant-p{max-height:inherit ;}
+		.arrow-class button.owl-next {
+			right: -35px;}
+			.arrow-class button.owl-prev {
+				left: -35px;}
+	}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 768px) and (max-width:779px) {
+
+	.first-text-part h1 {font-size: 24px;}
+	.first-text-part h4 {font-size: 22px; margin: 10px 0 30px;}
+	.top-first-part {
+		padding-top: 40px;
+	}
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -30px / 100% no-repeat;}
+	.first-text-part ul li {font-size: 16px;}
+	
+
+}
+@media only screen and (min-width: 780px) and (max-width:790px) {
+	
+}
+@media only screen and (min-width: 791px) and (max-width:800px) {
+	
+}
+@media only screen and (min-width: 801px) and (max-width:812px) {
+	
+
+}
+@media only screen and (min-width: 813px) and (max-width:834px) {
+	
+
+}
+
+
+
+@media only screen and (min-width: 850px) and (max-width:896px) {
+	
+}
+@media only screen and (min-width: 1000px) and (max-width:1024px) {
+
+}
+
+@media only screen and (min-width: 1050px) and (max-width:1080px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1250px) {
+} 
+@media only screen and (min-width: 1251px) and (max-width:1280px) {
+	.third-part-image {padding-top: 94px;}
+	.top-forth-part {padding-top: 140px}
+	.fift-text-part {margin: 16px auto 0;}
+} 
+
+@media only screen and (min-width: 1350px) and (max-width:1366px){
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -105px / 100% no-repeat;}
+	.top-second-part {
+		padding-top: 80px;
+	}
+	.top-third-part {
+		margin-top: 30px;
+	}
+	.top-forth-part {
+		padding-top: 190px;
+	}
+	.fift-text-part {margin: 55px auto 0;}
+
+
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width:1440px) {
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -120px / 100% no-repeat;}
+	.top-second-part {
+		padding-top: 100px;
+	}
+	.top-third-part {
+		margin-top: 80px;
+	}
+	.top-forth-part {
+		padding-top: 220px;
+	}
+	.fift-text-part {margin: 95px auto 0;}
+
+
+
+}
+@media only screen and (min-width: 1500px) and (max-width:1536px) {
+
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -145px / 100% no-repeat;}
+	.top-second-part {padding-top: 110px;}
+	.top-third-part {margin-top: 140px;}
+	.top-forth-part {padding-top: 260px;}
+	.fift-text-part {margin: 145px auto 0;}
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1570px) and (max-width:1600px) {
+	.third-part-text {padding-top: 250px;}
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -165px / 100% no-repeat;}
+	.third-part-image {padding-top: 290px;}
+	.top-second-part {padding-top: 160px;}
+	.top-forth-part {padding-top: 295px;}
+	.fift-text-part {margin: 180px auto 0;}
+}
+@media only screen and (min-width: 1601px) and (max-width:1680px) {
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -190px / 100% no-repeat;}
+	.top-second-part{padding-top: 170px;}
+	.top-forth-part {padding-top: 320px;}
+	.fift-text-part {margin: 100px auto 0;}
+	.top-fift-image {max-width: 695px;}
+	
+}
+
+@media only screen and (min-width: 1850px) and (max-width:1920px) {
+	.main-bg-image {background: url(../images/Street_Straße.svg) center -250px / 100% no-repeat;}
+	.top-second-part {padding-top: 300px;}
+	.top-forth-part {padding-top: 425px;}
+	.fift-text-part {margin: 300px auto 0;}
+	.top-third-part {
+		margin-top: 310px;
+	}
+	.top-fift-image {
+		max-width: 565px;}
+}
+@media only screen and (min-width: 768px) and (max-width:1024px) {
 	.main-bg-image {
 		background: inherit;
 		width: 100%;
@@ -689,190 +894,9 @@
 		max-width: 375px;
 		float: left;
 	}
-}
-
-/* @media only screen and (min-width: 768px) and (max-width:991px) {
-		.slider-rate-part h4 {
-			font-size: 18px;}
-		
-		.img-2 {height: 192px;width: 185px;}
-		.img-1 {height: 215px;width: 165px;}
-		.aword-part-taxt p.contant-p {max-width: 436px;max-height: inherit;}
-		.aword-part-taxt h3 {font-size: 20px;}
-		.aword-part-taxt p.title-p {font-size: 18px;}
-		a.nav-link {font-size: 15px;}
-		.top-navbar .ml-md-4, .mx-md-4 {margin-left: 0.5rem!important;}
-		.btn-3a.bg-orang-btn {font-size: 14px;}
-		.border-btn {font-size: 17px;}
-		.top-navbar .fixed-top {padding: 20px 50px;}
-		.back.face.center {padding: 20px;}
-		.image-part-height {
-			height: 150px;
-		}
+	a.nav-link {
+		font-size: 14px;}
 		.top-navbar .fixed-top {
-			padding: 10px 30px;
-		}
-		.image-part img {
-			max-height: 150px;
-		}
-		.protaction-table-section h4 {font-size: 18px;}
-		.protaction-table-section h5 span {font-size: 30px;}
-		ul.hegiht-protection {height: 540px;}
-		ul.footer-text {padding: 82px 50px 82px 0 !important;}
-		ul.footer-icon {padding: 82px 50px 82px 0 !important;}
-		ul.footer-last-taxt {padding: 82px 50px 82px 0 !important;}
-		.arrow-class button.owl-prev {
-			left: -40px;}
-		.arrow-class button.owl-next {
-				right: -40px;}
-		
-		
-} */
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-
-@media only screen and (min-width: 992px) and (max-width:1199px) {
-    ul.hegiht-protection {height: 500px;}
-	.image-part img {max-height: 205px;}
-	.image-part-height {height: 200px;}
-
-	.img-1 {
-		height: 280px;
-		width: 215px;}
-	.img-2 {height: 250px;width: 270px;}
-	.aword-part-taxt h3 {font-size: 28px;}
-	.aword-part-taxt p.title-p {
-		font-size: 18px;}
-		.aword-part-taxt p.contant-p{max-height:inherit ;}
-		.arrow-class button.owl-next {
-			right: -35px;}
-			.arrow-class button.owl-prev {
-				left: -35px;}
-	}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 768px) and (max-width:779px) {
-
-	.first-text-part h1 {font-size: 24px;}
-	.first-text-part h4 {font-size: 22px; margin: 10px 0 30px;}
-	.top-first-part {
-		padding-top: 40px;
-	}
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -30px / 100% no-repeat;}
-	.first-text-part ul li {font-size: 16px;}
+			padding: 24px 20px;}
 	
-
-}
-@media only screen and (min-width: 780px) and (max-width:790px) {
-	
-}
-@media only screen and (min-width: 791px) and (max-width:800px) {
-	
-}
-@media only screen and (min-width: 801px) and (max-width:812px) {
-	
-
-}
-@media only screen and (min-width: 813px) and (max-width:834px) {
-	
-
-}
-
-
-
-@media only screen and (min-width: 850px) and (max-width:896px) {
-	
-}
-@media only screen and (min-width: 1000px) and (max-width:1024px) {
-
-}
-
-@media only screen and (min-width: 1050px) and (max-width:1080px) {
-}
-
-@media only screen and (min-width: 1200px) and (max-width:1250px) {
-} 
-@media only screen and (min-width: 1251px) and (max-width:1280px) {
-	.third-part-image {padding-top: 94px;}
-	.top-forth-part {padding-top: 140px}
-	.fift-text-part {margin: 16px auto 0;}
-} 
-
-@media only screen and (min-width: 1350px) and (max-width:1366px){
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -105px / 100% no-repeat;}
-	.top-second-part {
-		padding-top: 80px;
-	}
-	.top-third-part {
-		margin-top: 30px;
-	}
-	.top-forth-part {
-		padding-top: 190px;
-	}
-	.fift-text-part {margin: 55px auto 0;}
-
-
-}
-
-
-@media only screen and (min-width: 1400px) and (max-width:1440px) {
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -120px / 100% no-repeat;}
-	.top-second-part {
-		padding-top: 100px;
-	}
-	.top-third-part {
-		margin-top: 80px;
-	}
-	.top-forth-part {
-		padding-top: 220px;
-	}
-	.fift-text-part {margin: 95px auto 0;}
-
-
-
-}
-@media only screen and (min-width: 1500px) and (max-width:1536px) {
-
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -145px / 100% no-repeat;}
-	.top-second-part {padding-top: 110px;}
-	.top-third-part {margin-top: 140px;}
-	.top-forth-part {padding-top: 260px;}
-	.fift-text-part {margin: 145px auto 0;}
-
-
-
-
-
-
-}
-@media only screen and (min-width: 1570px) and (max-width:1600px) {
-	.third-part-text {padding-top: 250px;}
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -165px / 100% no-repeat;}
-	.third-part-image {padding-top: 290px;}
-	.top-second-part {padding-top: 160px;}
-	.top-forth-part {padding-top: 295px;}
-	.fift-text-part {margin: 180px auto 0;}
-}
-@media only screen and (min-width: 1601px) and (max-width:1680px) {
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -190px / 100% no-repeat;}
-	.top-second-part{padding-top: 170px;}
-	.top-forth-part {padding-top: 320px;}
-	.fift-text-part {margin: 100px auto 0;}
-	.top-fift-image {max-width: 695px;}
-	
-}
-
-@media only screen and (min-width: 1850px) and (max-width:1920px) {
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -250px / 100% no-repeat;}
-	.top-second-part {padding-top: 300px;}
-	.top-forth-part {padding-top: 425px;}
-	.fift-text-part {margin: 300px auto 0;}
-	.top-third-part {
-		margin-top: 310px;
-	}
-	.top-fift-image {
-		max-width: 565px;}
 }
