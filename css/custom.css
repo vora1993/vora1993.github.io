@@ -558,6 +558,8 @@
 								}
 								.btn-3a.bg-orang-btn {
 									font-size: 14px;}
+									.border-btn {
+										font-size: 17px;}
 }
 
 
@@ -737,17 +739,7 @@
 			margin-top: 22px;
 		}
 		.border-btn {padding: 5px 20px;}
-		.switching-part {padding-top: 40px;}
-		.protaction-table-section .sm-center {
-			height: 80px;
-		}
-		.acordian-bottom-part-title p {
-			font-size: 17px;
-			padding: 0 85px;
-		}
-		.aword-part-taxt p.contant-p {
-			padding: 0 45px 0px 0;}
-}
+	}
 @media only screen and (min-width: 1000px) and (max-width:1024px) {
 
 }
