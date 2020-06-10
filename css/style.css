@@ -194,7 +194,7 @@ a.nav-link:hover {
 	font-stretch: condensed;
 	font-style: normal;position: relative; padding-bottom: 20px;}
 .top-navbar .fixed-top {
-	padding: 20px 63px;}
+	padding: 20px 63px;z-index: 9999999;}
 	
 	.top-second-part h3 {
 		font-size: 30px;

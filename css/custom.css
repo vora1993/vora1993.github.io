@@ -434,7 +434,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
-	.navbar-expand-md .navbar-nav .nav-link {
+	/* .navbar-expand-md .navbar-nav .nav-link {
 		padding-right: 5px;
 		padding-left: 5px;
 		font-size: 12px;
@@ -537,15 +537,32 @@
 		.footer-main ul{padding: 60px 20px 60px 0 !important;}
 		.image-part-height {
 			height: 200px;
-		}
-		
+		} */
+		.img-2 {
+			height: 192px;
+			width: 185px;}
+			.img-1 {
+				height: 215px;
+				width: 165px;}
+				.aword-part-taxt p.contant-p {
+					max-width: 436px;
+					max-height: inherit;}
+					.aword-part-taxt h3 {
+						font-size: 20px;}
+						.aword-part-taxt p.title-p {
+							font-size: 18px;}
+							a.nav-link {
+								font-size: 15px;}
+								.top-navbar .ml-md-4, .mx-md-4 {
+									margin-left: 0.5rem!important;
+								}
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
-    .aword-part-taxt h3 {
+    /* .aword-part-taxt h3 {
         font-size: 20px;padding: 0;}
     .img-2 {height: 245px;width: 250px;}
     .img-1 {
@@ -595,15 +612,27 @@
 	}
 	.slider-rate-part h4 {
 		font-size: 18px;
+	} */
+	.img-1 {
+		height: 280px;
+		width: 215px;}
+	.img-2 {height: 250px;width: 270px;}
+	.aword-part-taxt h3 {font-size: 28px;}
+	.aword-part-taxt p.title-p {
+		font-size: 18px;}
+		.aword-part-taxt p.contant-p{max-height:inherit ;}
+		.arrow-class button.owl-next {
+			right: -35px;}
+			.arrow-class button.owl-prev {
+				left: -35px;}
 	}
-}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 768px) and (max-width:1000px) {
 
-	.main-bg-image {
+	/* .main-bg-image {
 	background: url(../images/Street_Straße.svg) center -50px / 100% no-repeat;}
 	.first-text-part h1 {font-size: 24px;}
 	.first-text-part h4 {font-size: 18px;}
@@ -612,7 +641,6 @@
 	.first-image-part img {top: -80px;}
 	.top-second-part {	padding: 15px 0 0;}
 	.top-second-part h3 {font-size: 22px;}
-	/* .third-part-text .border-btn{margin: 0;} */
 	.third-part-text h4 {font-size: 16px;}
 	.main-bg-image p {
 		font-size: 14px;
@@ -638,10 +666,10 @@
 	}
 	.forth-part-text h4 {
 		font-size: 16px;
-	}
+	} */
 }
 @media only screen and (min-width: 780px) and (max-width:800px) {
-	.first-image-part img {
+	/* .first-image-part img {
 		top: -75px;
 	}
 	.top-second-part {
@@ -652,7 +680,7 @@
 	}
 	.fift-text-part h3 {
 		padding-top: 5px;
-	}
+	} */
 
 }
 @media only screen and (min-width: 801px) and (max-width:812px) {
@@ -752,7 +780,7 @@
 	
 } 
 @media only screen and (min-width: 1251px) and (max-width:1280px) {
-	.third-part-image {padding-top: 40px;}
+	/* .third-part-image {padding-top: 40px;}
 	.third-part-image {padding-top: 35px;}
 	.forth-part-text p{padding-left: 130px;margin-bottom: 0;}
 	.top-forth-part {padding-top: 145px;}
@@ -763,7 +791,7 @@
 	.switching-part {padding-top: 50px;}
 	.accordian-part {margin-bottom: 0;}
 	.acordian-bottom-part-title p {padding: 0 280px;}
-	.aword-part-taxt p.contant-p {padding: 0 145px 0px 0;}
+	.aword-part-taxt p.contant-p {padding: 0 145px 0px 0;} */
 	
 } 
 
