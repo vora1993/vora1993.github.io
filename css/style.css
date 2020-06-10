@@ -303,12 +303,16 @@ b{font-weight: bold !important;}
 	}
 
 	.first-text-part li:before {
-		content: "\f00c";
-		font-family: FontAwesome;
+		content: "";
 		display: inline-block;
-		color: #009c33;
 		position: absolute;
 		left: -40px;
+		background-image: url(../images/Checkmark_green.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 23px;
+		height: 19.6px;
+		top: 5px;
 	}
 	.first-text-part li {
 		font-size: 16px;}
@@ -385,10 +389,7 @@ li.img-last-part {
     width: 106.4px !important;
     height: 81px !important;
 }
-li.switching-first-image {
-    width: 80px ;
-    text-align: center;
-}
+
 
 
 .switching-part-section .number-part {
@@ -662,7 +663,7 @@ h3.protaction-title {
 }
 
 .accordion-heading {
-	border-bottom: 1px solid;
+	border-bottom: 1.5px solid #000;
 	margin-bottom: 78px;
 }
 
@@ -1390,3 +1391,8 @@ ul.footer-icon img{margin-top:10px ;}
 .m-t-10{margin-top: 10px;} 
 .m-b-76{margin-bottom: 76px;}
 .footer-last-taxt a {color: #fff;}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #009c33;
+}
+
+.owl-theme .owl-dots .owl-dot span{background: #99d7ad;}
