@@ -305,7 +305,7 @@
 			}
 			.acordian-bottom-part-title h3 {
 				font-size: 24px;
-				line-height: 1.25;    margin-top: 76px;
+				line-height: 1.25;
 			}
 			.accordion-heading {
 				margin-bottom: 0;
@@ -315,7 +315,9 @@
 				margin: 0 auto;
 			}
 			.acordian-bottom-part-title {
-				max-width: 344px;margin: 0 auto;}
+				max-width: 344px;
+				margin-top: 76px;
+				display: inline-block;
 			}
 			.accordion-inner.accordian-table {
 				margin-top: 42px;
@@ -511,7 +513,7 @@
 	}
 	
 }
-@media only screen and (min-width: 768px) and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
 	.main-bg-image {
 		background: inherit;
 		width: 100%;
@@ -689,7 +691,7 @@
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-width:991px) {
+/* @media only screen and (min-width: 768px) and (max-width:991px) {
 		.slider-rate-part h4 {
 			font-size: 18px;}
 		
@@ -725,7 +727,7 @@
 				right: -40px;}
 		
 		
-}
+} */
 
 
 /* Large devices (laptops/desktops, 992px and up) */
