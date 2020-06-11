@@ -407,7 +407,7 @@
 				padding-right: 0;
 				margin-left: 28px;
 				width: 50%;
-				height: 100%;
+				height: 142px;
 			}
 			img.aword-img2 {
 				overflow-x: hidden;
@@ -415,7 +415,7 @@
 				float: left;
 				position: absolute;
 				right: -58px;
-				height: 90%;
+				height: auto;
 			}
 			.awords-img .item {
 				display: flex;
