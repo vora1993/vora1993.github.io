@@ -335,14 +335,15 @@
 			.acordian-bottom-part-title {
 				max-width: 344px;
 				margin-top: 76px;
-				display: inline-block;
+				display: inline-block;max-height: 100%;
 			}
 			.accordion-inner.accordian-table {
 				margin-top: 42px;
 			}
 			.acordian-bottom-part-title p {
 				font-size: 17px;
-				line-height: 1.35;
+				line-height: 1.35;margin-bottom: 40px;
+
 			}
 			.aword-part1 .w-50 {
 				width: 100% !important;
@@ -596,17 +597,39 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 768px) and (max-width:779px) {
-
-	.first-text-part h1 {font-size: 24px;}
-	.first-text-part h4 {font-size: 22px; margin: 10px 0 30px;}
-	.top-first-part {
-		padding-top: 40px;
+@media only screen and (min-width: 768px) and (max-width:991px) {
+	/*  */
+	.bg-wight .btn-3a.bg-orang-btn {font-size: 14px;max-width: 200px !important;}
+	.bg-wight .btn-3:after {width: 40px;}
+	 .protaction-table-section .bg-wight h4 {font-size: 18px;}
+	 .image-part img {max-height: 160px !important;}
+	 .image-part-height {
+		height: 150px !important;}
+		.arrow-class button.owl-next {right: -40px!important;}
+		.arrow-class button.owl-prev {left: -40px !important; }
+		.aword-part-taxt h3 {
+			font-size: 28px;
+		}
+		.aword-part-taxt p.title-p {
+			font-size: 18px;
+		}
+		.img-1 {
+			height: 221px;
+			width: 172px;
+		}
+		.img-2 {
+			height: 200px;
+			width: 200px;
+		}
+		.aword-part-taxt p.contant-p {
+			max-height: inherit;
+		}
+		.navbar-expand-md .navbar-nav .nav-link {
+			padding-right: 5px;
+			padding-left: 5px;
+		}
 	}
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -30px / 100% no-repeat;}
-	.first-text-part ul li {font-size: 16px;}
-	
-
+	/*  */
 }
 @media only screen and (min-width: 780px) and (max-width:790px) {
 	
@@ -719,6 +742,8 @@
 		max-width: 565px;}
 }
 @media only screen and (min-width: 768px) and (max-width:1024px) {
+	.slider-rate-part h4 {
+		font-size: 20px;}
 	.main-bg-image {
 		background: inherit;
 		width: 100%;
@@ -828,8 +853,13 @@
 		width: 230px;
 	}
 	.bg-wight .border-btn  {
-		max-width: 230px;
+		max-width: 200px;
 	}
+
+	.bg-wight .border-btn a {
+    font-size: 16px;
+	}
+	
 	.top-forth-part {
 		padding-top: 0px;
 		float: left;
@@ -898,5 +928,8 @@
 		font-size: 14px;}
 		.top-navbar .fixed-top {
 			padding: 24px 20px;}
+			.image-part img {
+				max-height: 205px;
+			}
 	
 }
