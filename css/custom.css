@@ -852,12 +852,12 @@
 	.first-image-part {
 		width: 55%;
 		position: absolute;
-		right: 0;
-		top: 52px;
+		right: 32px;
+		top: 64px;
 	}
 	.first-image-part img {
 		position: absolute;
-		width: 90%;
+		width: 86%;
 		float: left;
 		top: 0;
 	}
@@ -941,7 +941,7 @@
 .fift-text-part {
     margin: 0 auto 0;
 }
-}
+
 .top-fift-image {
     max-width: 450px;
     width: 100%;
@@ -952,5 +952,14 @@
     float: left;
 }
 
+}
+@media only screen and (min-width: 1024px) and (max-width:1199px) {
+	.third-part-image {
+		padding-top: 0;
+		position: absolute;
+		top: 866px;
+		padding-right: 25px;
+		width: 440px !important;
+	}
 }
 	
