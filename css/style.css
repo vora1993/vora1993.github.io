@@ -396,7 +396,7 @@ li.img-last-part {
 .faq-accordion-heading .accordion-toggle.collapsed:after {
     content: "";
     display: inline-block;
-    background-image: url(../images/arrow_down_black.svg);
+    background-image: url(../images/arrow_down_green.svg);
     background-repeat: no-repeat;
     background-position: center;
     font-size: 30px;
@@ -409,7 +409,7 @@ li.img-last-part {
 .faq-accordion-heading .accordion-toggle:after {
     content: "";
     display: inline-block;
-    background-image: url(../images/arrow_up_black.svg);
+    background-image: url(../images/arrow_up_green.svg);
     background-repeat: no-repeat;
     background-position: center;
     font-size: 30px;
@@ -577,7 +577,7 @@ h3.protaction-title {
 .border-btn {
 	border: 1.5px solid #28994b;
 	color: #009c33;
-	max-width: 240px;
+	width: 240px;
     height: 50px;
 	margin: 34px 0 33px 0;;font-size: 19px;
 	font-weight: bold;font-family: HDI-GerlingSans;}
@@ -1259,7 +1259,10 @@ p.color-green{padding: 0;
     font-style: normal;
     line-height: 1.32;
     letter-spacing: normal;
-    color: #009c33;margin: 0;}
+    color: #009c33;margin: 0;    width: auto;
+    float: left;
+    border-bottom: 2px solid;
+}
 
 .btn-3:after {
 	position: absolute;
@@ -1310,7 +1313,7 @@ footer{background: #009c32;width: 100%;float: left;}
     color: #ffffff;
 }
 ul.footer-text {
-    padding: 82px 82px 82px 0 !important;
+    padding: 82px 82px 63px 0 !important;
     text-align: left;
     color: #fff;
 }
@@ -1333,10 +1336,10 @@ li.bold-taxt {
     left: 60px;
 }
 ul.footer-last-taxt {
-    padding: 82px 60px 82px 0 !important;
+    padding: 82px 60px 63px 0 !important;
 }
 ul.footer-icon {
-    padding: 82px 82px 82px 0 !important;
+    padding: 82px 82px 63px 0 !important;
 }
 ul.footer-icon img.p-r-2 {
     margin-right: 20px;

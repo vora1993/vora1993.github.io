@@ -12,6 +12,25 @@
 /* Small devices (portrait tablets and large phones, 767px and up) */
 
 @media only screen and (max-width: 767px) {
+
+
+	.first-text-part {
+		width: 100%;
+		max-width: 350px;
+		margin: 0 auto;
+	}
+	.first-text-part {
+		width: 100%;
+		max-width: 350px;
+		margin: 0 auto;
+	}
+	.first-text-part ul {
+		margin: 44px 0 0;
+	}
+	.first-text-part ul li {
+		font-size: 17px;
+		padding-bottom: 30px;
+	}
 	.aword-forth-img {
 		width: 46px !important;;
 		height: 128px !important;;
@@ -31,6 +50,10 @@
 	.top-navbar .fixed-top {
 		padding: 13px 15px 11px;
 		z-index: 9999999;
+	}
+	.bg-green .item {
+		width: 294px;
+		margin: 0 auto;
 	}
 	.bg-green .arrow-class button.owl-prev {
 		position: absolute;
@@ -198,12 +221,13 @@
 			padding-top: 32px;
 			max-width: 375px !important;
 			margin: 0 auto;
+			width: 100% !important;
 		}
 		.forth-part-text {
 			text-align: left;
 			text-align: left;
     		max-width: 346px;
-    		margin: 0 auto;    padding-top: 10px;
+    		margin: 0 auto;    padding-top: 10px;width: 100% !important;
 		}
 		.forth-part-text p {
 			width: 100%;
@@ -409,8 +433,7 @@
 			}
 			.aword-part-taxt h3 {font-size: 24px; line-height: 1.25;padding: 0 20px;}
 			.aword-part-taxt p.title-p {
-				font-size: 19px;
-				line-height: 1.84;
+				font-size: 19px;line-height: 1.39;padding: 0 52px;
 			}
 			.aword-part-taxt p.contant-p{width: 100%; height:100%;font-size: 17px;line-height: 1.35;
 			  }
@@ -548,44 +571,6 @@
 	
 }
 
-/* @media only screen and (min-width: 768px) and (max-width:991px) {
-		.slider-rate-part h4 {
-			font-size: 18px;}
-		
-		.img-2 {height: 192px;width: 185px;}
-		.img-1 {height: 215px;width: 165px;}
-		.aword-part-taxt p.contant-p {max-width: 436px;max-height: inherit;}
-		.aword-part-taxt h3 {font-size: 20px;}
-		.aword-part-taxt p.title-p {font-size: 18px;}
-		a.nav-link {font-size: 15px;}
-		.top-navbar .ml-md-4, .mx-md-4 {margin-left: 0.5rem!important;}
-		.btn-3a.bg-orang-btn {font-size: 14px;}
-		.border-btn {font-size: 17px;}
-		.top-navbar .fixed-top {padding: 20px 50px;}
-		.back.face.center {padding: 20px;}
-		.image-part-height {
-			height: 150px;
-		}
-		.top-navbar .fixed-top {
-			padding: 10px 30px;
-		}
-		.image-part img {
-			max-height: 150px;
-		}
-		.protaction-table-section h4 {font-size: 18px;}
-		.protaction-table-section h5 span {font-size: 30px;}
-		ul.hegiht-protection {height: 540px;}
-		ul.footer-text {padding: 82px 50px 82px 0 !important;}
-		ul.footer-icon {padding: 82px 50px 82px 0 !important;}
-		ul.footer-last-taxt {padding: 82px 50px 82px 0 !important;}
-		.arrow-class button.owl-prev {
-			left: -40px;}
-		.arrow-class button.owl-next {
-				right: -40px;}
-		
-		
-} */
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 
@@ -644,118 +629,8 @@
 			padding-left: 5px;
 		}
 	}
-	/*  */
-
-/* @media only screen and (min-width: 780px) and (max-width:790px) {
-	
-}
-@media only screen and (min-width: 791px) and (max-width:800px) {
-	
-}
-@media only screen and (min-width: 801px) and (max-width:812px) {
-	
-
-}
-@media only screen and (min-width: 813px) and (max-width:834px) {
-	
-
-}
 
 
-
-@media only screen and (min-width: 850px) and (max-width:896px) {
-	
-}
-@media only screen and (min-width: 1000px) and (max-width:1024px) {
-
-}
-
-@media only screen and (min-width: 1050px) and (max-width:1080px) {
-}
-
-@media only screen and (min-width: 1200px) and (max-width:1250px) {
-}  */
-/* @media only screen and (min-width: 1251px) and (max-width:1280px) {
-	.third-part-image {padding-top: 94px;}
-	.top-forth-part {padding-top: 140px}
-	.fift-text-part {margin: 16px auto 0;}
-}  */
-
-/* @media only screen and (min-width: 1350px) and (max-width:1366px){
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -105px / 100% no-repeat;}
-	.top-second-part {
-		padding-top: 80px;
-	}
-	.top-third-part {
-		margin-top: 30px;
-	}
-	.top-forth-part {
-		padding-top: 190px;
-	}
-	.fift-text-part {margin: 55px auto 0;}
-
-
-} */
-
-
-/* @media only screen and (min-width: 1400px) and (max-width:1440px) {
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -120px / 100% no-repeat;}
-	.top-second-part {
-		padding-top: 100px;
-	}
-	.top-third-part {
-		margin-top: 80px;
-	}
-	.top-forth-part {
-		padding-top: 220px;
-	}
-	.fift-text-part {margin: 95px auto 0;}
-
-
-
-} */
-/* @media only screen and (min-width: 1500px) and (max-width:1536px) {
-
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -145px / 100% no-repeat;}
-	.top-second-part {padding-top: 110px;}
-	.top-third-part {margin-top: 140px;}
-	.top-forth-part {padding-top: 260px;}
-	.fift-text-part {margin: 145px auto 0;}
-
-
-
-
-
-
-} */
-/* @media only screen and (min-width: 1570px) and (max-width:1600px) {
-	.third-part-text {padding-top: 250px;}
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -165px / 100% no-repeat;}
-	.third-part-image {padding-top: 290px;}
-	.top-second-part {padding-top: 160px;}
-	.top-forth-part {padding-top: 295px;}
-	.fift-text-part {margin: 180px auto 0;}
-}
-@media only screen and (min-width: 1601px) and (max-width:1680px) {
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -190px / 100% no-repeat;}
-	.top-second-part{padding-top: 170px;}
-	.top-forth-part {padding-top: 320px;}
-	.fift-text-part {margin: 100px auto 0;}
-	.top-fift-image {max-width: 695px;}
-	
-} */
-
-/* @media only screen and (min-width: 1850px) and (max-width:1920px) {
-	.main-bg-image {background: url(../images/Street_Straße.svg) center -250px / 100% no-repeat;}
-	.top-second-part {padding-top: 300px;}
-	.top-forth-part {padding-top: 425px;}
-	.fift-text-part {margin: 300px auto 0;}
-	.top-third-part {
-		margin-top: 310px;
-	}
-	.top-fift-image {
-		max-width: 565px;}
-} */
 @media only screen and (min-width: 768px) and (max-width:1024px) {
 	.slider-rate-part h4 {
 		font-size: 20px;}
@@ -948,3 +823,134 @@
 			}
 	
 }
+
+@media only screen and (max-width: 1024px){
+	.image-bg {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 1025px) {
+	.main-width {
+		width: 1200px;
+		margin: 0 auto;
+		position: relative;    height: 2200px;
+	}
+	.top-first-part {
+		padding-top: 0;
+	}
+	.first-text-part {
+		width: 50% !important;
+		position: absolute;
+		top: 105px;
+	}
+	.first-text-part.second-possition {
+		position: absolute;
+		top: 240px;
+	}
+	.first-image-part {
+		width: 55%;
+		position: absolute;
+		right: 0;
+		top: 52px;
+	}
+	.first-image-part img {
+		position: absolute;
+		width: 90%;
+		float: left;
+		top: 0;
+	}
+	.top-second-part {
+		max-width: 564px;
+		width: 100%;
+		height: 231px;
+		font-style: normal;
+		line-height: 1.32;
+		letter-spacing: normal;
+		color: #000000;
+		margin: 0 auto;
+		text-align: center;
+		position: absolute;
+		top: 700px;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		padding-top: 0;
+	}
+	.third-part-image {
+		padding-top: 0;
+		position: absolute;
+		top: 820px;
+	}
+	.third-part-text {
+		padding-left: 0;
+		width: 100%;
+		float: left;
+		padding-top: 0;
+		position: absolute;
+		top: 820px;
+		right: 65px;
+		width: 418px !important;
+	}
+	.third-part-image {
+		padding-top: 0;
+		position: absolute;
+		top: 820px;
+		padding-right: 0;
+    width: 500px !important;
+	}
+
+.third-part-text {
+    padding-left: 0;
+    width: 100%;
+    float: left;
+    padding-top: 0;
+    position: absolute;
+    top: 820px;
+    right: 65px;
+    width: 418px !important;
+}
+.forth-part-text {
+    text-align: end;
+    position: absolute;
+    top: 1277px;
+    left: -100px;
+}
+.forth-part-text p {
+    max-width: 437px;
+    width: 100%;
+    float: right;
+    margin: 0;
+}
+
+.top-forth-part-image {
+    z-index: -1;
+    padding-top: 0;
+    position: absolute;
+    top: 1280px;
+    right: 90px;
+}
+.top-fift-part {
+    position: absolute;
+    top: 1642px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.fift-text-part {
+    margin: 0 auto 0;
+}
+}
+.top-fift-image {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+.forth-part-text .sm-center {
+    width: 100%;
+    float: left;
+}
+
+}
+	
