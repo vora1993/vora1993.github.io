@@ -675,13 +675,13 @@
 
 @media only screen and (min-width: 1200px) and (max-width:1250px) {
 }  */
-@media only screen and (min-width: 1251px) and (max-width:1280px) {
+/* @media only screen and (min-width: 1251px) and (max-width:1280px) {
 	.third-part-image {padding-top: 94px;}
 	.top-forth-part {padding-top: 140px}
 	.fift-text-part {margin: 16px auto 0;}
-} 
+}  */
 
-@media only screen and (min-width: 1350px) and (max-width:1366px){
+/* @media only screen and (min-width: 1350px) and (max-width:1366px){
 	.main-bg-image {background: url(../images/Street_Straße.svg) center -105px / 100% no-repeat;}
 	.top-second-part {
 		padding-top: 80px;
@@ -695,10 +695,10 @@
 	.fift-text-part {margin: 55px auto 0;}
 
 
-}
+} */
 
 
-@media only screen and (min-width: 1400px) and (max-width:1440px) {
+/* @media only screen and (min-width: 1400px) and (max-width:1440px) {
 	.main-bg-image {background: url(../images/Street_Straße.svg) center -120px / 100% no-repeat;}
 	.top-second-part {
 		padding-top: 100px;
@@ -713,8 +713,8 @@
 
 
 
-}
-@media only screen and (min-width: 1500px) and (max-width:1536px) {
+} */
+/* @media only screen and (min-width: 1500px) and (max-width:1536px) {
 
 	.main-bg-image {background: url(../images/Street_Straße.svg) center -145px / 100% no-repeat;}
 	.top-second-part {padding-top: 110px;}
@@ -727,8 +727,8 @@
 
 
 
-}
-@media only screen and (min-width: 1570px) and (max-width:1600px) {
+} */
+/* @media only screen and (min-width: 1570px) and (max-width:1600px) {
 	.third-part-text {padding-top: 250px;}
 	.main-bg-image {background: url(../images/Street_Straße.svg) center -165px / 100% no-repeat;}
 	.third-part-image {padding-top: 290px;}
@@ -743,9 +743,9 @@
 	.fift-text-part {margin: 100px auto 0;}
 	.top-fift-image {max-width: 695px;}
 	
-}
+} */
 
-@media only screen and (min-width: 1850px) and (max-width:1920px) {
+/* @media only screen and (min-width: 1850px) and (max-width:1920px) {
 	.main-bg-image {background: url(../images/Street_Straße.svg) center -250px / 100% no-repeat;}
 	.top-second-part {padding-top: 300px;}
 	.top-forth-part {padding-top: 425px;}
@@ -755,7 +755,7 @@
 	}
 	.top-fift-image {
 		max-width: 565px;}
-}
+} */
 @media only screen and (min-width: 768px) and (max-width:1024px) {
 	.slider-rate-part h4 {
 		font-size: 20px;}
