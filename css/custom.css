@@ -12,6 +12,22 @@
 /* Small devices (portrait tablets and large phones, 767px and up) */
 
 @media only screen and (max-width: 767px) {
+	.aword-forth-img {
+		width: 46px !important;;
+		height: 128px !important;;
+	}
+	.aword-third-img {
+		width: 83px !important;;
+		height: 96px !important;;
+	}
+	.aword-second-img {
+		width: 83px;
+		height: 96px !important;
+	}
+	.aword-first-img {
+		width: 83px !important;
+		height: 96px !important;
+	}
 	.top-navbar .fixed-top {
 		padding: 13px 15px 11px;
 		z-index: 9999999;
@@ -334,8 +350,7 @@
 			}
 			.acordian-bottom-part-title {
 				max-width: 344px;
-				margin-top: 76px;
-				display: inline-block;max-height: 100%;
+				margin-top: 76px;max-height: 100%;
 			}
 			.accordion-inner.accordian-table {
 				margin-top: 42px;
@@ -344,6 +359,9 @@
 				font-size: 17px;
 				line-height: 1.35;margin-bottom: 40px;
 
+			}
+			.bg-green .accordion-inner.accordian-table {
+				margin-top: 42px;
 			}
 			.aword-part1 .w-50 {
 				width: 100% !important;
@@ -511,9 +529,6 @@
 		font-size: 19px;}
 		.first-text-part h1 {
 			font-size: 19px;}
-			.top-navbar .fixed-top {
-				padding: 20px 15px 0;
-			}
 	.faq-accordion-heading a span {
     width: 280px;
     float: left;}
@@ -630,8 +645,8 @@
 		}
 	}
 	/*  */
-}
-@media only screen and (min-width: 780px) and (max-width:790px) {
+
+/* @media only screen and (min-width: 780px) and (max-width:790px) {
 	
 }
 @media only screen and (min-width: 791px) and (max-width:800px) {
@@ -659,7 +674,7 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1250px) {
-} 
+}  */
 @media only screen and (min-width: 1251px) and (max-width:1280px) {
 	.third-part-image {padding-top: 94px;}
 	.top-forth-part {padding-top: 140px}
