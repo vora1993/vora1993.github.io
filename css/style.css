@@ -394,15 +394,30 @@ li.img-last-part {
     float: left;
 }
 .faq-accordion-heading .accordion-toggle.collapsed:after {
-    font-family: 'FontAwesome';
-    content: "\f107";
-    float: right;
-    color: #000000;
-    font-weight: normal;
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow_down_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 30px;
+    top: 30%;
+    right: 10px;
     position: absolute;
-    right: 0;
-    top: -8px;
+    width: 15px;
+    height: 9px;
+}
+.faq-accordion-heading .accordion-toggle:after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow_up_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    top: 30%;
+    right: 10px;
+    position: absolute;
+    width: 15px;
+    height: 9px;
 }
 .faq-part .accordion-inner {
     width: 100%;
@@ -414,16 +429,18 @@ li.img-last-part {
 .btn a{color: #fff;}
 .border-btn a{color: #009c33;}
 
-.accordion-toggle.collapsed:after {
-    font-family: 'FontAwesome';
-    content: "\f107";
-    float: right;
-    color: #000000;
-    font-weight: normal;
+.bg-green .accordion-toggle.collapsed:after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow_down_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 30px;
+    top: 50%;
+    right: 10px;
     position: absolute;
-    right: 0;
-    top: 0;
+    width: 15px;
+    height: 9px;
 }
 
 .color-orange .protaction-contant-part li:before {
@@ -449,6 +466,16 @@ li.img-last-part {
     letter-spacing: normal;
     color: #009c33;
 }
+button.btn.btn-3.btn-3a.icon-cart.bg-green-btn.m-b-36 {
+    margin-bottom: 36px;
+}
+ .accordian-part .accordian-table .btn a{font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;}
 
 .accordian-part a:hover {
 	text-decoration: none;
@@ -586,19 +613,23 @@ h3.protaction-title {
 
 .accordion-heading {
 	border-bottom: 1.5px solid #000;
-	margin-bottom: 78px;
+}
+.bg-green .accordion-inner.accordian-table {
+    margin-top: 78px;
 }
 
-.accordion-toggle:after {
-    font-family: 'FontAwesome';
-    content: "\f106";
-    float: right;
-    color: #000000;
-    font-weight: normal;
+.bg-green .accordion-toggle:after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow_up_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 30px;
+    top: 50%;
+    right: 10px;
     position: absolute;
-    top: 0;
-    right: 0;
+    width: 15px;
+    height: 9px;
 }
 
 
@@ -616,7 +647,8 @@ h3.protaction-title {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.1;
-    color: #009c33;
+	color: #009c33;
+	margin-top: 76px;
 }
 
 .acordian-bottom-part-title p {
@@ -1078,34 +1110,39 @@ a:hover {
     width: 100%;
     text-align: left;
     padding-left: 20px;
-    position: relative;
     padding-bottom: 30px;
 }
+.open-more-option a{position: relative;}
+
 .open-more-option .accordion-toggle.collapsed:after {
-    font-family: 'FontAwesome';
-    content: "\f107";
-    float: left;
-    color: #000;
-    font-weight: normal;
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow_down_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 30px;
-    top: -10px;
-	left: 20px;
+    top: 25%;
+    left: 0px;
     position: absolute;
+    width: 15px;
+    height: 9px;
 }
 .open-more-option a {
     padding-left: 40px;font-size: 16px;
     font-weight: bold;cursor: pointer;
 }
 .open-more-option .accordion-toggle:after {
-    font-family: 'FontAwesome';
-    content: "\f106";
-    float: left;
-    color: #000;
-    font-weight: normal;
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow_up_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 30px;
-    top: -10px;
-    left: 20px;
+    top: 25%;
+    left: 0px;
     position: absolute;
+    width: 15px;
+    height: 9px;
 }
 ul.hegiht-protection {
     height: 400px;
@@ -1318,3 +1355,21 @@ ul.footer-icon img{margin-top:10px ;}
 }
 
 .owl-theme .owl-dots .owl-dot span{background: #99d7ad;}
+.bg-green .i-icon-img {
+    height: 18px;
+    width: 18px;
+    background: #fff;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+
+
+
+
+/*  */
+.main-bg-img{background-image: url(../images/Street_Straße.svg);}
+
+
+
+/*  */
