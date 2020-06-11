@@ -13,7 +13,10 @@
 
 @media only screen and (max-width: 767px) {
 
-
+	.footer-image img {
+		width: 124px;
+		height: 124px;
+	}
 	.first-text-part {
 		width: 100%;
 		max-width: 350px;
