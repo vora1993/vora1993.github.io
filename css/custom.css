@@ -12,6 +12,9 @@
 /* Small devices (portrait tablets and large phones, 767px and up) */
 
 @media only screen and (max-width: 767px) {
+
+		li.img-last-part{
+			margin-right: 15px;}
 	.aword-part1 .image-test.d-flex {
 		justify-content: center;
 		align-items: center;
@@ -82,6 +85,7 @@
 		top: 40%;
 		height: 40px !important;
 		width: 40px!important;
+		font-size: 30px;
 	}
 	.bg-green .arrow-class button.owl-next {
 		position: absolute;
@@ -89,6 +93,7 @@
 		top: 40%;
 		height: 40px !important;
 		width: 40px!important;
+		font-size: 30px;
 	}
 	.fift-text-part h3{font-size: 24px;line-height: 1.25;}
 	.main-content .owl-theme .custom-nav {
@@ -502,7 +507,7 @@
 			}
 			li.switching-second-image {
 				width: 100px;
-				text-align: center;margin: 29px 0 31px 0;
+				text-align: center;margin: 29px 15px 31px 0;
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -561,7 +566,7 @@
 		width: 40px!important;
 	}
 	.first-text-part h1 {
-		font-size: 18px !important;}
+		font-size: 22px !important;}
 	.arrow-class button.owl-next {
 		position: absolute;
 		right: -20px;
@@ -597,6 +602,9 @@
 
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
+	.img-last-part img {
+		margin-top: 10px;
+	}
     ul.hegiht-protection {height: 500px;}
 	.image-part img {max-height: 205px;}
 	.image-part-height {height: 200px;}
@@ -629,7 +637,9 @@
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
 	/*  */
-	
+	.img-last-part img {
+		margin-top: 10px;
+	}
 	ul.hegiht-protection {
 		height: 540px;
 	}
