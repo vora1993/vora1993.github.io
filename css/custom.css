@@ -12,6 +12,10 @@
 /* Small devices (portrait tablets and large phones, 767px and up) */
 
 @media only screen and (max-width: 767px) {
+	.aword-part-taxt .btn-3a.bg-green-btn {
+		margin-bottom: 24px;
+	}
+	p.color-green {margin: 0 0 36px;}
 
 	.footer-image img {
 		width: 124px;
@@ -421,7 +425,7 @@
 				display: flex;
 				vertical-align: middle;
 				align-content: center;
-				height: 200px;
+				/* height: 200px; */
 			}
 			.awords-img .item img {
 				float: left;
@@ -602,6 +606,9 @@
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
 	/*  */
+	ul.hegiht-protection {
+		height: 540px;
+	}
 	.bg-wight .btn-3a.bg-orang-btn {font-size: 14px;max-width: 200px !important;}
 	.bg-wight .btn-3:after {width: 40px;}
 	 .protaction-table-section .bg-wight h4 {font-size: 18px;}
@@ -954,15 +961,38 @@
     width: 100%;
     float: left;
 }
+.top-forth-part {
+    padding-top: 0;
+}
 
 }
-@media only screen and (min-width: 1024px) and (max-width:1199px) {
-	.third-part-image {
-		padding-top: 0;
-		position: absolute;
-		top: 866px;
-		padding-right: 25px;
-		width: 440px !important;
+@media only screen and (min-width: 1025px) and (max-width:1199px) {
+
+	.main-width {width: 960px;height: 1750px;}
+	.first-image-part img {width: 82%;}
+	.first-text-part h1 {font-size: 32px;}	
+	.first-text-part h4 {font-size: 28px;margin: 17px 0 22px;}
+	.first-text-part.second-possition {top: 220px;}
+	.first-text-part .sm-center {margin-top: 0;}
+	.top-second-part {top: 630px;}
+	.top-second-part p {font-size: 16px; line-height: 1.2;}
+	.third-part-text {top: 700px;    right: 32px;}
+	.third-part-image {top: 640px;padding-right: 65px;}
+	.third-part-text h4 {font-size: 18px;}
+	.third-part-text p {font-size: 16px;}
+	.third-part-text .border-btn {
+		margin-top: 5px;
 	}
+	.forth-part-text {top: 1030px;left: 0;}
+	.forth-part-text h4 {font-size: 18px;}
+	.forth-part-text p{font-size: 16px; line-height: 1.3;}
+	.forth-part-text .border-btn{margin: 15px 0;}
+	.top-forth-part-image {top: 1098px; right: 0;}
+	.top-forth-part-image img {width: 340px;}
+	.fift-text-part p {font-size: 16px;padding: 0 20px;}
+	.fift-text-part h3 {font-size: 24px;}
+	.fift-text-part .btn-3a.bg-green-btn {height: 50px;margin: 10px 0;}
+	.top-fift-image {max-width: 365px;}
+	.top-fift-part {top: 1312px;}
 }
 	
