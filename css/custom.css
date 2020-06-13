@@ -608,6 +608,7 @@
 
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
+	.btn-3a.bg-orang-btn {padding: 12px 50px 10px 5px;}
 	img.image-part-img1 {
 		height: 95px;
 		width: 100%;
@@ -663,6 +664,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
+	.first-text-part .btn-3a.bg-orang-btn {padding: 12px 50px 10px 5px;}
 	.back.face p {
 		font-size: 14px;}
 	.switching-second-image img {
@@ -714,7 +716,7 @@
 		height: 150px;
 	}
 	
-	.bg-wight .btn-3a.bg-orang-btn {font-size: 14px;max-width: 200px !important;}
+	.bg-wight .btn-3a.bg-orang-btn {font-size: 16px;max-width: 200px !important; padding: 17px 45px 10px 5px;}
 	.bg-wight .btn-3:after {width: 40px;}
 	 .protaction-table-section .bg-wight h4 {font-size: 18px;}
 	 
@@ -811,7 +813,6 @@
 		height: 55px;
 		font-family: HDI-GerlingSans;
 		font-size: 20px;
-		padding: 10px 50px 10px 5px;
 		font-weight: bold;
 	}
 	.btn-3:after {

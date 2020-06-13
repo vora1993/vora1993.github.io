@@ -1195,6 +1195,7 @@ ul.hegiht-protection {
     float: left;
     text-align: right;
     color: #009c33 !important;
+    cursor: default;
 }
 .popovtext .iicon-title {
     font-size: 19px;
@@ -1364,7 +1365,8 @@ ul.footer-text {
 li.bold-taxt {
     font-weight: bold;font-family:  HDI-GerlingSans;
 }
-.footer-last-taxt a:hover{font-weight: bold;font-family:  HDI-GerlingSans;}
+.footer-last-taxt a:hover{font-weight: bold;font-family:  HDI-GerlingSans; transition: all 1s ease-in-out; transition-duration: 2s;}
+.footer-last-taxt a {color: #fff;transition: all 1s ease-in-out;transition-duration: 2s;}
 .footer-image img {
     width: 141px;
     height: 141px;
@@ -1397,7 +1399,7 @@ ul.footer-icon img{margin-top:10px ;}
 .accordian-part .col-12,.accordian-part .col-md-12{padding-right: 5px; padding-left: 5px;}
 .m-t-10{margin-top: 10px;} 
 .m-b-76{margin-bottom: 112px;}
-.footer-last-taxt a {color: #fff;}
+
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #009c33;
 }
