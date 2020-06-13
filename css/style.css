@@ -19,11 +19,7 @@ span.navbar-toggler-icon:focus,
 button:focus {
 	outline: none;
 }
-a.nav-link:hover {
-  font-weight: bold;
-  color: #009c33;
-  font-family: HDI-GerlingSans;transition: all 0.2s linear;font-size: 16px;transition-delay: 1s;
-}
+
 .taxt-bold{font-weight: bold;font-family: HDI-GerlingSans;}
 .opacity-none{opacity: 0;}
 .m-t28-b33{margin: 30px 0 33px;}
@@ -842,9 +838,16 @@ section.faq-section {
 
 a.nav-link {
 	font-size: 16px;
-	color: #009c33;transition: all 1s linear;
+	color: #009c33;
+    transition: text-shadow .3s;
 }
-
+a.nav-link:hover {
+    font-weight: bold;
+    color: #009c33;
+    text-shadow: 0 0 .65px #009c33, 0 0 .65px #009c33;
+    /* font-family: HDI-GerlingSans;font-size: 16px;transition: all 1.0s linear;
+    -webkit-transition : all 1.0s linear; */
+  }
 .faq-part .border-bot {
 	border-bottom: 2px solid #009c33;
 	width: 100%;
