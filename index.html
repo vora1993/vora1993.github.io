@@ -1246,8 +1246,15 @@ jQuery('.navbar-nav a').on( 'click', function(event) {
   jQuery("body, html").animate({ 
     scrollTop: jQuery( element ).offset().top - 90  
   }, 800);
+  
 });
-
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
 
 </script>
 <script>
