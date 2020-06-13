@@ -770,7 +770,7 @@ section.faq-section {
     font-family:  HDI-GerlingSans;
 }
 
-.accordian-table span {
+.accordian-table .ratecard-box {
 	background: #fff;
     width: 100%;
     float: left;
@@ -1117,7 +1117,7 @@ a:hover {
     color: #000000;
 }
 
-.title-ratecard .ratecard-title {
+.title-ratecard h4 {
 	margin: 0;
     font-weight: normal;
     font-stretch: condensed;
@@ -1126,7 +1126,7 @@ a:hover {
     letter-spacing: normal;
     color: #000000;
 }
-.title-ratecard p {
+.title-ratecard .ratecard-conent {
     margin: 0;
     width: auto;
     float: right;
@@ -1200,9 +1200,9 @@ ul.hegiht-protection {
     font-size: 19px;
     font-weight: bold;width: 100%; float: left; margin-bottom: 20px;font-family:  HDI-GerlingSans;
 }
-.popovtext p {
+.popovtext .pop-content {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 300;margin-bottom: 1rem;
 }
 
 .accordian-table span {
