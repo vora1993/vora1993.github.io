@@ -745,7 +745,7 @@ img.aword-img2 {
     font-family:  HDI-GerlingSans;
 }
 .accordian-slider .owl-theme .owl-nav {
-    margin-top: 0px;
+    margin-top: 0px;    font-size: 2.3rem;
 }
 .accordian-slider .owl-dots {
     margin: 43px 0 26px 0;
@@ -924,10 +924,12 @@ a:hover {
 
 .arrow-class button.owl-prev {
 	position: absolute;
-	left: -60px;
-	top: 40%;
-	height: 40px !important;
-	width: 40px!important;
+    left: -60px;
+    top: 40%;
+    height: 40px !important;
+    width: 40px!important;
+    display: flex !important;
+    justify-content: center;
 }
 
 .arrow-class button.owl-next {
@@ -935,7 +937,9 @@ a:hover {
 	right: -60px;
 	top: 40%;
 	height: 40px !important;
-	width: 40px!important;
+    width: 40px!important;
+    display: flex !important;
+    justify-content: center;
 }
 
 .arrow-class button.owl-next:hover,

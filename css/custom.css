@@ -12,7 +12,8 @@
 /* Small devices (portrait tablets and large phones, 767px and up) */
 
 @media only screen and (max-width: 767px) {
-
+	#f1_container {
+		height: 270px;}
 		li.img-last-part{
 			margin-right: 15px;}
 	.aword-part1 .image-test.d-flex {
@@ -602,12 +603,33 @@
 
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
+	img.image-part-img1 {
+		height: 95px;
+		width: 100%;
+		margin-top: -10px;
+		margin-bottom: -16px;
+	}
+	img.image-part-img2 {
+		height: 189px;
+		margin-top: -50px;
+		width: 200px;
+		margin-bottom: -35px;
+	}
+	img.image-part-img3 {
+		height: 155px;
+		margin-top: -18px;
+	}
+	.image-part-height {
+		height: 155px;
+	}
 	.img-last-part img {
 		margin-top: 10px;
 	}
+	.slider-rate-part h4 {
+		font-size: 20px;}
     ul.hegiht-protection {height: 500px;}
 	.image-part img {max-height: 205px;}
-	.image-part-height {height: 200px;}
+	/* .image-part-height {height: 200px;} */
 	img.aword-img1 {
 		height: 240px;
 	}
@@ -636,6 +658,26 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
+	.back.face p {
+		font-size: 14px;}
+	.switching-second-image img {
+		width: 70.1px !important;
+		height: 102px !important;
+	}
+	.image-part-height {
+		height: 155px;
+	}
+	.switching-first-image img {
+		width: 60.1px !important;
+		height: 101.8px !important;
+	}
+	.switching-part-section .text-part {font-size: 16px;}
+	p.color-green {
+		margin: 0 0 36px;
+	}
+	.slider-rate-part h4 {
+		font-size: 18px;
+	}
 	/*  */
 	.img-last-part img {
 		margin-top: 10px;
@@ -701,11 +743,11 @@
 
 @media only screen and (min-width: 768px) and (max-width:1024px) {
 	img.image-part-img1 {
-		height: 120px;
-    	width: 100%;
-    	margin-top: -30px;
-    	margin-bottom: -16px;
-		}
+		height: 95px;
+		width: 100%;
+		margin-top: -10px;
+		margin-bottom: -16px;
+	}
 	img.image-part-img2 {
 		height: 189px;
 		margin-top: -50px;
@@ -716,8 +758,10 @@
 		height: 155px;
 		margin-top: -18px;
 	}
-	.slider-rate-part h4 {
-		font-size: 20px;}
+	.image-part-height {
+		height: 155px;
+	}
+	
 		.top-first-part {
 			padding-top: 40px;
 		}
