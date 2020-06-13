@@ -594,7 +594,7 @@ h3.protaction-title {
 .border-btn {
     border: solid 1.5px #009c33;
 	color: #009c33;
-	width: 240px;
+	width: 240px;    padding: 10px 0 0 0;
     height: 50px;
 	margin: 34px 0 33px 0;;font-size: 19px;
 	font-weight: bold;font-family: HDI-GerlingSans;}
@@ -1265,7 +1265,7 @@ ul.hegiht-protection {
 }
 .border-btn:hover {
     background: #009c33;
-    color: #fff;
+    color: #fff !important;
 }
 .btn-3a.bg-green-btn:hover{background: #007d29;}
 .btn-3.bg-green-btn:hover:after {
