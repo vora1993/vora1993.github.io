@@ -598,6 +598,8 @@
 	.none-lg {
 		display: none !important;
 	}
+	.show_item1,.show_item2,.show_item3{display: block !important}
+	
 	
 }
 

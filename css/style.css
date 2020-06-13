@@ -69,7 +69,7 @@ button:focus {
 	font-style: normal;position: relative; padding-bottom: 20px;}
 .top-navbar .fixed-top {padding: 24px 65px;z-index: 9999999; -webkit-transition: all 0.10s ease;
     transition: all 0.4s ease;}
-.top-navbar .fixed-top.shrink {padding: 5px 65px 10px; -webkit-transition: all 0.4s ease;transition: all 0.10s ease; box-shadow: -1px -2px 6px 2px #d5d5d5;}
+.top-navbar .fixed-top.shrink {padding: 5px 65px 10px; -webkit-transition: all 0.4s ease;transition: all 0.10s ease; box-shadow: -1px -2px 6px 2px #454545;}
 	
 	.top-second-part h3 {
 		font-size: 30px;
@@ -491,7 +491,7 @@ img.image-part-img1 {
     height: 140px;
 }
 img.image-part-img3 {
-    height: 280px;
+    height: 265px;
     margin-top: -18px;
 }
 img.image-part-img2 {
@@ -514,7 +514,7 @@ img.image-part-img1 {
 .color-orange .image-part {
     border: 2px solid #ef8a29;    border-bottom: 0;
 }
-.image-part-height{height: 280px;}
+.image-part-height{height: 265px;}
 .protaction-table-main {
     width: 100%;
 	float: left;display: flex;    
