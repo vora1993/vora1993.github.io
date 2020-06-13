@@ -1117,7 +1117,7 @@ a:hover {
     color: #000000;
 }
 
-.title-ratecard h4 {
+.title-ratecard .ratecard-title {
 	margin: 0;
     font-weight: normal;
     font-stretch: condensed;
