@@ -1196,7 +1196,7 @@ ul.hegiht-protection {
     text-align: right;
     color: #009c33 !important;
 }
-.popovtext h4 {
+.popovtext .iicon-title {
     font-size: 19px;
     font-weight: bold;width: 100%; float: left; margin-bottom: 20px;font-family:  HDI-GerlingSans;
 }
