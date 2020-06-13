@@ -1241,3 +1241,9 @@
 	.top-fift-part {top: 1312px;}
 }
 	
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	a.nav-link:hover {
+		font-weight: bold;
+		color: #009c33;
+		text-shadow: 0 0 0.65px #009c33, 0 0 0.65px #009c33;
+	}
