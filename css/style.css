@@ -1434,3 +1434,6 @@ ul.faq-inner-points li {
 .border-bot.fußnote-faq {
     border-bottom: none;
 }
+.nav-up {
+    top: -70px;
+}
