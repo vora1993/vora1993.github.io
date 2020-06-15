@@ -1422,12 +1422,15 @@ ul.faq-inner-points li {
     position: relative;
     margin-bottom: 15px;
 }
-
-
-
-/* new */
-
-/*  */
-
-
-/*  */
+.font-13{
+    font-size: 13px !important;
+}
+.border-bot.fußnote-faq .faq-accordion-heading .accordion-toggle {
+    position: relative;
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #009c33;
+}
+.border-bot.fußnote-faq {
+    border-bottom: none;
+}
