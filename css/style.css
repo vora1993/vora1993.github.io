@@ -15,6 +15,7 @@ body {
 	margin: 0;
 }
 
+
 span.navbar-toggler-icon:focus,
 button:focus {
 	outline: none;
@@ -701,13 +702,13 @@ h3.protaction-title {
 	float: left;
 }
 
-img.aword-img1 {
+/* img.aword-img1 {
 	height: 335px;
-}
+} */
 
-img.aword-img2 {
+/* img.aword-img2 {
 	height: 300px;
-}
+} */
 .aword-first-img{width: 100.2px;height: 100.2px;}
 .aword-second-img{width: 125.6px;height: 87.6px;}
 .aword-third-img{width: 100.2px;height: 115px;}
@@ -1436,4 +1437,16 @@ ul.faq-inner-points li {
 }
 .nav-up {
     top: -70px;
+}
+.trn-colleps{transition: none 0s ease 0s !important;}
+img.aword-img1 {
+    width: 100%;
+}
+.aword-part1 .image-test.d-flex {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.side-image-main {
+    width: 100%;
 }
