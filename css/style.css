@@ -482,11 +482,14 @@ button.btn.btn-3.btn-3a.icon-cart.bg-green-btn.m-b-36 {
 	color: #009c33;
 	;
 }
-
+.awords-img.none-lg {
+    width: 100%;
+    float: left;
+}
 .image-part img {
     margin-top: -10px;
     /* max-height: 250px; */
-    /* margin-bottom: -6px; */
+    margin-bottom: -1px;
 }
 img.image-part-img1 {
     height: 140px;

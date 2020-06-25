@@ -322,7 +322,7 @@
 			margin: 0 auto 17px;
 			max-width: 320px;
 		}
-		.image-part img {max-height: 150px;}
+		.image-part img {max-height: 150px; margin-bottom: -5px;}
 		.image-part-height {height: 150px;}				
 		h3.protaction-title {
 			font-size: 19px;
