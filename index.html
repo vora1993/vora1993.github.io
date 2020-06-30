@@ -10,19 +10,19 @@
   <meta name="robots" content="noindex,follow">
   <script>
     (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime()
-            , event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0]
-            , j = d.createElement(s)
-            , dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime()
+        , event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0]
+        , j = d.createElement(s)
+        , dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-MZF8W39');
-</script>
+  </script>
 
   <link rel="icon" type="image/png" href="images/favicon.png" />
 
@@ -39,10 +39,10 @@
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZF8W39"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZF8W39" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  
+
   <header>
     <div class="navigation-wrap start-header start-style">
       <div class="">
@@ -50,7 +50,8 @@
           <div class="col-12">
             <nav class="navbar navbar-expand-md bg-white header-top fixed-top">
 
-              <a class="navbar-brand" href="#" target="_blank"><img src="images/HDI_Logo_neu-01.svg" width="100" alt=""></a>
+              <a class="navbar-brand" href="#" target="_blank"><img src="images/HDI_Logo_neu-01.svg" width="100"
+                  alt=""></a>
 
               <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -62,7 +63,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto py-4 py-md-0">
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                    <a class="nav-link" href="#">Unsere Leistungen</a>
+                    <a class="nav-link" href="#wenndass">Unsere Leistungen</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                     <a class="nav-link" href="#sofunktioniert">So funktioniert’s</a>
@@ -128,7 +129,7 @@
               </div>
             </div>
           </div>
-          <div class="top-second-part">
+          <div class="top-second-part" id="wenndass">
             <h3> wenn das wertvollste <br>gut geschützt ist</h3>
             <p>Schäden an ihrem Wohnobjekt in Folge eines Leitungswasserschadens können schnell hohe Kosten verursachen
               und eine große Belastung darstellen. Mit der Wohngebäudeversicherung der HDI versichern Sie sich z.B.
@@ -1009,9 +1010,9 @@
                 </div>
                 <div class="w-100 float-left">
                   <a href="https://www.hdi.de/apps/versicherungsrechner/wohngebaeude/hdi/?mkv_produktkey=2"
-                  class="btn btn-3 btn-3a icon-cart bg-green-btn m-t-b-30">Jetzt Tarif berechnen</a>
+                    class="btn btn-3 btn-3a icon-cart bg-green-btn m-t-b-30">Jetzt Tarif berechnen</a>
                 </div>
-                
+
                 <div class="awords-img none-sm">
                   <ul>
                     <li><img src="images/BV-Testsieger-Wohngebaeudeversicherung-2019-n-tv.gif" class="aword-first-img"
@@ -1510,6 +1511,11 @@
 
       jQuery('.navigation a').removeClass('active')
       target.addClass('active');
+
+      if ($(window).width() < 767) {
+        jQuery('.navbar-collapse').removeClass('show')
+        jQuery(".navbar-toggler").addClass('collapsed')
+      }
 
       jQuery("body, html").animate({
         scrollTop: jQuery(element).offset().top - 90
