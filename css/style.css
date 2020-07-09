@@ -99,7 +99,7 @@ button:focus {
     text-align: center;    padding-top: 50px;
 }
 .third-part-text h4 {
-    font-size: 19px;
+    font-size: 21px;
     font-weight: bold;
     line-height: 1.1;
     color: #009c33;font-family: HDI-GerlingSans;
@@ -165,7 +165,7 @@ b{font-weight: bold !important;font-family: HDI-GerlingSans;}
     float: left;
     padding-top: 78px;
 }
-.forth-part-text h4{    font-size: 19px;
+.forth-part-text h4{    font-size: 21px;
     font-weight: bold;
     line-height: 1.1;
 	color: #009c33;font-family: HDI-GerlingSans;}
@@ -423,7 +423,7 @@ li.img-last-part {
     width: 100%;
     float: left;
     padding-bottom: 40px;
-    font-size: 17px;
+    font-size: 19px;
 }
 .border-btn:hover a{color: #fff;}
 .btn a{color: #fff;}
@@ -845,7 +845,7 @@ section.faq-section {
 
 
 a.nav-link {
-	font-size: 16px;
+	font-size: 21px;
 	color: #009c33;
     transition: text-shadow .3s;
 }
@@ -876,7 +876,8 @@ a:hover {
 .btn-link:hover, .btn-link:focus{outline: none;text-decoration: none;}
 
 .faq-accordion-heading a {
-	font-size: 21px;
+    font-weight: bold;
+	font-size: 24px;
 	color: #0a0a0a;
 }
 
@@ -1113,7 +1114,7 @@ a:hover {
 
 .back.face p {
 	text-align: left;
-	font-size: 16px;
+	font-size: 19px;
     font-weight: 300;
     font-stretch: condensed;
     font-style: normal;
