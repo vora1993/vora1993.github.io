@@ -1374,8 +1374,8 @@ li.bold-taxt {
 .footer-last-taxt a:hover{font-weight: bold;font-family:  HDI-GerlingSans; transition: all 1s ease-in-out; transition-duration: 2s;}
 .footer-last-taxt a {color: #fff;transition: all 1s ease-in-out;transition-duration: 2s;}
 .footer-image img {
-    width: 141px;
-    height: 141px;
+    width: 100px;
+    height: 100px;
 }
 .footer-image {
     position: absolute;
