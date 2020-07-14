@@ -714,7 +714,7 @@ h3.protaction-title {
 } */
 .aword-first-img{width: 100.2px;height: 100.2px;}
 .aword-second-img{width: 125.6px;height: 87.6px;}
-.aword-third-img{width: 100.2px;height: 115px;}
+/* .aword-third-img{width: 100.2px;height: 115px;} */
 .aword-forth-img{width: 61px;height: 172px;}
 
 
@@ -728,9 +728,12 @@ h3.protaction-title {
 }
 
 .awords-img ul li {
-	float: left;
-	list-style-type: none;
+    float: left;
+    list-style-type: none;
+    width: 23%;
 }
+.aword-third-img {
+    width: 100%;}
 
 .accordian-slider {
 	width: 100%;
