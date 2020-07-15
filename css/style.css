@@ -712,7 +712,7 @@ h3.protaction-title {
     width: 23%;
 }
 .aword-third-img {
-    width: 100%;}
+    width: 85%;}
 
 .accordian-slider {
 	width: 100%;
@@ -1161,7 +1161,7 @@ a:hover {
     height: 9px;
 }
 ul.hegiht-protection {
-    height: 400px;
+    height: 320px;
 }
 .popover{max-width: 308px;}
 .bg-wight.slider-first {
@@ -1423,4 +1423,7 @@ img.aword-img1 {
 }
 .side-image-main {
     width: 100%;
+}
+.fußnote-faq .accordion-inner {
+    width: 60%;
 }
