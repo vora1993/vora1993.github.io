@@ -477,7 +477,7 @@
 			.top-navbar .navbar-toggler {padding: 20px 15px;}
 			.top-navbar .fixed-top.shrink .navbar-toggler {padding: 10px;}
 			.top-navbar .fixed-top.shrink,.top-navbar .fixed-top {
-				padding: 0;
+				padding: 0 0 0 15px;
 			}
 			
 			.switching-first-image img {
