@@ -1392,6 +1392,7 @@ ul.faq-inner-points{
     padding-left: 30px;
     width: 100%;
     float: left;
+    font-size: 16px;
 }
 ul.faq-inner-points li {
     position: relative;
