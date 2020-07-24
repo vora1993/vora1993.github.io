@@ -12,6 +12,9 @@
 /* Small devices (portrait tablets and large phones, 767px and up) */
 
 @media only screen and (max-width: 767px) {
+	.navbar-brand {
+		margin-left: 15px;
+	}
 	.fußnote-faq .accordion-inner {
 		width: 100%;
 	}
@@ -477,7 +480,7 @@
 			.top-navbar .navbar-toggler {padding: 20px 15px;}
 			.top-navbar .fixed-top.shrink .navbar-toggler {padding: 10px;}
 			.top-navbar .fixed-top.shrink,.top-navbar .fixed-top {
-				padding: 0 0 0 15px;
+				padding: 0;
 			}
 			
 			.switching-first-image img {
