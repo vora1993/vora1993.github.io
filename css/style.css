@@ -525,7 +525,7 @@ button.btn.btn-3.btn-3a.icon-cart.bg-green-btn.m-b-36 {
     margin-top: -50px;
     margin-bottom: -1px;
     width: 100%;
-    height: 180px;
+    height: auto;
 }
 
 
@@ -786,7 +786,7 @@ section.faq-section {
 	background: #E6F5EB;
 	width: 100%;
 	float: left;
-	padding: 60px 0;
+	padding: 92px 0 119px;
 }
 
 .faq-part h3 {
@@ -1745,10 +1745,15 @@ img.aword-img1 {
 ul.hegiht-protection {
     height: 100%;
 }
-.protaction-contant-part ul {
+/* .protaction-contant-part ul.first-part {
     height: 250px;
+} */
+.protaction-contant-part ul {
+    height: 100%;
 }
-
+#accordion02,#heading20 {
+    margin-top: 30px;
+}
 section.selction-image-part {
     width: 100%;
     float: left;
@@ -1763,6 +1768,7 @@ section.selction-image-part {
     font-weight: bold;
     line-height: 1.1;   
     color: #009c33;
+    font-family: HDI-GerlingSans;
 }
 .selection-title p {
     font-size: 20px;
@@ -1855,4 +1861,52 @@ font-size: 20px;
 }
 .main-width {
     overflow-x: hidden;
+}
+.owl-theme.owl-them3 {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    z-index: 99999;
+}
+.switching-part-section .none-lg-1024 {
+    position: relative;
+}
+.custom-nav3 button.owl-prev {
+    position: absolute;
+    left: 0px;
+}
+.custom-nav3 button.owl-next {
+    position: absolute;
+    right: 0px;
+}
+.custom-nav3 button{
+
+    height: 40px;
+    background: rgba(0, 156, 51, 0.45) !important;
+    width: 40px;
+    padding: 0;
+    border: none;
+    padding: 0 !important;
+}
+.custom-nav3 .owl-prev i,.custom-nav3 .owl-next i {
+    font-size: 2.5rem;
+    color: #cecece;
+}
+.custom-nav3.owl-nav.disabled {
+    margin-top: 0 !important;
+}
+.fubtoon{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #0a0a0a;
+}
+.fubtoon span{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #0a0a0a;
+}
+.selection-dopbutn .dropdown-menu.show {
+    width: 100%;
+    max-width: 350px;
 }
