@@ -14,94 +14,7 @@
 
 
 
-@media only screen and (min-width: 1600px){
-	
-	.container, .container-lg, .container-md, .container-sm, .container-xl {max-width: 1500px;}
-	.main-width {width: 1500px;height: 3650px;overflow: hidden;}
-	.image-bg {
-		position: absolute;
-		width: 100%;
-		top: -58px;
-	}
-	.first-image-part img {
-		position: absolute;
-		width: 850px;
-		float: left;
-		top: 0;
-		margin-right: -30%;
-	}
-	.first-image-part img {
-		width: 900px;
-	}
-	.f1_container {height: 200px;}
-	.image-bg {top: 480px;}
-	/* .third-part-text {top: 1130px; right: 180px;} */
-	.top-second-part { top: 860px;}
-	/* .third-part-image {top: 1063px; width: 600px !important; left: 90px;} */
-	/* .forth-part-text {top: 1650px;} */
-	/* .top-forth-part-image {top: 1750px; right: 170px;} */
-	.top-fift-image {
-		top: 510px;
-		max-width: 90%;
-	}
-	/* .forth-part-text {
-		top: 1700px;
-		left: -178px;
-		padding: 25px 0;
-	} */
-	.switching-part-section ul {
-		justify-content: center;
-		width: 100%;
-	}
-	
-	.protaction-table-section {
-		max-width: 100%;
-		float: left;
-		width: 33.33%;
-	}
-	
-	/* .bg-wight.slider-first {
-		padding-bottom: 60px;
-	} */
-	
-	.top-fift-part {
-		top: 2495px;
-	}
-	
-.third-part-image {
-    padding-top: 0;
-    position: absolute;
-    top: 1265px;
-    padding-right: 0;
-    width: 650px !important;
-    right: 0;
-}
-.third-part-text {
-    top: 1270px;
-    left: 200px;
-	width: 418px !important;
-}
-.forth-part-text {
-    float: left;
-    padding-top: 0;
-    position: absolute;
-    top: 1990px;
-    right: 200px;
-    width: 418px !important;
-}
-.top-forth-part-image {
-    padding-top: 0;
-    position: absolute;
-    top: 2110px;
-    padding-right: 0;
-    width: 650px !important;
-    left: 85px;
-}
-.first-image-part {
-    top: 38px;
-}
 
-}
 
 @media only screen and (max-width: 1600px){
 	#accordion02, #heading20 {
@@ -149,9 +62,9 @@
 		max-width: 70%;
 	}
 	.top-second-part {
-		-webkit-transform: translate(-50%,-50%);
-		-ms-transform: translate(-50%,-50%);
-		transform: translate(-50%,-50%);
+		-webkit-transform: translate(-60%,-50%);
+		-ms-transform: translate(-60%,-50%);
+		transform: translate(-60%,-50%);
 	}
 	.top-fift-part {
 		transform: translate(-50%,0%);
@@ -413,6 +326,94 @@
 /* new */
 
 }
+@media only screen and (min-width: 1600px){
+	
+	.container, .container-lg, .container-md, .container-sm, .container-xl {max-width: 1500px;}
+	.main-width {width: 1500px;height: 3650px;overflow: hidden;}
+	.image-bg {
+		position: absolute;
+		width: 100%;
+		top: -58px;
+	}
+	.first-image-part img {
+		position: absolute;
+		width: 850px;
+		float: left;
+		top: 0;
+		margin-right: -30%;
+	}
+	.first-image-part img {
+		width: 900px;
+	}
+	.f1_container {height: 200px;}
+	.image-bg {top: 480px;}
+	/* .third-part-text {top: 1130px; right: 180px;} */
+	.top-second-part { top: 860px;}
+	/* .third-part-image {top: 1063px; width: 600px !important; left: 90px;} */
+	/* .forth-part-text {top: 1650px;} */
+	/* .top-forth-part-image {top: 1750px; right: 170px;} */
+	.top-fift-image {
+		top: 530px;
+    	max-width: 100%;
+	}
+	/* .forth-part-text {
+		top: 1700px;
+		left: -178px;
+		padding: 25px 0;
+	} */
+	.switching-part-section ul {
+		justify-content: center;
+		width: 100%;
+	}
+	
+	.protaction-table-section {
+		max-width: 100%;
+		float: left;
+		width: 33.33%;
+	}
+	
+	/* .bg-wight.slider-first {
+		padding-bottom: 60px;
+	} */
+	
+	.top-fift-part {
+		top: 2495px;
+	}
+	
+.third-part-image {
+    padding-top: 0;
+    position: absolute;
+    top: 1265px;
+    padding-right: 0;
+    width: 650px !important;
+    right: 0;
+}
+.third-part-text {
+    top: 1270px;
+    left: 200px;
+	width: 418px !important;
+}
+.forth-part-text {
+    float: left;
+    padding-top: 0;
+    position: absolute;
+    top: 1990px;
+    right: 200px;
+    width: 418px !important;
+}
+.top-forth-part-image {
+    padding-top: 0;
+    position: absolute;
+    top: 2110px;
+    padding-right: 0;
+    width: 650px !important;
+    left: 85px;
+}
+.first-image-part {
+    top: 38px;
+}
+
+}
 @media only screen and (min-width: 1025px) and (max-width:1199px) {
 	.faq-accordion-heading a span {
 		width: 90%;
@@ -499,6 +500,12 @@
 	}
 }
 @media only screen and (max-width: 1024px){
+	.switching-part {
+		padding-bottom: 100px;
+	}
+	.p-tb-150 {
+		padding: 117px 0;
+	}
 	.switching-part-section .owl-dots {
 		margin-top: 50px;
 	}
@@ -1189,7 +1196,7 @@
 			margin: 37px 0;
 		}
 		.accordian-slider.hover-image-slider.arrow-class {
-			margin-bottom: 58px;
+			margin-bottom: 0;
 		}
 		section.selction-image-part {
 			padding-top: 114px;
