@@ -28,8 +28,14 @@ button:focus {
 
 .taxt-bold{font-weight: bold;font-family: HDI-GerlingSans;}
 .opacity-none{opacity: 0;}
-.m-t28-b33{margin: 30px 0 33px;}
-
+.m-t28-b33{margin: 34px 0 33px;}
+.protaction-contant-part {
+    margin-top: 21px;
+}
+ul.hegiht-protection li:last-child {
+    margin-bottom: 60px;
+    padding: 0;
+}
 
 .main-bg-image{content: "";
     height: 100%;
@@ -92,7 +98,7 @@ button:focus {
   color: #000000;
   padding-bottom: 62px;margin: 0;}
 .top-second-part {
-	max-width: 564px;
+	max-width: 554px;
     width: 100%;
     height: 231px;
     font-style: normal;
@@ -417,7 +423,7 @@ li.img-last-part {
 	color: #009c33;
 	position: absolute;
 	left: -40px;
-    height: 19px;
+    height: 30px;
     background-image: url(../images/Checkmark_green.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -488,7 +494,7 @@ li.img-last-part {
 	color: #009c33;
 	position: absolute;
 	left: -40px;
-    height: 19px;
+    height: 30px;
     background-image: url(../images/Checkmark_orange.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -753,11 +759,14 @@ h3.protaction-title {
 .awords-img ul li {
     float: left;
     list-style-type: none;
-    width: 23%;
 }
 .aword-third-img {
-    width: 85%;}
-
+    width: 132px;}
+.awords-img {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
 .accordian-slider {
 	width: 100%;
 	float: left;
@@ -1254,7 +1263,7 @@ a:hover {
 	padding: 10px 60px 10px 15px;
     max-width: 280px;
     width: 280px;
-    height: 55px;
+    height: 50px;
 	background: #ff9632;
 	position: relative;
 	color: #fff;
@@ -1913,4 +1922,13 @@ font-size: 20px;
 .selection-dopbutn .dropdown-menu.show {
     width: 100%;
     max-width: 350px;
+}
+.ratecard-box img {
+    padding: 0 5px;
+}
+.p-lr-5{
+    padding: 0 5px;
+}
+.ratecard-box span{
+   margin-bottom: 0px;
 }
