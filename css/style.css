@@ -1827,11 +1827,12 @@ section.selction-image-part {
 .selection-dopimages ul li img {
     max-width: 100%;
 }
-li.first-img {
+li.active {
     background-color: #ccebd6 !important;
 }
-li.fthird-img {
+li.disabled {
     opacity: 0.3;
+    pointer-events: none;
 }
 .selection-dopbutn .dropdown {
     width: 100%;
