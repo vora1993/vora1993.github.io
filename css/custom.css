@@ -23,6 +23,9 @@
 	#accordion02{
 		margin-top: 30px;
 	}
+	.protaction-contant-part {
+		padding: 0 10px;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -209,7 +212,7 @@
 .first-text-part {
     width: 50% !important;
     position: absolute;
-    top: 170px;
+    top: 140px;
 }
 
     .first-image-part {
@@ -223,7 +226,7 @@
 		margin: 14px 0 48px;}
 	.first-text-part.second-possition {
 			position: absolute;
-			top: 330px;
+			top: 300px;
 		}
 		.image-bg img {
 			width: 100%;
@@ -283,7 +286,7 @@
 
 		.third-part-text {
 			top: 1020px;
-			left: 65px;
+			left: 30px;
 			width: 454px !important;
 		}
 		.third-part-image {
@@ -1636,7 +1639,7 @@
 		width: 100%;
 	}
 	.aword-third-img {
-		width: 132px;
+		width: 70%;
 	}	
 	.aword-part-taxt p.contant-p {
 		max-height: 100%;

@@ -761,7 +761,8 @@ h3.protaction-title {
     list-style-type: none;
 }
 .aword-third-img {
-    width: 132px;}
+    width: 100%;
+}
 .awords-img {
     margin-top: 20px;
     width: 100%;
@@ -1836,7 +1837,7 @@ section.selction-image-part {
 .selection-dopimages ul li img {
     max-width: 100%;
 }
-li.active {
+.selection-dopimages ul li.active {
     background-color: #ccebd6 !important;
 }
 li.disabled {
@@ -1931,4 +1932,7 @@ font-size: 20px;
 }
 .ratecard-box span{
    margin-bottom: 0px;
+}
+.selection-dopbutn a img:first-child {
+    width: 35px;
 }
