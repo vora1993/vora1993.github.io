@@ -42,7 +42,7 @@ ul.hegiht-protection li:last-child {
     width: 100%;
     background: url(../images/Street_Straße.svg) center -70px / 100% no-repeat;
 	background-repeat: no-repeat;z-index: -1;}
-	.first-image-part img {
+	.first-image-part object {
 		position: absolute;top: -185px;
 		right: 32px;
 		width: 100%;
@@ -156,7 +156,7 @@ b{font-weight: bold !important;font-family: HDI-GerlingSans;}
 
 .forth-part-text p{
 	max-width: 437px;width: 100%;
-    float: right;
+    /* float: right; */
 }
 /* .fift-text-part {
 	text-align: center;
@@ -761,7 +761,7 @@ h3.protaction-title {
     list-style-type: none;
 }
 .aword-third-img {
-    width: 100%;
+    width: 70%;
 }
 .awords-img {
     margin-top: 20px;
@@ -1764,7 +1764,7 @@ ul.hegiht-protection {
 .protaction-contant-part ul {
     height: 100%;
 }
-#accordion02,#heading20 {
+#accordion02 {
     margin-top: 30px;
 }
 section.selction-image-part {
@@ -1904,7 +1904,7 @@ font-size: 20px;
 .custom-nav3 button{
 
     height: 40px;
-    background: rgba(0, 156, 51, 0.45) !important;
+    background: none !important;
     width: 40px;
     padding: 0;
     border: none;
@@ -1912,7 +1912,7 @@ font-size: 20px;
 }
 .custom-nav3 .owl-prev i,.custom-nav3 .owl-next i {
     font-size: 2.5rem;
-    color: #cecece;
+    color: #009c33;
 }
 .custom-nav3.owl-nav.disabled {
     margin-top: 0 !important;
