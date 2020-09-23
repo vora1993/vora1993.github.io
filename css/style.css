@@ -761,7 +761,8 @@ h3.protaction-title {
     list-style-type: none;
 }
 .aword-third-img {
-    width: 132px;}
+    width: 100%;
+}
 .awords-img {
     margin-top: 20px;
     width: 100%;
@@ -1939,4 +1940,7 @@ font-size: 20px;
 }
 .ratecard-box span{
    margin-bottom: 0px;
+}
+.selection-dopbutn a img:first-child {
+    width: 35px;
 }
