@@ -1221,8 +1221,11 @@
 			max-width: 346px;
 			margin: 0 auto;
 		}
-		.selection-dopimages ul li {
+		.selection-dopimages {
 			display: none;
+		}
+		.selection-dopimages.mobile {
+			display: block;
 		}
 		.selection-dopimages ul li.first-img {
 			width: 100%;

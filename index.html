@@ -41,7 +41,7 @@
 
 </head>
 
-<body>
+<body id="angular-app" ng-app="myApp" ng-controller="myCtrl">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZF8W39" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
@@ -128,8 +128,9 @@
                 </div>
 
               </div>
-              <div class="first-image-part">
-                <img src="images/animation/Illustration_Kollision.svg" alt="">
+              <div id="svg-animation2" class="first-image-part">
+                <!-- <img src="images/animation/Illustration_Kollision.svg" alt=""> -->
+                <object ng-if="startAnimation1" type="image/svg+xml" data="images/animation/Illustration_Kollision.svg"></object>
               </div>
             </div>
           </div>
@@ -151,15 +152,16 @@
                     class="btn btn-link border-btn">Jetzt Tarif berechnen</a>
                 </div>
               </div>
-              <div class="third-part-image w-100">
-                <img src="images/animation/Illustration_Steinschlag.svg" alt="">
+              <div id="svg-animation1" class="third-part-image w-100">
+                <object ng-if="startAnimation" type="image/svg+xml" data="images/animation/Illustration_Steinschlag.svg"></object>
               </div>
             </div>
           </div>
           <div class="top-forth-part w-100">
             <div class="d-flex">
-              <div class="top-forth-part-image w-50">
-                <img src="images/animation/Illustration_Wildunfall.svg" alt="">
+              <div id="svg-animation3" class="top-forth-part-image w-50">
+                <!-- <img src="images/animation/Illustration_Wildunfall.svg" alt=""> -->
+                <object ng-if="startAnimation2" type="image/svg+xml" data="images/animation/Illustration_Wildunfall.svg"></object>
               </div>
               <div class="forth-part-text w-50">
                 <h4>Vollumfänglicher Schutz -<br>
@@ -183,8 +185,9 @@
                   class="btn btn-3 btn-3a icon-cart bg-green-btn m-t-b-20">Jetzt Tarif berechnen</a>
               </div>
             </div>
-            <div class="top-fift-image">
-              <img src="images/animation/Illustration_Garage.svg" alt="">
+            <div id="svg-animation4" class="top-fift-image">
+              <!-- <img src="images/animation/Illustration_Garage.svg" alt=""> -->
+              <object ng-if="startAnimation3" type="image/svg+xml" data="images/animation/Illustration_Garage.svg"></object>
             </div>
           </div>
         </div>
@@ -1127,7 +1130,7 @@
       
     </section>
     
-    <section class="selction-image-part" ng-app="myApp" ng-controller="myCtrl">
+    <section class="selction-image-part">
        <div class="container">
          <div class="selection-title">
            <h3>SIE MÖGEN ES SCHNELL UND KOMPAKT?</h3>
@@ -1139,46 +1142,37 @@
               <i class="fa fa-user-o"></i>  {{selectedDropdown}} <img src=images/arrow_down_green.svg alt="">
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a ng-click="selectedDropdown = 'KFZ-Haftpflicht';selectedId = 0" class="dropdown-item"> KFZ-Haftpflicht </a>
-              <a ng-click="selectedDropdown = 'Teilkasko + KFZ-Haftpflicht';selectedId = 0" class="dropdown-item">Teilkasko + KFZ-Haftpflicht</a>
-              <a ng-click="selectedDropdown = 'Vollkasko + KFZ-Haftpflicht';selectedId = 0" class="dropdown-item">Vollkasko + KFZ-Haftpflicht</a>
+              <a ng-click="selectedDropdown = 'KFZ-Haftpflicht'" class="dropdown-item"> KFZ-Haftpflicht </a>
+              <a ng-click="selectedDropdown = 'Teilkasko + KFZ-Haftpflicht'" class="dropdown-item">Teilkasko + KFZ-Haftpflicht</a>
+              <a ng-click="selectedDropdown = 'Vollkasko + KFZ-Haftpflicht'" class="dropdown-item">Vollkasko + KFZ-Haftpflicht</a>
             </div>
           </div>
           <div class="selection-dopimages">
             <ul>
               <li ng-class="{'active' : (selectedId == item.id - 1), 
               'disabled': (selectedDropdown == 'KFZ-Haftpflicht' && $index > 0) || (selectedDropdown == 'Teilkasko + KFZ-Haftpflicht' && $index > 7) || (selectedDropdown == 'Vollkasko + KFZ-Haftpflicht' && $index < 0) }"
-              ng-repeat="item in images">
+              ng-repeat="item in allImages">
                 <img  ng-click="select(item)" src="{{item.src}}" alt="">
               </li >
-              <!-- <li class="active">
-                <img src="images/slection/Zusammenstoß_mit_einem_Tier.svg" alt="">
-              </li>
-              <li>
-                <img src="images/slection/Autoschlüssel-Diebstahl.svg" alt="">
-              </li>
-              <li class="disabled">
-                <img src="images/slection/Unwetterschäden.svg" alt="">
-              </li>
-              <li>
-                <img src="images/slection/Expolsion.svg" alt="">
-              </li>
-              <li>
-                <img src="images/slection/Schaden_durch_Tierbiss-01.svg" alt="">
-              </li>
-              <li>
-                <img src="images/slection/Diebstahl.svg" alt="">
-              </li>
-              <li>
-                <img src="images/slection/Glasbruch.svg" alt="">
-              </li>
-              <li>
-                <img src="images/slection/Unfallschaden_am_eigenen_Fahrzeug.svg" alt="">
-              </li>
-              <li>
-                <img src="images/slection/Schaden_durch_Vandalismus.svg" alt="">
-              </li> -->
             </ul>
+          </div>
+          <div class="selection-dopimages mobile" ng-if="selectedDropdown == 'KFZ-Haftpflicht'">
+            <div style="width: 100%;float: left;" class="accordian-slider arrow-class">
+              <div class="owl-item active owl-theme" id="owl-carou">
+                <div class="item selection-image-bottom">
+                  <img src="images/slection/Unfallschaden_am_fremden_Fahrzeug.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="selection-dopimages mobile" ng-if="selectedDropdown != 'KFZ-Haftpflicht'">
+            <div style="width: 100%;float: left;" class="accordian-slider arrow-class">
+              <div class="owl-carousel owl-theme" id="owl-carousel-img">
+                <div class="item selection-image-bottom" ng-repeat="item in images">
+                  <img  ng-click="select(item)" src="{{item.src}}" alt="">
+                </div>
+              </div>
+            </div>
           </div>
           <div ng-if="selectedDropdown == 'KFZ-Haftpflicht'" class="selection-image-bottom">
             <h3>Unfallschaden am fremden Fahrzeug 1</h3>
@@ -1421,27 +1415,6 @@
     //     }
     //   }
     // });
-    $('#owl-carousel-img').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      autoHeight:true,
-      navText: [
-        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-      ],
-      responsive: {
-        0: {
-          items: 1
-        },
-        768: {
-          items: 3
-        },
-        1000: {
-          items: 3
-        }
-      }
-    });
 
     var owl2 = $('#owl-carousel2');
     owl2.owlCarousel({
@@ -1655,11 +1628,17 @@
     app.controller('myCtrl', function($scope) {
       $scope.selectedDropdown = "KFZ-Haftpflicht";
       $scope.selectedId = 0;
-      $scope.images = [
+      $scope.isSelect = false;
+      $scope.startAnimation = true;
+      $scope.startAnimation1 = true;
+      $scope.startAnimation2 = true;
+      $scope.startAnimation3 = true;
+      $scope.images = [];
+      $scope.allImages = [
         { id: 1, src: 'images/slection/Unfallschaden_am_fremden_Fahrzeug.svg'},
         { id: 2, src: 'images/slection/Zusammenstoß_mit_einem_Tier.svg'},
-        { id: 3, src: 'images/slection/Autoschlüssel-Diebstahl.svg'},
-        { id: 4, src: 'images/slection/Unwetterschäden.svg'},
+        { id: 3, src: 'images/slection/Autoschlussel-Diebstahl.svg'},
+        { id: 4, src: 'images/slection/Unwetterschaden.svg'},
         { id: 5, src: 'images/slection/Glasbruch.svg'},
         { id: 6, src: 'images/slection/Schaden_durch_Tierbiss-01.svg'},
         { id: 7, src: 'images/slection/Diebstahl.svg'},
@@ -1668,33 +1647,182 @@
         { id: 10, src: 'images/slection/Schaden_durch_Vandalismus.svg'},
       ];
       $scope.select= function(item) {
+       $scope.isSelect = true;
        $scope.selectedId = item.id - 1;
-       $("#owl-carousel4").trigger("to.owl.carousel", [item.id - 1, 1])
+       $("#owl-carousel4").trigger("to.owl.carousel", [item.id - 1, 1]);
       };
-      $(document).ready(function ($scope) {
-        var owl4 = $('#owl-carousel4').owlCarousel({
-          loop: true,
-          margin: 10,
-          nav: true,
-          navText: [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-          ],
-          responsive: {
-            0: {
-              items: 1
-            },
-            600: {
-              items: 1
-            },
-            1000: {
-              items: 1
+      $scope.$watch('selectedDropdown', function() {
+        if ($scope.selectedDropdown == 'Teilkasko + KFZ-Haftpflicht') {
+          $scope.images = $scope.allImages.slice(0, 8);
+        } else if ($scope.selectedDropdown == 'Vollkasko + KFZ-Haftpflicht') {
+          $scope.images = $scope.allImages;
+        }
+          $('#owl-carousel4').trigger('destroy.owl.carousel');
+          $('#owl-carousel4').removeClass("owl-hidden");
+          $('#owl-carousel-img').trigger('destroy.owl.carousel');
+          $('#owl-carousel-img').removeClass("owl-hidden");
+          $(document).ready(function () {
+            var scope = angular.element(document.getElementById("angular-app")).scope();
+            var hasAnimationStarted = false;
+            var scrollFun = function() {
+              var obj = $("#svg-animation1");
+              var docViewTop = $(window).scrollTop();
+              var docViewBottom = docViewTop + $(window).height();
+              var elemTop = obj.offset().top;
+              var elemBottom = elemTop + obj.height();
+              if((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+                if (!hasAnimationStarted) {
+                  hasAnimationStarted = true;
+                  scope.startAnimation = false;
+                  scope.$apply();
+                  setTimeout(() => {
+                    scope.startAnimation = true;
+                    scope.$apply();
+                  }, 10);
+                }
+              } else {
+                hasAnimationStarted = false;
+              }
             }
-          }
-        });
-        owl4.on('changed.owl.carousel', function (event) {
-          $scope.selectedId = event.page.index;
-        });
+            scrollFun();
+            var hasAnimationStarted1 = false;
+            var scrollFun1 = function() {
+              var obj = $("#svg-animation2");
+              var docViewTop = $(window).scrollTop();
+              var docViewBottom = docViewTop + $(window).height();
+              var elemTop = obj.offset().top;
+              var elemBottom = elemTop + obj.height();
+              if((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+                if (!hasAnimationStarted1) {
+                  hasAnimationStarted1 = true;
+                  scope.startAnimation1 = false;
+                  scope.$apply();
+                  setTimeout(() => {
+                    scope.startAnimation1 = true;
+                    scope.$apply();
+                  }, 10);
+                }
+              } else {
+                hasAnimationStarted1 = false;
+              }
+            }
+            scrollFun1();
+            var hasAnimationStarted2 = false;
+            var scrollFun2 = function() {
+              var obj = $("#svg-animation3");
+              var docViewTop = $(window).scrollTop();
+              var docViewBottom = docViewTop + $(window).height();
+              var elemTop = obj.offset().top;
+              var elemBottom = elemTop + obj.height();
+              if((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+                if (!hasAnimationStarted2) {
+                  hasAnimationStarted2 = true;
+                  scope.startAnimation2 = false;
+                  scope.$apply();
+                  setTimeout(() => {
+                    scope.startAnimation2 = true;
+                    scope.$apply();
+                  }, 10);
+                }
+              } else {
+                hasAnimationStarted2 = false;
+              }
+            }
+            scrollFun2();
+            var hasAnimationStarted3 = false;
+            var scrollFun3 = function() {
+              var obj = $("#svg-animation4");
+              var docViewTop = $(window).scrollTop();
+              var docViewBottom = docViewTop + $(window).height();
+              var elemTop = obj.offset().top;
+              var elemBottom = elemTop + obj.height();
+              if((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+                if (!hasAnimationStarted3) {
+                  hasAnimationStarted3 = true;
+                  scope.startAnimation3 = false;
+                  scope.$apply();
+                  setTimeout(() => {
+                    scope.startAnimation3 = true;
+                    scope.$apply();
+                  }, 10);
+                }
+              } else {
+                hasAnimationStarted3 = false;
+              }
+            }
+            scrollFun3();
+            var owl4 = $('#owl-carousel4').owlCarousel({
+              loop: true,
+              margin: 10,
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+              ],
+              responsive: {
+                0: {
+                  items: 1
+                },
+                600: {
+                  items: 1
+                },
+                1000: {
+                  items: 1
+                }
+              }
+            });
+            owl4.on('changed.owl.carousel', function (event) {
+              if (event) {
+                $("#owl-carousel-img").trigger("to.owl.carousel", [event.page.index, 1]);
+                if (!scope.isSelect) {
+                  scope.selectedId = event.page.index;
+                  setTimeout(() => {
+                    scope.$apply();
+                  }, 200);
+                }
+                scope.isSelect = false;
+              }
+            });
+            var owl5 = $('#owl-carousel-img').owlCarousel({
+              loop: true,
+              margin: 10,
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+              ],
+              responsive: {
+                0: {
+                  items: 1
+                },
+                600: {
+                  items: 1
+                },
+                1000: {
+                  items: 1
+                }
+              }
+            });
+            owl5.on('changed.owl.carousel', function (event) {
+              if (event) {
+                $("#owl-carousel4").trigger("to.owl.carousel", [event.page.index, 1]);
+                if (!scope.isSelect) {
+                  scope.selectedId = event.page.index;
+                  setTimeout(() => {
+                    scope.$apply();
+                  }, 200);
+                }
+                scope.isSelect = false;
+              }
+            });
+            scope.selectedId = 0;
+            scope.$apply();
+            $("#owl-carousel4").trigger("to.owl.carousel", [0, 1]);
+            $(window).scroll(scrollFun);
+            $(window).scroll(scrollFun1);
+            $(window).scroll(scrollFun2);
+            $(window).scroll(scrollFun3);
+          });
       });
     });
   </script>
