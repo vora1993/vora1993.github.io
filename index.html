@@ -120,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               <div id="svg-animation2" class="first-image-part">
                 <!-- <img src="images/animation/Illustration_Kollision.svg" alt=""> -->
-                <object ng-if="startAnimation1" type="image/svg+xml" data="images/animation/Illustration_Kollision.svg"></object>
+                <object data-ng-if="startAnimation1" type="image/svg+xml" data="images/animation/Illustration_Kollision.svg"></object>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
               </div>
               <div id="svg-animation1" class="third-part-image w-100">
-                <object ng-if="startAnimation" type="image/svg+xml" data="images/animation/Illustration_Steinschlag.svg"></object>
+                <object data-ng-if="startAnimation" type="image/svg+xml" data="images/animation/Illustration_Steinschlag.svg"></object>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="d-flex">
               <div id="svg-animation3" class="top-forth-part-image w-50">
                 <!-- <img src="images/animation/Illustration_Wildunfall.svg" alt=""> -->
-                <object ng-if="startAnimation2" type="image/svg+xml" data="images/animation/Illustration_Wildunfall.svg"></object>
+                <object data-ng-if="startAnimation2" type="image/svg+xml" data="images/animation/Illustration_Wildunfall.svg"></object>
               </div>
               <div class="forth-part-text w-50">
                 <h4>Vollumfänglicher Schutz -<br>
@@ -177,7 +177,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             <div id="svg-animation4" class="top-fift-image">
               <!-- <img src="images/animation/Illustration_Garage.svg" alt=""> -->
-              <object ng-if="startAnimation3" type="image/svg+xml" data="images/animation/Illustration_Garage.svg"></object>
+              <object data-ng-if="startAnimation3" type="image/svg+xml" data="images/animation/Illustration_Garage.svg"></object>
             </div>
           </div>
         </div>
@@ -1129,24 +1129,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          <div class="selection-dopbutn">
           <div class="dropdown">
             <a href="#" id="dropdownMenuButton" class="open-dropbutn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="images/Filter_Icon.svg">  {{selectedDropdown}} <img src=images/arrow_down_green.svg alt="">
+              <img src="images/Filter_Icon.svg" alt="">  {{selectedDropdown}} <img src=images/arrow_down_green.svg alt="">
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a ng-click="selectedDropdown = 'KFZ-Haftpflicht'" class="dropdown-item"> KFZ-Haftpflicht </a>
-              <a ng-click="selectedDropdown = 'Teilkasko + KFZ-Haftpflicht'" class="dropdown-item">Teilkasko + KFZ-Haftpflicht</a>
-              <a ng-click="selectedDropdown = 'Vollkasko + KFZ-Haftpflicht'" class="dropdown-item">Vollkasko + KFZ-Haftpflicht</a>
+              <a data-ng-click="selectedDropdown = 'KFZ-Haftpflicht'" class="dropdown-item"> KFZ-Haftpflicht </a>
+              <a data-ng-click="selectedDropdown = 'Teilkasko + KFZ-Haftpflicht'" class="dropdown-item">Teilkasko + KFZ-Haftpflicht</a>
+              <a data-ng-click="selectedDropdown = 'Vollkasko + KFZ-Haftpflicht'" class="dropdown-item">Vollkasko + KFZ-Haftpflicht</a>
             </div>
           </div>
           <div class="selection-dopimages">
             <ul>
-              <li ng-class="{'active' : (selectedId == item.id - 1), 
+              <li data-ng-class="{'active' : (selectedId == item.id - 1), 
               'disabled': (selectedDropdown == 'KFZ-Haftpflicht' && $index > 0) || (selectedDropdown == 'Teilkasko + KFZ-Haftpflicht' && $index > 7) || (selectedDropdown == 'Vollkasko + KFZ-Haftpflicht' && $index < 0) }"
-              ng-repeat="item in allImages">
-                <img  ng-click="select(item)" src="{{item.src}}" alt="">
+              data-ng-repeat="item in allImages">
+                <img  data-ng-click="select(item)" src="{{item.src}}" alt="">
               </li >
             </ul>
           </div>
-          <div class="selection-dopimages mobile" ng-if="selectedDropdown == 'KFZ-Haftpflicht'">
+          <div class="selection-dopimages mobile" data-ng-if="selectedDropdown == 'KFZ-Haftpflicht'">
             <div style="width: 100%;float: left;" class="accordian-slider arrow-class">
               <div class="owl-item active owl-theme" id="owl-carou">
                 <div class="item selection-image-bottom">
@@ -1155,16 +1155,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
             </div>
           </div>
-          <div class="selection-dopimages mobile" ng-if="selectedDropdown != 'KFZ-Haftpflicht'">
+          <div class="selection-dopimages mobile" data-ng-if="selectedDropdown != 'KFZ-Haftpflicht'">
             <div style="width: 100%;float: left;" class="accordian-slider arrow-class">
               <div class="owl-carousel owl-theme" id="owl-carousel-img">
-                <div class="item selection-image-bottom" ng-repeat="item in images">
-                  <img  ng-click="select(item)" src="{{item.src}}" alt="">
+                <div class="item selection-image-bottom" data-ng-repeat="item in images">
+                  <img  data-ng-click="select(item)" src="{{item.src}}" alt="">
                 </div>
               </div>
             </div>
           </div>
-          <div ng-if="selectedDropdown == 'KFZ-Haftpflicht'" class="selection-image-bottom">
+          <div data-ng-if="selectedDropdown == 'KFZ-Haftpflicht'" class="selection-image-bottom">
             <h3>Unfallschaden am fremden Fahrzeug</h3>
             <p>Wenn Ihr Fahrzeug in ein Schadenereignis verwickelt ist und der Geschädigte deswegen Ansprüche geltend macht, dann kommt Ihre HDI Versicherung für Personen-, Sach- und Vermögensschäden auf
               </p>
@@ -1173,10 +1173,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </a>
               </div>
           </div>
-          <div ng-style="{ 'display' : (selectedDropdown != 'KFZ-Haftpflicht') ? 'block' : 'none' }">
+          <div data-ng-style="{ 'display' : (selectedDropdown != 'KFZ-Haftpflicht') ? 'block' : 'none' }">
             <div style="width: 100%;float: left;" class="accordian-slider arrow-class">
               <div class="owl-carousel owl-theme" id="owl-carousel4">
-                <div class="item selection-image-bottom" ng-repeat="item in images">
+                <div class="item selection-image-bottom" data-ng-repeat="item in images">
                   <h3>{{item.header}}</h3>
                   <p>{{item.text}}
                     </p>
