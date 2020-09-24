@@ -1143,7 +1143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'disabled': (selectedDropdown == 'KFZ-Haftpflicht' && $index > 0) || (selectedDropdown == 'Teilkasko + KFZ-Haftpflicht' && $index > 7) || (selectedDropdown == 'Vollkasko + KFZ-Haftpflicht' && $index < 0) }"
               data-ng-repeat="item in allImages">
                 <!-- <img  data-ng-click="select(item)" ng-src="{{item.src}}" alt=""> -->
-                <img src="images" data-ng-attr-src="{{item.src}}" data-ng-attr-alt="{{item.src}}" alt="">
+                <img data-ng-click="select(item)" src="images" data-ng-attr-src="{{item.src}}" data-ng-attr-alt="{{item.src}}" alt="">
               </li >
             </ul>
           </div>
@@ -1161,7 +1161,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="owl-carousel owl-theme" id="owl-carousel-img">
                 <div class="item selection-image-bottom" data-ng-repeat="item in images">
                   <!-- <img  data-ng-click="select(item)" data-ng-src="{{item.src}}" alt=""> -->
-                  <img src="images" data-ng-attr-src="{{item.src}}" data-ng-attr-alt="{{item.src}}" alt="">
+                  <img data-ng-click="select(item)" src="images" data-ng-attr-src="{{item.src}}" data-ng-attr-alt="{{item.src}}" alt="">
 
                 </div>
               </div>
