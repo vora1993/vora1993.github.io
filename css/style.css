@@ -946,7 +946,7 @@ a:hover {
 .main-content .owl-theme .custom-nav .owl-prev i,
 .main-content .owl-theme .custom-nav .owl-next i {
 	font-size: 2.5rem;
-	color: #cecece;
+	color: #fff;
 }
 
 .main-content .owl-theme .custom-nav .owl-prev {
@@ -1923,10 +1923,14 @@ font-size: 20px;
     color: #0a0a0a;
 }
 .fubtoon span{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.5;
     color: #0a0a0a;
+}
+span.main-title {
+    font-family: HDI-GerlingSans;
+    font-size: 18px;
 }
 .selection-dopbutn .dropdown-menu.show {
     width: 100%;
