@@ -971,8 +971,8 @@ a:hover {
 
 .arrow-class button.owl-prev {
 	position: absolute;
-    left: -45px;
-    top: 40%;
+    left: -40px;
+    top: 25%;
     height: 40px !important;
     width: 40px!important;
     display: flex !important;
@@ -981,8 +981,8 @@ a:hover {
 
 .arrow-class button.owl-next {
 	position: absolute;
-	right: -45px;
-	top: 40%;
+	right: -40px;
+	top: 25%;
 	height: 40px !important;
     width: 40px!important;
     display: flex !important;

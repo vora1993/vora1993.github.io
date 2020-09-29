@@ -1161,7 +1161,7 @@
 	}
 	.first-image-part object {
 		position: inherit;
-		width: 500px;
+		width: 100%;
 	}
 	.first-text-part ul {
 		margin: 44px 0 0;
@@ -1689,7 +1689,7 @@
 	.arrow-class button.owl-prev {
 		position: absolute;
 		left: -20px;
-		top: 40%;
+		top: 25%;
 		height: 40px !important;
 		width: 40px!important;
 	}
@@ -1698,7 +1698,7 @@
 	.arrow-class button.owl-next {
 		position: absolute;
 		right: -20px;
-		top: 40%;
+		top: 25%;
 		height: 40px !important;
 		width: 40px!important;
 	}

@@ -685,12 +685,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </div>
                   <div class="col-12 col-md-4 show_item1">
                     <span class="ratecard-box">
-                      <span class="p-lr-5"> 2.000 €</span>
+                      <span class="p-lr-5">bis 2.000 €</span>
                     </span>
                   </div>
                   <div class="col-12 col-md-4 show_item2">
                     <span class="ratecard-box">
-                      <span class="p-lr-5"> 10.000 €</span>
+                      <span class="p-lr-5">bis 10.000 €</span>
                     </span>
                   </div>
                   <div class="col-12 col-md-4 show_item3">
@@ -1641,7 +1641,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         { id: 2, src: 'images/slection/Zusammenstoß_mit_einem_Tier.svg' , header: "Zusammenstoß mit einem Tier", text: "Unter Zusammenstoß mit Tieren versteht man den Schaden, der dadurch entsteht, dass das in Bewegung befindliche Fahrzeug mit Tieren kollidiert."},
         { id: 3, src: 'images/slection/Autoschlussel-Diebstahl.svg', header: "Autoschlüssel-Diebstahl", text: "Bei Verlust der Fahrzeugschlüssel anlässlich eines Einbruchsdiebstahls (nicht aus dem Fahrzeug), eines Raubes oder räuberischer Erpressung werden zusätzlich die zur Schadenverhütung notwendigen Kosten für den Austausch der Fahrzeugschlösser ersetzt."},
         { id: 4, src: 'images/slection/Unwetterschaden.svg', header: "Unwetterschäden", text: "Versichert ist die unmittelbare Einwirkung von Sturm, Hagel, Blitzschlag, Überschwemmung, Schneelawinen, Murgang oder Erdrutsch auf das Fahrzeug. Als Sturm gilt eine wetterbedingte Luftbewegung von mindestens Windstärke 8. Eingeschlossen sind Schäden, die dadurch verursacht werden, dass durch diese Naturgewalten Gegenstände auf oder gegen das Fahrzeug geworfen werden."},
-        { id: 5, src: 'images/slection/Expolsion.svg', header: "Schaden durch Brand/Explosion", text: "Als Brand gilt ein Feuer mit Flammenbildung, das ohne einen bestimmungsgemäßen Herd entstanden ist oder ihn verlassen hat und sich aus eigener Kraft auszubreiten vermag. Nicht als Brand gelten Schmor- und Sengschäden."},
+        { id: 5, src: 'images/slection/Expolsion.svg', header: "Schaden durch Brand/Explosion", text: "Als Brand gilt ein Feuer mit Flammenbildung, das ohne einen bestimmungsgemäßen Herd entstanden ist oder ihn verlassen hat und sich aus eigener Kraft auszubreiten vermag. Nicht als Brand gelten Schmor- und Sengschäden. Explosion ist eine auf dem Ausdehnungsbestreben von Gasen oder Dämpfen beruhende, plötzlich verlaufende Kraftäußerung."},
         { id: 6, src: 'images/slection/Schaden_durch_Tierbiss-01.svg', header: "Folge-/Schaden durch Tierbiss", text: "Versichert sind durch Tierbiss unmittelbar verursachte Schäden am Fahrzeug. Hiervon ausgenommen sind Schäden im Fahrzeuginnenraum. Durch den Tierbiss ausgelöste Folgeschäden sind mitversichert."},
         { id: 7, src: 'images/slection/Diebstahl.svg', header: "Diebstahl", text: "Wegnahme des Fahrzeuges oder seiner Teile. Sie muss widerrechtlich, d. h. ohne Rechtfertigungsgrund, wie z. B. Notwehr oder Einwilligung des Eigentümers erfolgen. Beschädigungen, die beim Versuch einer Entwendung oder durch Gebrauch des Diebes verursacht werden, sind mitversichert."},
         { id: 8, src: 'images/slection/Glasbruch.svg', header: "Glasbruch", text: "Unter Glasbruch versteht man Bruchschäden an der Verglasung. Als Verglasung gelten Glas- und Kunststoffscheiben (z. B. Front-, Heck-, Dach-, Seiten- und Trennscheiben), Spiegelglas und Abdeckungen von Leuchten. Der Glasbruch umfasst auch Sonderausrüstungen, wie Heckscheibenheizung, Radioantenne in der Frontscheibe (einschließlich Montagekosten) die bei einem Reparaturschaden anfallen."},
@@ -1830,5 +1830,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     });
   </script>
 
+  <script>
+    $(document).ready(function(){
+
+      $('.ratecard-conent').popover();
+
+      $('.ratecard-conent').on('click', function (e) {
+          $('.ratecard-conent').not(this).popover('hide');
+      });       
+
+
+    });
+  </script>
 </body>
 </html>
