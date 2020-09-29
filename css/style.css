@@ -965,14 +965,14 @@ a:hover {
 	padding: 0;
 }
 
-.arrow-class {
+.arrow-class, .arrow-class1 {
 	position: relative;
 }
 
 .arrow-class button.owl-prev {
 	position: absolute;
-    left: -40px;
-    top: 25%;
+    left: -45px;
+    top: 40%;
     height: 40px !important;
     width: 40px!important;
     display: flex !important;
@@ -981,8 +981,8 @@ a:hover {
 
 .arrow-class button.owl-next {
 	position: absolute;
-	right: -40px;
-	top: 25%;
+	right: -45px;
+	top: 40%;
 	height: 40px !important;
     width: 40px!important;
     display: flex !important;
@@ -994,6 +994,38 @@ a:hover {
 	height: 40px !important;
 	width: 40px!important;
 	background: rgba(0, 156, 51, 0.45) !important;
+}
+
+
+.arrow-class1 button.owl-prev {
+	position: absolute;
+    left: -45px;
+    top: 25%;
+    height: 40px !important;
+    width: 40px!important;
+    display: flex !important;
+    justify-content: center;
+    color: #fff !important;
+    background: rgba(0, 156, 51, 0.45) !important;
+}
+
+.arrow-class1 button.owl-next {
+	position: absolute;
+	right: -45px;
+	top: 25%;
+	height: 40px !important;
+    width: 40px!important;
+    display: flex !important;
+    justify-content: center;
+    color: #fff !important;
+    background: rgba(0, 156, 51, 0.45) !important;
+}
+
+.arrow-class1 button.owl-next:hover, .arrow-class1 button.owl-prev:hover {
+    height: 40px !important;
+    width: 40px!important;
+    color: #fff !important;
+    background: rgba(0, 156, 51, 0.45) !important;
 }
 
 .aword-part1 {
