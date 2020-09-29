@@ -1186,7 +1186,7 @@
 	}
 	.first-image-part object {
 		position: inherit;
-		width: 100%;
+		width: 500px;
 	}
 	.first-text-part ul {
 		margin: 44px 0 0;
@@ -1711,6 +1711,10 @@
 	
 }
 @media only screen and (min-width: 320px) and (max-width:400px) {
+	.first-image-part object {
+		position: inherit;
+		width: 400px;
+	}
 	.arrow-class button.owl-prev {
 		position: absolute;
 		left: -20px;
