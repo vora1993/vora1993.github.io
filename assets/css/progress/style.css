@@ -1,0 +1,46 @@
+.barfiller {
+    width: 80px;
+    height: 6px;
+    background: #021923;
+    position: relative;
+    border-radius: 500px !important;
+    display: inline-block;
+}
+
+.barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    /* background: #333; */
+    background-image: linear-gradient(270deg, #00D0FF 0%, #1C53C1 100%) !important;
+    z-index: 1;
+    border-radius: 500px !important;
+}
+
+.barfiller .tipWrap {
+    display: none;
+}
+
+.barfiller .tip {
+    margin-top: -30px;
+    padding: 2px 4px;
+    font-size: 11px;
+    color: #fff;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+    background: #333;
+}
+
+.barfiller .tip:after {
+    border: solid;
+    border-color: rgba(0, 0, 0, .8) transparent;
+    border-width: 6px 6px 0 6px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 100%;
+    z-index: 9
+}
