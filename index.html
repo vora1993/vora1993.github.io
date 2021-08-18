@@ -1,17 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GullyCricket - Fantasy Cricket</title>
-  <meta name="description" content="USA’s Fantasy Cricket Game. Play Fantasy Cricket, Football & Kabaddi. Win Huge Cash Prizes. Download Now!">
-  <meta name="keywords" content="gullycricket,FantasyApp,FantasyCricket,Fantasy,USA,Cricket,Canada,Earn">
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.c5630d9721b480fe48ed.css"></head>
+    <meta charset="UTF-8">
+    <h3>Background</h3>
+    <p>The ImageCapture Web API allows web developers to manipulate "Non-Live"
+    camera capabilities and settings such as the photo resolution, red eye
+    reduction, and flash mode.</p>
+    <p>This sample demonstrates the use of setting the image width of the
+    photo.</p>
+    
+    <video autoplay></video>
+    <input type="range">
+    <button id="takePhotoButton" disabled>Take Photo</button>
+    <canvas></canvas>
+
+
+    <script>
+        const input = document.querySelector('input[type="range"]');
+
+var imageCapture;
+
+navigator.mediaDevices.getUserMedia({video: true})
+.then(mediaStream => {
+  document.querySelector('video').srcObject = mediaStream;
+
+  const track = mediaStream.getVideoTracks()[0];
+  imageCapture = new ImageCapture(track);
+
+  return imageCapture.getPhotoCapabilities();
+})
+.then(photoCapabilities => {
+  const settings = imageCapture.track.getSettings();
+
+  input.min = photoCapabilities.imageWidth.min;
+  input.max = photoCapabilities.imageWidth.max;
+  input.step = photoCapabilities.imageWidth.step;
+  alert(photoCapabilities.fillLightMode)
+
+  return imageCapture.getPhotoSettings();
+})
+.then(photoSettings => {
+  input.value = photoSettings.imageWidth;
+})
+.catch(error => console.log('Argh!', error.name || error));
+
+    </script>
+
+    <title>Title</title>
+</head>
 <body>
-  <app-root></app-root>
-<script src="runtime.acf0dec4155e77772545.js" defer></script><script src="polyfills.35a5ca1855eb057f016a.js" defer></script><script src="scripts.5a8ad24c391b8071a980.js" defer></script><script src="main.4a9e8b85d74f5875c260.js" defer></script></body>
+
+</body>
 </html>
